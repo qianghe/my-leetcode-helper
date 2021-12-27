@@ -1,0 +1,27 @@
+.card {
+	position: relative;
+	background-color: #1b1b1b;
+	padding: 20px;
+
+	color: #fff;
+}
+
+.title {
+	$level: var(--level, 1);
+	$fontSize: 20px;
+	
+	@if $level == 1 {
+		$fontSize: 28px;
+	} @else if $level == 2 {
+		$fontSize: 24px;
+	} @else {
+		$fontSize: 20px;
+	}
+
+	position: absolute;
+	top: -$fontSize / 2;
+	left: 20px;
+	font-size: $fontSize;
+	color: #fff;
+}
+

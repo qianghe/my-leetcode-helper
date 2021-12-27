@@ -1,0 +1,44 @@
+.page {
+  height: 100vh;
+  background-color: #222;
+}
+
+.pageHeader {
+  background-color: #151515;
+  height: 50px;
+  padding: 0 40px;
+}
+
+.user {
+  color: #fff;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: end;
+
+  p {
+    font-size: 20px;
+    margin-right: 32px;
+  }
+}
+
+.content {
+  padding: 28px 32px;
+  display: flex;
+  height: calc(100% - 100px);
+}
+
+.left,
+.right {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.left {
+  width: 390px;
+}
+
+.right {
+  flex: 1;
+}
