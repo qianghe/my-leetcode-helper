@@ -1,0 +1,12 @@
+2021-12-28 20:06:39,236 INFO 89002 [Timer] /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 30200767ms at 2021-12-29 04:30:00.003
+2021-12-28 20:06:39,236 INFO 89002 [Timer] /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 14000764ms at 2021-12-29 00:00:00.000
+2021-12-28 20:06:39,237 INFO 89002 [Timer] /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 14001764ms at 2021-12-29 00:00:01.001
+2021-12-28 20:06:39,024 INFO 89006 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-12-28 20:06:39,025 INFO 89006 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-12-28 20:06:39,025 INFO 89006 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-12-28 20:19:39,752 INFO 92988 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-12-28 20:19:39,752 INFO 92988 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-12-28 20:19:39,752 INFO 92988 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-12-28 20:19:40,107 INFO 92974 [Timer] /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 29419898ms at 2021-12-29 04:30:00.005
+2021-12-28 20:19:40,107 INFO 92974 [Timer] /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 13219893ms at 2021-12-29 00:00:00.000
+2021-12-28 20:19:40,108 INFO 92974 [Timer] /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 13220893ms at 2021-12-29 00:00:01.001

@@ -1,1 +1,29 @@
 2021-12-28 00:00:01,023 INFO 25551 [egg-logrotator] app logger reload: got log-reload message
+2021-12-28 20:06:38,998 INFO 89006 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/codes/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2021-12-28 20:06:39,025 INFO 89006 [egg-multipart] stream mode enable
+2021-12-28 20:06:39,170 INFO 89006 [egg-static] starting static serve /public/ -> /Users/heqiang/codes/my-leetcode-helper/public
+2021-12-28 20:06:39,173 INFO 89006 [egg-security] use csrf middleware
+2021-12-28 20:06:39,175 INFO 89006 [egg-security] use methodnoallow middleware
+2021-12-28 20:06:39,176 INFO 89006 [egg-security] use noopen middleware
+2021-12-28 20:06:39,178 INFO 89006 [egg-security] use nosniff middleware
+2021-12-28 20:06:39,179 INFO 89006 [egg-security] use xssProtection middleware
+2021-12-28 20:06:39,180 INFO 89006 [egg-security] use xframe middleware
+2021-12-28 20:06:39,181 INFO 89006 [egg-security] use dta middleware
+2021-12-28 20:06:39,182 INFO 89006 [egg-security] compose 7 middlewares into one security middleware
+2021-12-28 20:06:39,199 INFO 89006 [egg:core] dump config after load, 12ms
+2021-12-28 20:06:39,216 INFO 89006 [egg-watcher:application] watcher start success
+2021-12-28 20:06:39,228 INFO 89006 [egg:core] dump config after ready, 10ms
+2021-12-28 20:19:39,710 INFO 92988 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/codes/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2021-12-28 20:19:39,752 INFO 92988 [egg-multipart] stream mode enable
+2021-12-28 20:19:39,989 INFO 92988 [egg-static] starting static serve /public/ -> /Users/heqiang/codes/my-leetcode-helper/public
+2021-12-28 20:19:39,993 INFO 92988 [egg-security] use csrf middleware
+2021-12-28 20:19:39,994 INFO 92988 [egg-security] use methodnoallow middleware
+2021-12-28 20:19:39,995 INFO 92988 [egg-security] use noopen middleware
+2021-12-28 20:19:39,996 INFO 92988 [egg-security] use nosniff middleware
+2021-12-28 20:19:39,997 INFO 92988 [egg-security] use xssProtection middleware
+2021-12-28 20:19:39,999 INFO 92988 [egg-security] use xframe middleware
+2021-12-28 20:19:40,000 INFO 92988 [egg-security] use dta middleware
+2021-12-28 20:19:40,000 INFO 92988 [egg-security] compose 7 middlewares into one security middleware
+2021-12-28 20:19:40,016 INFO 92988 [egg:core] dump config after load, 11ms
+2021-12-28 20:19:40,053 INFO 92988 [egg-watcher:application] watcher start success
+2021-12-28 20:19:40,096 INFO 92988 [egg:core] dump config after ready, 13ms

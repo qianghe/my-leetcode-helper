@@ -1,0 +1,15 @@
+.dot {
+  position: relative;
+  $color: --color;
+  border-radius: 50%;
+  background-color: $color;
+
+  &:after {
+    position: absolute;
+    left: 50%;
+    width: 1px;
+    height: 80px;
+    background-color: $color;
+    transform: translateX(-0.5px);
+  }
+}

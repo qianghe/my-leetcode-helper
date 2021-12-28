@@ -34,10 +34,4 @@ const App = () => (
   </div>
 )
 
-// function App() {
-//   return (
-    
-//   )
-// }
-
 export default App

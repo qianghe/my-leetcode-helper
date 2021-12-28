@@ -1,0 +1,15 @@
+.desc {
+  line-height: 22px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.total {
+  font-size: 18px;
+}
+
+.bar {
+  > div {
+    height: 40px;
+  }
+}
