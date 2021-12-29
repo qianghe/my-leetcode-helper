@@ -1,32 +1,35 @@
 import React, { useMemo } from 'react'
 import moment from 'moment'
-import { pick } from 'lodash'
+import { pick, toPairs } from 'lodash'
 import Card from 'web/component/card'
+import TimeLabel from './time-label'
+import DotSeparator from './dot-separator'
+import BarScatter from './bar-scatter'
 import styles from './index.module.scss'
 
 const mockData = [
   {
     time: 1644508800000,
     hard: 9,
-    medium: 10,
-    esay: 6
+    medium: 20,
+    easy: 6
   },
   {
     time: 1640966400000,
     hard: 2,
     medium: 32,
-    esay: 10
+    easy: 10
   }, {
     time: 1639152000000,
     hard: 0,
-    medium: 34,
-    esay: 2
+    medium: 2,
+    easy: 34
   },
   {
     time: 1636560000000,
     hard: 0,
     medium: 64,
-    esay: 0
+    easy: 0
   }
 ]
 
@@ -35,13 +38,16 @@ const Calendar = () => {
   const cateByMonth = useMemo(() =>{
     const data = mockData.map(item => {
       // 对题目进行排序
-      const scatterCate = toPairs(pick(props, ['easy', 'medium', 'hard']))
-      scatterCate.sort(([_, val1], [_, val2]) => val2 - val1)
+      const scatterCate = toPairs(pick(item, ['easy', 'medium', 'hard']))
+      console.log('scatterCate', scatterCate)
+      scatterCate.sort(([, val1], [, val2]) => val2 - val1)
       item.scatters = scatterCate
       item.total = scatterCate.reduce((sum, cur) => sum + cur[1], 0)
       item.times = moment(item.time).format('YYYY.MM').split('.')
+      
       return item
     })
+
     // 获取隔年时间
     const years = data.map(item => item.times[0])
     let diffYearIndex = 0
@@ -71,11 +77,11 @@ const Calendar = () => {
           <div className={styles.content}>
             {
               cateByMonth.map((item, index) => {
-                const { time, total, scatters } = item
+                const { times, total, scatters } = item
                 const per = parseFloat((total / maxScatterTotal).toFixed(2))
                 return (
-                  <div key={index}>
-                    <TimeLabel time={time} />
+                  <div key={index} className={styles.unit}>
+                    <TimeLabel times={times} />
                     <DotSeparator size={16} color="#696464" />
                     <BarScatter
                       items={scatters}

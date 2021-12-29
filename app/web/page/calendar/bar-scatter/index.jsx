@@ -1,13 +1,12 @@
 import React from 'react'
 import styles from './index.module.scss'
+import { float2Percent } from 'app/web/utils/convert'
 
-const float2Percent = (f, precision = 2) => {
-  return `${parseFloat(f) * 100}`.toFix(precision)
-}
 const BarScatter = ({
   items,
+  colorMap,
   per,
-  colorMap
+  total
 }) => {
   const widthInfo = items.map(item => {
     item.cate = item[0]
@@ -19,29 +18,29 @@ const BarScatter = ({
       <p className={styles.desc}>
         {
           items.map(([cate, count], index) => (
-            <>
-              <span>{count}(${cate[0].toUpperCase()})</span>
+            <React.Fragment key={index}>
+              <span>{count}({cate[0].toUpperCase()})</span>
               {
-                index !== scatterCate.length - 1 ? <span>&nbsp;+&nbsp;</span> : ''
+                index !== items.length - 1 ? <span>&nbsp;+&nbsp;</span> : ''
               }
-            </>
+            </React.Fragment>
           ))
         }
-        <span className={styles.total}>&nbsp;=&nbsp;${total}</span>
+        &nbsp;=&nbsp;<span className={styles.total}>{total}</span>
       </p>
-      <div className={styles.bar} style={{ width: float2Percent(per)}}>
+      <div className={styles.barLine} style={{ width: float2Percent(per)}}>
         {
           widthInfo.map(({ width, cate }, index) => {
             const styles = {
               width,
-              color: colorMap[cate]
+              backgroundColor: colorMap[cate]
             }
             return (
-              <div key={index} style={style}></div>
+              <div key={index} style={styles}></div>
             )
           })
         }
-      </d>
+      </div>
     </div>
   )
 }

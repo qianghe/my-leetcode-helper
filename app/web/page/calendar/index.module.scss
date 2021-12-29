@@ -11,8 +11,37 @@
 }
 
 .header {
-  padding-top: 20px;
+  padding-top: 15px;
+
   p {
     font-size: 18px;
+  }
+
+  > p:nth-of-type(1) {
+    margin-bottom: 14px;
+  }
+}
+
+.content {
+  margin-left: -55px;
+}
+
+.unit {
+  display: flex;
+
+  > div:nth-last-of-type(1) {
+    flex: 1;
+    margin-left: 14px;
+  }
+  &:nth-last-of-type(n + 2) {
+    margin-bottom: 27px;
+  }
+
+  &:nth-last-child(1) {
+    :global {
+      .global-dot-separator:after {
+        height: 80px;
+      }
+    }
   }
 }

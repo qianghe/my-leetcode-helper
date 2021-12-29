@@ -1,0 +1,38 @@
+.shadowCircle {
+  $size: var(--size);
+  $shadowColor: var(--shadowColor);
+
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: $size;
+  height: $size;
+  --top: calc(var(--size) / -1.7);
+  top: var(--top);
+
+  background-color: #2c2828;
+  color: #fff;
+  box-shadow: 0px 4px 10px 1px $shadowColor;
+  z-index: 0;
+
+  > span {
+    height: 12px;
+  }
+}
+
+.stars {
+  display: flex;
+}
+
+.star {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  img {
+    z-index: 1;
+  }
+}

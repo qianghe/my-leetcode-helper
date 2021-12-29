@@ -1,14 +1,16 @@
 .dot {
   position: relative;
-  $color: --color;
+  $color: var(--color);
+
   border-radius: 50%;
   background-color: $color;
 
   &:after {
+    content: "";
     position: absolute;
     left: 50%;
     width: 1px;
-    height: 80px;
+    height: 108px;
     background-color: $color;
     transform: translateX(-0.5px);
   }

@@ -5,9 +5,11 @@ const Card = ({
   corner = 5,
   title = '',
   level = 1,
+  bg,
   children = []
 }) => {
   const divStyles = {
+    '--bg': bg,
     borderTopLeftRadius: corner
   }
 

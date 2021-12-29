@@ -5,10 +5,14 @@
 }
 
 .total {
-  font-size: 18px;
+  font-size: 24px;
 }
 
-.bar {
+.barLine {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
   > div {
     height: 40px;
   }

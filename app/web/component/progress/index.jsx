@@ -1,11 +1,12 @@
 import React from 'react'
 import classNames from 'classnames'
+import { float2Percent } from 'app/web/utils/convert'
 import LightIcon from 'web/asset/icons/lamp_duotone_line.svg'
 import styles from './index.module.scss'
 
 const ProgressBar = ({ target = 100, cur = 1 }) => {
   const activeWidthPer = parseFloat(cur / target) * 100
-  const innerWidthRate = `${(activeWidthPer).toFixed(2)}%`
+  const innerWidthRate = float2Percent(cur / target)
 
   return (
     <div className={styles.bg}>
