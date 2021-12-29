@@ -11,12 +11,22 @@ const starsCountMockData = {
   attempted: 1
 }
 
+const listMockData = new Array(5).fill(false).map((_, index) => ({
+  key: index,
+  title: '	Fraction to Recurring Decimal',
+  status: index === 4 ? 'pending' : 'resolved',
+  cate: ['hard', 'medium', 'medium', 'easy', 'easy'][index],
+  url: ''
+}))
+
 function TodayGain(props) {
   return (
     <div className={styles.todayGain}>
-      <ProblemStarsCount countMap={starsCountMockData} />
+      <div className={styles.starContainer}>
+        <ProblemStarsCount countMap={starsCountMockData} />
+      </div>
       <ProblemCommitLog />
-      <ProblemList />
+      <ProblemList items={listMockData} />
     </div>
   )
 }
