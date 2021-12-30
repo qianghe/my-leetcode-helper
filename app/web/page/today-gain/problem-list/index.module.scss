@@ -1,0 +1,62 @@
+.cateTag {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 74px;
+	height: 32px;
+	border-radius: 6px;
+	background-color: #2C2A28;
+
+	p {
+		font-size: 16px;
+		margin-bottom: -8px;
+	}
+}
+
+.orderTag{
+	position: relative;
+	width: 50px;
+	height: 28px;
+	border-radius: 30px;
+	background-color: #151515;
+
+	img {
+		position: absolute;
+		top: -12px;
+		left: -12px;
+	}
+}
+
+.orderNum {
+	position: absolute;
+	color: #fff;
+	top: 5px;
+	// transform: translateY(-50%);
+	right: -10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+.list {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: repeat(4, 40px);
+	grid-auto-flow: column;
+}
+
+.listItem {
+	display: flex;
+	align-items: flex-end;
+
+	>a {
+		padding-left: 16px;
+		padding-right: 18px;
+		font-size: 16px;
+		color: #fff;
+	}
+
+	>div:nth-last-of-type(1) {
+		margin-bottom: -4px;
+	}
+}

@@ -3,6 +3,7 @@
   "app.js": "/public/js/chunk/app.js",
   "runtime.js": "/public/js/runtime.js",
   "font/global.css": "/public/font/Mirza-Regular.ttf",
+  "img/attempted_problem_status.svg": "/public/img/attempted_problem_status.svg",
   "img/attempted_star.svg": "/public/img/attempted_star.svg",
   "img/easy_star.svg": "/public/img/easy_star.svg",
   "img/hard_star.svg": "/public/img/hard_star.svg",

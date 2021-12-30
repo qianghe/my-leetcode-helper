@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react'
 import moment from 'moment'
 import { pick, toPairs } from 'lodash'
+import { cateColorMap } from 'app/web/utils/color'
 import Card from 'web/component/card'
 import TimeLabel from './time-label'
 import DotSeparator from './dot-separator'
@@ -87,11 +88,7 @@ const Calendar = () => {
                       items={scatters}
                       per={per}
                       total={total}
-                      colorMap={{
-                        hard: '#AB1010',
-                        medium: '#E3AC1D',
-                        easy: '#71A14A'
-                      }}
+                      colorMap={cateColorMap}
                     />
                   </div>
                 )
