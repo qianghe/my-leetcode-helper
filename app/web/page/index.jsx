@@ -6,6 +6,7 @@ import CloseIcon from 'app/web/asset/icons/on_button_fill.svg'
 import TargetModule from './target'
 import CalendarModule from './calendar'
 import TodayGainModule from './today-gain'
+import CateGraphModule from './cate-graph'
 import styles from './index.module.scss'
 
 const App = () => (
@@ -45,6 +46,10 @@ const App = () => (
         {/* 今日成果 */}
         <Card title="今日成果" bg="transparent">
           <TodayGainModule />
+        </Card>
+        {/* 已完成题目分类 */}
+        <Card title="完成题目分类">
+          <CateGraphModule />
         </Card>
       </div>
     </div>

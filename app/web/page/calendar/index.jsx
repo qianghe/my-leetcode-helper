@@ -40,7 +40,6 @@ const Calendar = () => {
     const data = mockData.map(item => {
       // 对题目进行排序
       const scatterCate = toPairs(pick(item, ['easy', 'medium', 'hard']))
-      console.log('scatterCate', scatterCate)
       scatterCate.sort(([, val1], [, val2]) => val2 - val1)
       item.scatters = scatterCate
       item.total = scatterCate.reduce((sum, cur) => sum + cur[1], 0)

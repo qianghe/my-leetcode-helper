@@ -1,0 +1,68 @@
+.commitLogs {
+	position: relative;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 55px;
+	height: 45px;
+	width: 65%;
+
+	&:before {
+		content: '';
+		display: block;
+		position: absolute;
+		left: -10px;
+		width: calc(100% + 50px);
+		height: 0;
+		border-top: 1px dashed rgba(255,255,255, 0.5);
+	}
+}
+
+.log {
+	position: absolute;
+	border-radius: 50%;
+	opacity: 0.8;
+	transform: translateY(-50%);
+
+	&:hover:not(.log--wrong){
+		transform: translateY(-50%) scale(1.2) ;
+		transform-origin: center;
+		opacity: 0.9;
+	}
+}
+
+.log--wrong {
+	background-image: url('./icons/close_ring_duotone.svg');
+	width: 24px;
+	height: 24px;
+	z-index: 1;
+}
+
+.log--accepted {
+	width: 36px;
+	height: 36px;
+	border: 0.5px solid #fff;
+}
+
+.timeLabel {
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: flex-start;
+	flex-flow: column;
+
+	span:nth-of-type(1) {
+		font-size: 16px;
+	}
+
+	span:nth-of-type(2) {
+		font-size: 12px;
+	}
+}
+
+.timeLabel--head {
+	left: -20px;
+}
+
+.timeLabel--tail {
+	right: -80px;
+}
