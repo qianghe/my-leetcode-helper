@@ -8,20 +8,20 @@
 
 .title {
   $level: var(--level, 1);
-  $fontSize: 20px;
+  $fontSize: 18px;
 
   @if $level == 1 {
     $fontSize: 28px;
   } @else if $level == 2 {
     $fontSize: 24px;
   } @else {
-    $fontSize: 20px;
+    $fontSize: 18px;
   }
 
   position: absolute;
   display: flex;
   align-items: self-end;
-  top: -5px;
+  top: -8px;
   left: 20px;
   font-size: $fontSize;
   color: #fff;

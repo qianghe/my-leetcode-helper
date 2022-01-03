@@ -48,7 +48,7 @@ const App = () => (
           <TodayGainModule />
         </Card>
         {/* 已完成题目分类 */}
-        <Card title="完成题目分类">
+        <Card title="完成题目分类" level={2} corner={60}>
           <CateGraphModule />
         </Card>
       </div>
