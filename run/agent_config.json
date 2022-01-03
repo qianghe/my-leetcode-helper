@@ -11,13 +11,13 @@
       "domainWhiteList": [
         "http://localhost:9000",
         "http://127.0.0.1:9000",
-        "http://192.168.0.100:9000",
+        "http://10.129.16.62:9000",
         "http://localhost:9001",
         "http://127.0.0.1:9001",
-        "http://192.168.0.100:9001",
+        "http://10.129.16.62:9001",
         "http://localhost:9002",
         "http://127.0.0.1:9002",
-        "http://192.168.0.100:9002"
+        "http://10.129.16.62:9002"
       ],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
@@ -187,6 +187,19 @@
       "fallbackToClient": true,
       "afterRender": "<Function afterRender>"
     },
+    "mongoose": {
+      "url": "",
+      "options": {},
+      "plugins": [],
+      "loadModel": true,
+      "app": true,
+      "agent": false,
+      "client": {
+        "url": "mongodb://127.0.0.1:27017",
+        "options": {},
+        "plugins": []
+      }
+    },
     "cors": {},
     "webpack": {
       "port": 9000,
@@ -199,7 +212,7 @@
         "entry": {
           "app": [
             "react-hot-loader/patch",
-            "/Users/heqiang/days/my-leetcode-helper/node_modules/webpack-hot-middleware/client?path=http://192.168.0.100:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+            "/Users/heqiang/days/my-leetcode-helper/node_modules/webpack-hot-middleware/client?path=http://10.129.16.62:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
             "/Users/heqiang/days/my-leetcode-helper/node_modules/easywebpack/utils/hot.js",
             "babel-loader?{\"cacheDirectory\":\"/var/folders/tl/6c_78kr55ds_9fys4np464sr0000gn/T/easywebpack/my-leetcode-helper/dev/cache/client/babel-loader\",\"presets\":[\"react\",[\"env\",{\"modules\":false}]],\"plugins\":[\"transform-object-assign\",\"syntax-dynamic-import\",\"transform-object-rest-spread\",\"transform-runtime\"],\"env\":{\"development\":{\"plugins\":[\"react-hot-loader/babel\"]}},\"comments\":false,\"babelrc\":\"/Users/heqiang/days/my-leetcode-helper/node_modules/easywebpack-react/config/.babelrc\"}!react-entry-template-loader?templateFile=,renderMode=csr!/Users/heqiang/days/my-leetcode-helper/app/web/page/index.jsx"
           ]
@@ -459,7 +472,7 @@
               "EASY_ENV_IS_NODE": false,
               "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
               "EASY_ENV_PUBLIC_PATH": "\"/public/\"",
-              "EASY_ENV_HOST_URL": "\"http://192.168.0.100:9000\""
+              "EASY_ENV_HOST_URL": "\"http://10.129.16.62:9000\""
             },
             "__plugin__": "DefinePlugin",
             "__lable__": "define"
@@ -484,7 +497,7 @@
               "generate": null,
               "sort": null,
               "baseDir": "/Users/heqiang/days/my-leetcode-helper",
-              "host": "http://192.168.0.100:9000",
+              "host": "http://10.129.16.62:9000",
               "proxy": true,
               "publicPath": "/public/",
               "localPublicPath": "/public/",
@@ -590,9 +603,11 @@
       },
       "dependencies": {
         "classnames": "^2.3.1",
+        "echarts": "^5.2.2",
         "egg": "^2.1.0",
         "egg-cors": "^2.0.0",
         "egg-logger": "^1.5.0",
+        "egg-mongoose": "^3.3.1",
         "egg-scripts": "^2.8.1",
         "egg-validate": "^1.0.0",
         "egg-view-react-ssr": "^2.2.6",
@@ -906,6 +921,17 @@
       "from": "/Users/heqiang/days/my-leetcode-helper/config/plugin.js",
       "path": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-view-react-ssr",
       "version": "2.5.4"
+    },
+    "mongoose": {
+      "enable": true,
+      "package": "egg-mongoose",
+      "name": "mongoose",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/heqiang/days/my-leetcode-helper/config/plugin.js",
+      "path": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-mongoose",
+      "version": "3.3.1"
     },
     "cors": {
       "enable": true,

@@ -46,6 +46,19 @@
     "fallbackToClient": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-view-react-ssr/config/config.default.js",
     "afterRender": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-view-react-ssr/config/config.default.js"
   },
+  "mongoose": {
+    "client": {
+      "url": "/Users/heqiang/days/my-leetcode-helper/config/config.default.js",
+      "options": "/Users/heqiang/days/my-leetcode-helper/config/config.default.js",
+      "plugins": "/Users/heqiang/days/my-leetcode-helper/config/config.default.js"
+    },
+    "url": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-mongoose/config/config.default.js",
+    "options": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-mongoose/config/config.default.js",
+    "plugins": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-mongoose/config/config.default.js",
+    "loadModel": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-mongoose/config/config.default.js",
+    "app": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-mongoose/config/config.default.js",
+    "agent": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-mongoose/config/config.default.js"
+  },
   "development": {
     "watchDirs": "/Users/heqiang/days/my-leetcode-helper/config/config.local.js",
     "ignoreDirs": "/Users/heqiang/days/my-leetcode-helper/config/config.local.js",
@@ -294,9 +307,11 @@
     },
     "dependencies": {
       "classnames": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/config.default.js",
+      "echarts": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/config.default.js",
       "egg": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/config.default.js",
       "egg-cors": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/config.default.js",
       "egg-logger": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/config.default.js",
+      "egg-mongoose": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/config.default.js",
       "egg-scripts": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/config.default.js",
       "egg-validate": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/config.default.js",
       "egg-view-react-ssr": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/config.default.js",

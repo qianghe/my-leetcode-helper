@@ -1,0 +1,140 @@
+2022-01-03 15:29:24,421 ERROR 17171 [egg-mongoose] mongodb://127.0.0.1/example disconnected
+2022-01-03 15:29:24,423 ERROR 17171 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:422:26)
+    at Socket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "MongoNetworkError"
+pid: 17171
+hostname: MacBook-Pro.local
+
+2022-01-03 15:29:24,423 ERROR 17171 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:422:26)
+    at Socket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "MongoNetworkError"
+pid: 17171
+hostname: MacBook-Pro.local
+
+2022-01-03 15:29:24,424 ERROR 17171 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:422:26)
+    at Socket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "MongoNetworkError"
+pid: 17171
+hostname: MacBook-Pro.local
+
+2022-01-03 15:30:27,233 ERROR 17292 [egg-mongoose] mongodb://127.0.0.1:27017 disconnected
+2022-01-03 15:30:27,234 ERROR 17292 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:422:26)
+    at Socket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "MongoNetworkError"
+pid: 17292
+hostname: MacBook-Pro.local
+
+2022-01-03 15:30:27,234 ERROR 17292 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:422:26)
+    at Socket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "MongoNetworkError"
+pid: 17292
+hostname: MacBook-Pro.local
+
+2022-01-03 15:30:27,235 ERROR 17292 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:422:26)
+    at Socket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "MongoNetworkError"
+pid: 17292
+hostname: MacBook-Pro.local
+
