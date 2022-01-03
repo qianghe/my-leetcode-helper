@@ -306,6 +306,7 @@
       "changelog": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/config.default.js"
     },
     "dependencies": {
+      "axios": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/config.default.js",
       "classnames": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/config.default.js",
       "echarts": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/config.default.js",
       "egg": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/config.default.js",
@@ -316,6 +317,8 @@
       "egg-validate": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/config.default.js",
       "egg-view-react-ssr": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/config.default.js",
       "extend": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/config.default.js",
+      "graphql": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/config.default.js",
+      "graphql-request": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/config.default.js",
       "history": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/config.default.js",
       "lodash": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/config.default.js",
       "mockjs": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/config.default.js",

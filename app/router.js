@@ -5,7 +5,7 @@ module.exports = app => {
   // app.get('/api/problem/byDate', controller.problem.byMonths)
   // app.get('/api/user/info', app.controller.user.info)
   // app.get('/api/commit/byDate', app.controller.commit.byDate)
-  app.get('/api/sync', app.controller.data.sync)
+  app.get('/api/sync', app.controller.data.syncData)
   // static html
   app.get('/(.*?)', app.controller.app.index);
 };

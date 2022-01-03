@@ -1,7 +1,13 @@
 const path = require('path');
 const fs = require('fs');
 module.exports = app => {
-  const exports = {};
+  const exports = {
+    // ecurity: {
+    //   csrf: {
+    //     enable: false,
+    //   },
+    // },
+  };
 
   exports.siteFile = {
     '/favicon.ico': fs.readFileSync(path.join(app.baseDir, 'app/web/asset/images/favicon.ico'))

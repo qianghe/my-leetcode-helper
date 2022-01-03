@@ -7,6 +7,7 @@ import TargetModule from './target'
 import CalendarModule from './calendar'
 import TodayGainModule from './today-gain'
 import CateGraphModule from './cate-graph'
+import SyncDataBtn from './sync-data-btn'
 import styles from './index.module.scss'
 
 const App = () => (
@@ -15,6 +16,7 @@ const App = () => (
     <div className={styles.pageHeader}>
       <div className={styles.user}>
         <p>My Leetcode Helper</p>
+        <SyncDataBtn />
         <img src={CloseIcon} style={{ width: 30 }}/>
       </div>
     </div>

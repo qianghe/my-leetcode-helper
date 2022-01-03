@@ -5,6 +5,19 @@
       "HEAD",
       "GET"
     ],
+    "paramNames": [],
+    "path": "/api/sync",
+    "regexp": "/^\\/api\\/sync(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
     "paramNames": [
       {
         "name": 0,

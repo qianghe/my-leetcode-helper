@@ -138,3 +138,136 @@ name: "MongoNetworkError"
 pid: 17292
 hostname: MacBook-Pro.local
 
+2022-01-03 22:53:39,894 ERROR 29706 [-/192.168.0.100/-/8ms GET /api/sync?startTime=1641139200&endTime=1641225600] nodejs.ReferenceError: getCommitLogs is not defined
+    at DataController.syncData (/Users/heqiang/days/my-leetcode-helper/app/controller/data.js:11:20)
+    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:45:18)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at Object.<anonymous> (/Users/heqiang/days/my-leetcode-helper/app/middleware/access.js:9:5)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:65:19)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:50:10)
+    at converted (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:17:15)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 29706
+hostname: localhost
+
+2022-01-03 22:53:51,673 ERROR 29706 [-/127.0.0.1/-/3ms GET /api/sync?startTime=1641139200&endTime=1641225600] nodejs.ReferenceError: getCommitLogs is not defined
+    at DataController.syncData (/Users/heqiang/days/my-leetcode-helper/app/controller/data.js:11:20)
+    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:45:18)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at Object.<anonymous> (/Users/heqiang/days/my-leetcode-helper/app/middleware/access.js:9:5)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:65:19)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:50:10)
+    at converted (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:17:15)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 29706
+hostname: localhost
+
+2022-01-03 22:54:48,582 ERROR 30386 [-/127.0.0.1/-/6ms GET /api/sync?startTime=1641139200&endTime=1641225600] nodejs.ReferenceError: getCommitLogs is not defined
+    at DataController.syncData (/Users/heqiang/days/my-leetcode-helper/app/controller/data.js:11:20)
+    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:45:18)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at Object.<anonymous> (/Users/heqiang/days/my-leetcode-helper/app/middleware/access.js:9:5)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:65:19)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:50:10)
+    at converted (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:17:15)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 30386
+hostname: localhost
+
+2022-01-03 22:55:30,441 ERROR 30516 [-/127.0.0.1/-/5597ms GET /api/sync?startTime=1641139200&endTime=1641225600] nodejs.ResponseTimeoutError: Response timeout for 5000ms, GET https://leetcode.com/api/submissions/?offset=0&limit=20 -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/urllib/lib/urllib.js:997:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ResponseTimeoutError"
+requestId: 1
+data: undefined
+path: "/api/submissions/?offset=0&limit=20"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5582,"keepAliveSocket":false,"requestUrls":["https://leetcode.com/api/submissions/?offset=0&limit=20"],"timing":null,"remoteAddress":"172.67.72.213","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":0}
+pid: 30516
+hostname: localhost
+
+2022-01-03 23:20:57,527 ERROR 32232 [-/192.168.0.100/-/5531ms GET /api/sync?startTime=1641139200&endTime=1641225600] nodejs.ResponseTimeoutError: Response timeout for 5000ms, GET https://leetcode.com/api/submissions/?offset=0&limit=20 -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/urllib/lib/urllib.js:997:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ResponseTimeoutError"
+requestId: 1
+data: undefined
+path: "/api/submissions/?offset=0&limit=20"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5490,"keepAliveSocket":false,"requestUrls":["https://leetcode.com/api/submissions/?offset=0&limit=20"],"timing":null,"remoteAddress":"104.26.9.101","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":0}
+pid: 32232
+hostname: localhost
+
+2022-01-03 23:39:04,912 ERROR 33240 [-/192.168.0.100/-/7ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/heqiang/days/my-leetcode-helper/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/heqiang/days/my-leetcode-helper/node_modules/egg/app/extend/context.js:23:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-security/app/extend/context.js:104:13)
+    at csrf (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-override/index.js:13:70)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at bodyParser (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-bodyparser/index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Users/heqiang/days/my-leetcode-helper/node_modules/koa-static-cache/index.js:41:56
+
+pid: 33240
+hostname: localhost
+
