@@ -33,14 +33,14 @@ module.exports = app => {
     layout: path.join(app.baseDir, 'app/web/view/layout.html')
   };
 
-  exports.mongoose = {
-    client: {
-      url: 'mongodb://127.0.0.1/leetcode',
-      options: {},
-      // mongoose global plugins, expected a function or an array of function and options
-      plugins: [],
-    },
-  };
+  // exports.mongoose = {
+  //   client: {
+  //     url: 'mongodb://127.0.0.1/leetcode',
+  //     options: {},
+  //     // mongoose global plugins, expected a function or an array of function and options
+  //     plugins: [],
+  //   },
+  // };
 
   return exports;
 };

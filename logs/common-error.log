@@ -271,3 +271,24 @@ hostname: localhost
 pid: 33240
 hostname: localhost
 
+2022-01-04 17:15:42,054 ERROR 98427 [-/10.129.22.40/-/1907ms GET /api/sync?startTime=1641225600&endTime=1641308400] nodejs.TypeError: commits.map is not a function
+    at DataController.syncData (/Users/heqiang/codes/my-leetcode-helper/app/controller/data.js:17:25)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 98427
+hostname: heqiangdeMacBook-Pro.local
+
+2022-01-04 17:16:18,272 ERROR 98427 [-/10.129.22.40/-/623ms GET /api/sync?startTime=1641225600&endTime=1641308400] nodejs.TypeError: commits.map is not a function
+    at DataController.syncData (/Users/heqiang/codes/my-leetcode-helper/app/controller/data.js:17:25)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 98427
+hostname: heqiangdeMacBook-Pro.local
+
+2022-01-04 17:27:51,775 ERROR 1464 [-/10.129.22.40/-/895ms GET /api/sync?startTime=1641225600&endTime=1641308400] nodejs.TypeError: Promise.all(...).map is not a function
+    at DataController.syncData (/Users/heqiang/codes/my-leetcode-helper/app/controller/data.js:36:8)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 1464
+hostname: heqiangdeMacBook-Pro.local
+

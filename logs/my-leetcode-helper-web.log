@@ -209,3 +209,46 @@ hostname: localhost
 2022-01-03 23:45:15,119 INFO 33836 [-/192.168.0.100/-/1881ms GET /api/sync?startTime=1641139200&endTime=1641225600] [access] 192.168.0.100: - GET /api/sync?startTime=1641139200&endTime=1641225600 HTTP/200 2 http://192.168.0.100:7001/ 1878 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
 2022-01-03 23:46:06,814 INFO 33986 [-/192.168.0.100/-/18ms GET /] [access] 192.168.0.100: - GET / HTTP/200 783 - 11 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
 2022-01-03 23:46:11,979 INFO 33986 [-/192.168.0.100/-/2817ms GET /api/sync?startTime=1641139200&endTime=1641225600] [access] 192.168.0.100: - GET /api/sync?startTime=1641139200&endTime=1641225600 HTTP/200 2 http://192.168.0.100:7001/ 2812 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-04 17:15:24,910 INFO 98427 [-/10.129.22.40/-/19ms GET /] [access] 10.129.22.40: - GET / HTTP/200 783 - 10 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-04 17:15:42,055 ERROR 98427 [-/10.129.22.40/-/1907ms GET /api/sync?startTime=1641225600&endTime=1641308400] nodejs.TypeError: commits.map is not a function
+    at DataController.syncData (/Users/heqiang/codes/my-leetcode-helper/app/controller/data.js:17:25)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 98427
+hostname: heqiangdeMacBook-Pro.local
+
+2022-01-04 17:16:11,988 INFO 98427 [-/10.129.22.40/-/2ms GET /] [access] 10.129.22.40: - GET / HTTP/200 783 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-04 17:16:18,273 ERROR 98427 [-/10.129.22.40/-/623ms GET /api/sync?startTime=1641225600&endTime=1641308400] nodejs.TypeError: commits.map is not a function
+    at DataController.syncData (/Users/heqiang/codes/my-leetcode-helper/app/controller/data.js:17:25)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 98427
+hostname: heqiangdeMacBook-Pro.local
+
+2022-01-04 17:17:08,153 INFO 98764 [-/10.129.22.40/-/734ms GET /api/sync?startTime=1641225600&endTime=1641308400] [access] 10.129.22.40: - GET /api/sync?startTime=1641225600&endTime=1641308400 HTTP/200 2 http://10.129.22.40:7001/ 725 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-04 17:17:44,282 INFO 98837 [-/10.129.22.40/-/704ms GET /api/sync?startTime=1641225600&endTime=1641308400] [access] 10.129.22.40: - GET /api/sync?startTime=1641225600&endTime=1641308400 HTTP/200 2 http://10.129.22.40:7001/ 695 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-04 17:18:21,005 INFO 98975 [-/10.129.22.40/-/771ms GET /api/sync?startTime=1641225600&endTime=1641308400] [access] 10.129.22.40: - GET /api/sync?startTime=1641225600&endTime=1641308400 HTTP/200 2 http://10.129.22.40:7001/ 762 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-04 17:19:11,879 INFO 99132 [-/10.129.22.40/-/1623ms GET /api/sync?startTime=1641225600&endTime=1641308400] [access] 10.129.22.40: - GET /api/sync?startTime=1641225600&endTime=1641308400 HTTP/200 2 http://10.129.22.40:7001/ 1613 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-04 17:19:34,217 INFO 99182 [-/10.129.22.40/-/630ms GET /api/sync?startTime=1641225600&endTime=1641308400] [access] 10.129.22.40: - GET /api/sync?startTime=1641225600&endTime=1641308400 HTTP/200 2 http://10.129.22.40:7001/ 623 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-04 17:21:56,751 INFO 99681 [-/10.129.22.40/-/24ms GET /] [access] 10.129.22.40: - GET / HTTP/200 783 - 11 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-04 17:22:11,204 INFO 99681 [-/10.129.22.40/-/847ms GET /api/sync?startTime=1641225600&endTime=1641308400] [access] 10.129.22.40: - GET /api/sync?startTime=1641225600&endTime=1641308400 HTTP/200 2 http://10.129.22.40:7001/ 846 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-04 17:23:24,977 INFO 99961 [-/10.129.22.40/-/720ms GET /api/sync?startTime=1641225600&endTime=1641308400] [access] 10.129.22.40: - GET /api/sync?startTime=1641225600&endTime=1641308400 HTTP/200 2 http://10.129.22.40:7001/ 714 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-04 17:24:35,000 INFO 455 [-/10.129.22.40/-/621ms GET /api/sync?startTime=1641225600&endTime=1641308400] [access] 10.129.22.40: - GET /api/sync?startTime=1641225600&endTime=1641308400 HTTP/200 2 http://10.129.22.40:7001/ 612 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-04 17:25:08,068 INFO 711 [-/10.129.22.40/-/1314ms GET /api/sync?startTime=1641225600&endTime=1641308400] [access] 10.129.22.40: - GET /api/sync?startTime=1641225600&endTime=1641308400 HTTP/200 2 http://10.129.22.40:7001/ 1308 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-04 17:25:38,066 INFO 796 [-/10.129.22.40/-/1187ms GET /api/sync?startTime=1641225600&endTime=1641308400] [access] 10.129.22.40: - GET /api/sync?startTime=1641225600&endTime=1641308400 HTTP/200 2 http://10.129.22.40:7001/ 1178 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-04 17:26:07,440 INFO 931 [-/10.129.22.40/-/1255ms GET /api/sync?startTime=1641225600&endTime=1641308400] [access] 10.129.22.40: - GET /api/sync?startTime=1641225600&endTime=1641308400 HTTP/200 2 http://10.129.22.40:7001/ 1248 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-04 17:27:51,776 ERROR 1464 [-/10.129.22.40/-/895ms GET /api/sync?startTime=1641225600&endTime=1641308400] nodejs.TypeError: Promise.all(...).map is not a function
+    at DataController.syncData (/Users/heqiang/codes/my-leetcode-helper/app/controller/data.js:36:8)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 1464
+hostname: heqiangdeMacBook-Pro.local
+
+2022-01-04 17:28:31,423 INFO 1669 [-/10.129.22.40/-/1413ms GET /api/sync?startTime=1641225600&endTime=1641308400] [access] 10.129.22.40: - GET /api/sync?startTime=1641225600&endTime=1641308400 HTTP/200 2 http://10.129.22.40:7001/ 1405 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-04 17:30:51,302 INFO 2178 [-/10.129.22.40/-/60ms GET /public/0060e7d0e1a6eee80e2a.hot-update.json] [access] 10.129.22.40: - GET /public/0060e7d0e1a6eee80e2a.hot-update.json HTTP/200 783 http://10.129.22.40:7001/ 23 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-04 17:30:51,431 INFO 2178 [-/10.129.22.40/-/1ms GET /] [access] 10.129.22.40: - GET / HTTP/200 783 - 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-04 17:30:56,819 INFO 2178 [-/10.129.22.40/-/1405ms GET /api/sync?startTime=1641225600&endTime=1641308400] [access] 10.129.22.40: - GET /api/sync?startTime=1641225600&endTime=1641308400 HTTP/200 2 http://10.129.22.40:7001/ 1405 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-04 17:32:48,752 INFO 2449 [-/10.129.22.40/-/153ms GET /public/0060e7d0e1a6eee80e2a.hot-update.json] [access] 10.129.22.40: - GET /public/0060e7d0e1a6eee80e2a.hot-update.json HTTP/200 783 http://10.129.22.40:7001/ 15 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-04 17:32:48,851 INFO 2449 [-/10.129.22.40/-/1ms GET /] [access] 10.129.22.40: - GET / HTTP/200 783 - 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-04 19:25:00,123 INFO 11955 [-/10.129.22.40/-/24ms GET /] [access] 10.129.22.40: - GET / HTTP/200 783 - 13 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-04 19:25:12,059 INFO 11955 [-/10.129.22.40/-/2271ms GET /api/sync?startTime=1641225600&endTime=1641308400] [access] 10.129.22.40: - GET /api/sync?startTime=1641225600&endTime=1641308400 HTTP/200 2 http://10.129.22.40:7001/ 2271 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36

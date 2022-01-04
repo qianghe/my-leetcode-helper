@@ -10,6 +10,10 @@ module.exports = app => {
 			type: String,
 			default: ''
 		},
+		slug: {
+			type: String,
+			default: ''
+		},
 		difficulty: {
 			type: String,
 			default: ''

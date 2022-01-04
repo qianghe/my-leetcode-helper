@@ -1,4 +1,0 @@
-2021-12-26 21:54:05,864 INFO 18792 [Timer] /Users/heqiang/days/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 7554137ms at 2021-12-27 00:00:00.001
-2021-12-26 21:54:05,864 INFO 18792 [Timer] /Users/heqiang/days/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 7555136ms at 2021-12-27 00:00:01.000
-2021-12-26 21:54:05,773 INFO 18798 [egg-schedule]: register schedule /Users/heqiang/days/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
-2021-12-26 21:54:05,773 INFO 18798 [egg-schedule]: register schedule /Users/heqiang/days/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

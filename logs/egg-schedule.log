@@ -256,3 +256,117 @@
 2022-01-03 23:47:02,790 INFO 34152 [egg-schedule]: register schedule /Users/heqiang/days/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
 2022-01-03 23:47:02,790 INFO 34152 [egg-schedule]: register schedule /Users/heqiang/days/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
 2022-01-03 23:47:02,790 INFO 34152 [egg-schedule]: register schedule /Users/heqiang/days/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:15:18,288 INFO 98427 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:15:18,288 INFO 98427 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:15:18,288 INFO 98427 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:15:18,996 INFO 98423 [Timer] /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 40481006ms at 2022-01-05 04:30:00.002
+2022-01-04 17:15:18,997 INFO 98423 [Timer] /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 24281004ms at 2022-01-05 00:00:00.001
+2022-01-04 17:15:18,997 INFO 98423 [Timer] /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 24282003ms at 2022-01-05 00:00:01.000
+2022-01-04 17:16:53,975 INFO 98708 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:16:53,975 INFO 98708 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:16:53,975 INFO 98708 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:17:00,826 INFO 98764 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:17:00,826 INFO 98764 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:17:00,826 INFO 98764 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:17:38,974 INFO 98807 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:17:38,974 INFO 98807 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:17:38,974 INFO 98807 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:17:41,562 INFO 98837 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:17:41,562 INFO 98837 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:17:41,562 INFO 98837 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:18:15,245 INFO 98975 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:18:15,245 INFO 98975 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:18:15,245 INFO 98975 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:19:07,924 INFO 99132 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:19:07,924 INFO 99132 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:19:07,924 INFO 99132 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:19:24,306 INFO 99182 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:19:24,306 INFO 99182 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:19:24,306 INFO 99182 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:21:52,333 INFO 99681 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:21:52,333 INFO 99681 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:21:52,333 INFO 99681 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:21:52,729 INFO 99671 [Timer] /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 40087273ms at 2022-01-05 04:30:00.002
+2022-01-04 17:21:52,730 INFO 99671 [Timer] /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 23887270ms at 2022-01-05 00:00:00.000
+2022-01-04 17:21:52,730 INFO 99671 [Timer] /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 23888270ms at 2022-01-05 00:00:01.000
+2022-01-04 17:23:13,771 INFO 99873 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:23:13,771 INFO 99873 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:23:13,771 INFO 99873 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:23:16,612 INFO 99961 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:23:16,612 INFO 99961 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:23:16,612 INFO 99961 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:23:54,757 INFO 125 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:23:54,757 INFO 125 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:23:54,757 INFO 125 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:24:30,336 INFO 455 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:24:30,336 INFO 455 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:24:30,336 INFO 455 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:24:43,763 INFO 591 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:24:43,764 INFO 591 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:24:43,764 INFO 591 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:24:59,207 INFO 711 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:24:59,208 INFO 711 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:24:59,208 INFO 711 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:25:22,365 INFO 796 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:25:22,365 INFO 796 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:25:22,365 INFO 796 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:25:55,300 INFO 931 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:25:55,300 INFO 931 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:25:55,300 INFO 931 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:26:37,964 INFO 1158 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:26:37,964 INFO 1158 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:26:37,964 INFO 1158 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:26:41,300 INFO 1200 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:26:41,300 INFO 1200 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:26:41,300 INFO 1200 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:27:21,224 INFO 1323 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:27:21,224 INFO 1323 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:27:21,224 INFO 1323 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:27:23,985 INFO 1356 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:27:23,985 INFO 1356 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:27:23,985 INFO 1356 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:27:38,444 INFO 1398 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:27:38,444 INFO 1398 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:27:38,444 INFO 1398 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:27:41,263 INFO 1445 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:27:41,263 INFO 1445 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:27:41,263 INFO 1445 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:27:44,612 INFO 1464 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:27:44,612 INFO 1464 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:27:44,612 INFO 1464 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:28:25,837 INFO 1669 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:28:25,837 INFO 1669 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:28:25,837 INFO 1669 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:28:58,169 INFO 1718 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:28:58,169 INFO 1718 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:28:58,169 INFO 1718 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:30:46,359 INFO 2178 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:30:46,359 INFO 2178 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:30:46,359 INFO 2178 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:30:46,779 INFO 2174 [Timer] /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 39553223ms at 2022-01-05 04:30:00.002
+2022-01-04 17:30:46,780 INFO 2174 [Timer] /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 23353221ms at 2022-01-05 00:00:00.001
+2022-01-04 17:30:46,780 INFO 2174 [Timer] /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 23354220ms at 2022-01-05 00:00:01.000
+2022-01-04 17:31:31,664 INFO 2226 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:31:31,664 INFO 2226 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:31:31,664 INFO 2226 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:32:43,794 INFO 2449 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 17:32:43,794 INFO 2449 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 17:32:43,794 INFO 2449 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 17:32:44,148 INFO 2445 [Timer] /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 39435855ms at 2022-01-05 04:30:00.003
+2022-01-04 17:32:44,149 INFO 2445 [Timer] /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 23235851ms at 2022-01-05 00:00:00.000
+2022-01-04 17:32:44,149 INFO 2445 [Timer] /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 23236851ms at 2022-01-05 00:00:01.000
+2022-01-04 19:24:54,714 INFO 11909 [Timer] /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 32705289ms at 2022-01-05 04:30:00.003
+2022-01-04 19:24:54,714 INFO 11909 [Timer] /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 16505286ms at 2022-01-05 00:00:00.000
+2022-01-04 19:24:54,714 INFO 11909 [Timer] /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 16506286ms at 2022-01-05 00:00:01.000
+2022-01-04 19:24:53,930 INFO 11955 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 19:24:53,930 INFO 11955 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 19:24:53,930 INFO 11955 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 19:25:23,923 INFO 12050 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 19:25:23,923 INFO 12050 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 19:25:23,923 INFO 12050 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 19:25:27,535 INFO 12093 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 19:25:27,535 INFO 12093 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 19:25:27,535 INFO 12093 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-04 19:25:30,846 INFO 12133 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-04 19:25:30,846 INFO 12133 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-04 19:25:30,846 INFO 12133 [egg-schedule]: register schedule /Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
