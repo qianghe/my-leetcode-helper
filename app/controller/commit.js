@@ -1,13 +1,6 @@
 const Controller = require('egg').Controller
-const moment = require('moment')
+const { formatTime } = require('../util')
 
-const formatTime = (hour = 0) => {
-  return moment()
-    .set('hour', hour)
-    .set('minute', 0)
-    .set('second', 0)
-    .set('millisecond', 0)
-}
 class CommitController extends Controller {
   async getCommitsByDate(start, end) {
     const commits = await ctx.service.commit.findByTimeRange(start, end)

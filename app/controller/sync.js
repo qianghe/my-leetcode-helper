@@ -1,12 +1,21 @@
 const Controller = require('egg').Controller
+const { formatTime, nextTime } = require('../util')
 
 class SyncController extends Controller {
+	/**
+	 * startTime:
+	 * 	1. log中最近的一条记录;
+	 *  2. user中的start_time;
+	 *  3. 当天的0:00
+	 * endTime: 当天的24:00
+	 */
   async syncData() {
     const { ctx } = this
 		let offset = 0
 		let requestDone = false
-		const { startTime, endTime } = ctx.query
 
+		const { userName } = ctx.query
+		const { startTime, endTime } = await getSyncTimeRange(userName)
 		while(!requestDone) {
 			const commits = await ctx.service.leetcode.getCommitLogs(offset)
 			// 同步数据
@@ -58,6 +67,28 @@ class SyncController extends Controller {
 				
 		ctx.body = []
   }
+
+	async getSyncTimeRange(username) {
+		const endTime = formatTime(24)
+		let startTime = formatTime(0)
+		const { ctx } = this
+		
+		const commit = ctx.service.commit.findLatestCommit()
+		if (commit && commit['commit_time']) {
+			const time = commit['commit_time']
+			startTime = nextTime(time)
+		} else {
+			const user = ctx.service.user.findOneByUserName(username)
+			if (user && user['start_time']) {
+				startTime = user['start_time']
+			}
+		}
+		
+		return {
+			startTime,
+			endTime
+		}
+	}
 }
 
 module.exports = SyncController

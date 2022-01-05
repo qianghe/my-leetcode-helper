@@ -15,6 +15,10 @@ class CommitService extends Service {
 
     await this.ctx.modal.CommitLog.find(search)
   }
+
+  async findLatestCommit() {
+    await this.ctx.modal.CommitLog.find()
+  }
 }
 
 module.exports = CommitService

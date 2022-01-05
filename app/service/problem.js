@@ -27,15 +27,20 @@ class ProblemService extends Service {
       'leetcode_id': problem['leetcode_id']
     }
 
-    await this.ctx.model.Problem.findOne(search)
+    const target = await this.ctx.model.Problem.findOne(search)
+
+    return target
   }
 
   async findAll() {
-    await this.ctx.model.Problem.find()
+    const targets = await this.ctx.model.Problem.find()
+    return targets
   }
 
   async findByConditions(search) {
-    await this.ctx.model.Problem.find(search)
+    const targets = await this.ctx.model.Problem.find(search)
+
+    return targets
   }
 }
 
