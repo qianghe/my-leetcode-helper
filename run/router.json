@@ -18,6 +18,45 @@
       "HEAD",
       "GET"
     ],
+    "paramNames": [],
+    "path": "/api/problems/all",
+    "regexp": "/^\\/api\\/problems\\/all(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/problem/group",
+    "regexp": "/^\\/api\\/problem\\/group(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/commit/today",
+    "regexp": "/^\\/api\\/commit\\/today(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
     "paramNames": [
       {
         "name": 0,

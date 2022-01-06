@@ -2,7 +2,7 @@ const Service = require('egg').Service
 
 class CommitService extends Service {
   async add(commits) {
-    await this.ctx.model.CommitLog.insertMany(commits)
+    await this.ctx.model.Commit.insertMany(commits)
   }
 
   async findByTimeRange(start, end) {
@@ -13,11 +13,12 @@ class CommitService extends Service {
       }
     }
 
-    await this.ctx.modal.CommitLog.find(search)
+    await this.ctx.model.Commit.find(search)
   }
 
   async findLatestCommit() {
-    await this.ctx.modal.CommitLog.find()
+    if(!this.ctx.model.Commit) return null
+    await this.ctx.model.Commit.find()
   }
 }
 

@@ -1,14 +1,14 @@
 module.exports = app => {
   const mongoose = app.mongoose;
   const Schema = mongoose.Schema;
-  const CommitLogSchema = new Schema({
+  const CommitSchema = new Schema({
 		raw_id: {
 			type: String,
 			default: ''
 		},
 		status: {
 			type: Boolean,
-			default: 0
+			default: false
 		},
 		detail: {
 			type: Object
@@ -19,5 +19,5 @@ module.exports = app => {
     },
   })
   
-	return mongoose.model('CommitLog', CommitLogSchema)
+	return mongoose.model('Commit', CommitSchema, 'commit')
 };

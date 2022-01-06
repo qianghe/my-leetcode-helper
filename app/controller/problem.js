@@ -10,6 +10,19 @@ class ProblemController extends Controller {
 
   async getGroupedProblems() {
     const problems = await this.getAllProblemByTimeRange()
+    const groupedMap = problems.reduce((map, p) => {
+      const { tags, 'leetcode_id': leetcodeId } = p
+      tags.forEach(({ name }) => {
+        if (!map[name]) {
+          map[name] = []
+        }
+        map[name].push(leetcodeId)
+      })
+
+      return map
+    }, {})
+    
+    ctx.body = groupedMap
   }
 }
 

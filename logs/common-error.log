@@ -1,294 +1,960 @@
-2022-01-03 15:29:24,421 ERROR 17171 [egg-mongoose] mongodb://127.0.0.1/example disconnected
-2022-01-03 15:29:24,423 ERROR 17171 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
-  name: 'MongoNetworkError'
-}]
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
-  name: 'MongoNetworkError'
-}]
-    at Pool.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/topologies/server.js:441:11)
-    at Pool.emit (events.js:315:20)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:564:14
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:1000:11
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:32:7
-    at callback (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:300:5)
-    at Socket.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:330:7)
-    at Object.onceWrapper (events.js:422:26)
-    at Socket.emit (events.js:315:20)
-    at emitErrorNT (internal/streams/destroy.js:92:8)
-    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
-    at processTicksAndRejections (internal/process/task_queues.js:84:21)
-name: "MongoNetworkError"
-pid: 17171
-hostname: MacBook-Pro.local
-
-2022-01-03 15:29:24,423 ERROR 17171 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
-  name: 'MongoNetworkError'
-}]
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
-  name: 'MongoNetworkError'
-}]
-    at Pool.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/topologies/server.js:441:11)
-    at Pool.emit (events.js:315:20)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:564:14
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:1000:11
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:32:7
-    at callback (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:300:5)
-    at Socket.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:330:7)
-    at Object.onceWrapper (events.js:422:26)
-    at Socket.emit (events.js:315:20)
-    at emitErrorNT (internal/streams/destroy.js:92:8)
-    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
-    at processTicksAndRejections (internal/process/task_queues.js:84:21)
-name: "MongoNetworkError"
-pid: 17171
-hostname: MacBook-Pro.local
-
-2022-01-03 15:29:24,424 ERROR 17171 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
-  name: 'MongoNetworkError'
-}]
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
-  name: 'MongoNetworkError'
-}]
-    at Pool.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/topologies/server.js:441:11)
-    at Pool.emit (events.js:315:20)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:564:14
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:1000:11
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:32:7
-    at callback (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:300:5)
-    at Socket.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:330:7)
-    at Object.onceWrapper (events.js:422:26)
-    at Socket.emit (events.js:315:20)
-    at emitErrorNT (internal/streams/destroy.js:92:8)
-    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
-    at processTicksAndRejections (internal/process/task_queues.js:84:21)
-name: "MongoNetworkError"
-pid: 17171
-hostname: MacBook-Pro.local
-
-2022-01-03 15:30:27,233 ERROR 17292 [egg-mongoose] mongodb://127.0.0.1:27017 disconnected
-2022-01-03 15:30:27,234 ERROR 17292 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
-  name: 'MongoNetworkError'
-}]
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
-  name: 'MongoNetworkError'
-}]
-    at Pool.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/topologies/server.js:441:11)
-    at Pool.emit (events.js:315:20)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:564:14
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:1000:11
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:32:7
-    at callback (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:300:5)
-    at Socket.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:330:7)
-    at Object.onceWrapper (events.js:422:26)
-    at Socket.emit (events.js:315:20)
-    at emitErrorNT (internal/streams/destroy.js:92:8)
-    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
-    at processTicksAndRejections (internal/process/task_queues.js:84:21)
-name: "MongoNetworkError"
-pid: 17292
-hostname: MacBook-Pro.local
-
-2022-01-03 15:30:27,234 ERROR 17292 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
-  name: 'MongoNetworkError'
-}]
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
-  name: 'MongoNetworkError'
-}]
-    at Pool.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/topologies/server.js:441:11)
-    at Pool.emit (events.js:315:20)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:564:14
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:1000:11
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:32:7
-    at callback (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:300:5)
-    at Socket.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:330:7)
-    at Object.onceWrapper (events.js:422:26)
-    at Socket.emit (events.js:315:20)
-    at emitErrorNT (internal/streams/destroy.js:92:8)
-    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
-    at processTicksAndRejections (internal/process/task_queues.js:84:21)
-name: "MongoNetworkError"
-pid: 17292
-hostname: MacBook-Pro.local
-
-2022-01-03 15:30:27,235 ERROR 17292 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
-  name: 'MongoNetworkError'
-}]
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
-  name: 'MongoNetworkError'
-}]
-    at Pool.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/topologies/server.js:441:11)
-    at Pool.emit (events.js:315:20)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:564:14
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:1000:11
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:32:7
-    at callback (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:300:5)
-    at Socket.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:330:7)
-    at Object.onceWrapper (events.js:422:26)
-    at Socket.emit (events.js:315:20)
-    at emitErrorNT (internal/streams/destroy.js:92:8)
-    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
-    at processTicksAndRejections (internal/process/task_queues.js:84:21)
-name: "MongoNetworkError"
-pid: 17292
-hostname: MacBook-Pro.local
-
-2022-01-03 22:53:39,894 ERROR 29706 [-/192.168.0.100/-/8ms GET /api/sync?startTime=1641139200&endTime=1641225600] nodejs.ReferenceError: getCommitLogs is not defined
-    at DataController.syncData (/Users/heqiang/days/my-leetcode-helper/app/controller/data.js:11:20)
-    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:45:18)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:186:18
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:36:12
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:191:33)
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
-    at createGenerator (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:24:16)
-    at createGenerator.next (<anonymous>)
-    at Object.<anonymous> (/Users/heqiang/days/my-leetcode-helper/app/middleware/access.js:9:5)
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:65:19)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at Object.co (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:50:10)
-    at converted (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:17:15)
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
-
-pid: 29706
+2022-01-06 01:31:52,527 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302868ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
 hostname: localhost
 
-2022-01-03 22:53:51,673 ERROR 29706 [-/127.0.0.1/-/3ms GET /api/sync?startTime=1641139200&endTime=1641225600] nodejs.ReferenceError: getCommitLogs is not defined
-    at DataController.syncData (/Users/heqiang/days/my-leetcode-helper/app/controller/data.js:11:20)
-    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:45:18)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:186:18
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:36:12
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:191:33)
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
-    at createGenerator (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:24:16)
-    at createGenerator.next (<anonymous>)
-    at Object.<anonymous> (/Users/heqiang/days/my-leetcode-helper/app/middleware/access.js:9:5)
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:65:19)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at Object.co (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:50:10)
-    at converted (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:17:15)
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
-
-pid: 29706
+2022-01-06 02:03:59,905 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 922251ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
 hostname: localhost
 
-2022-01-03 22:54:48,582 ERROR 30386 [-/127.0.0.1/-/6ms GET /api/sync?startTime=1641139200&endTime=1641225600] nodejs.ReferenceError: getCommitLogs is not defined
-    at DataController.syncData (/Users/heqiang/days/my-leetcode-helper/app/controller/data.js:11:20)
-    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:45:18)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:186:18
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:36:12
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:191:33)
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
-    at createGenerator (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:24:16)
-    at createGenerator.next (<anonymous>)
-    at Object.<anonymous> (/Users/heqiang/days/my-leetcode-helper/app/middleware/access.js:9:5)
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:65:19)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at Object.co (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:50:10)
-    at converted (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:17:15)
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
-
-pid: 30386
+2022-01-06 02:10:02,857 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302924ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
 hostname: localhost
 
-2022-01-03 22:55:30,441 ERROR 30516 [-/127.0.0.1/-/5597ms GET /api/sync?startTime=1641139200&endTime=1641225600] nodejs.ResponseTimeoutError: Response timeout for 5000ms, GET https://leetcode.com/api/submissions/?offset=0&limit=20 -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+2022-01-06 02:16:05,746 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302855ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 02:21:48,628 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302872ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 02:27:51,520 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302867ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 02:33:54,442 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302903ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 02:39:57,367 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302897ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 02:46:00,249 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302860ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 02:49:59,982 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 179709ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 02:55:42,856 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302854ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 03:07:48,753 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302948ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 03:13:51,703 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302917ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 03:19:54,608 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302882ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 03:25:37,481 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302848ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 03:31:40,372 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302873ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 03:37:43,263 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302860ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 03:43:46,175 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302891ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 03:49:49,073 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302873ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 03:55:31,982 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302888ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 04:01:34,870 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302864ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 04:07:37,835 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302932ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 04:19:43,685 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302917ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 04:25:46,566 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302853ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 04:31:29,476 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302888ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 04:49:38,188 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302872ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 04:55:41,082 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302871ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 05:01:24,133 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 303039ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 05:07:27,027 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302740ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 05:13:29,961 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302906ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 05:19:32,875 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302897ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 05:25:35,784 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302890ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 05:31:38,703 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302895ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 05:37:21,662 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302943ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 05:43:24,579 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302880ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 05:49:27,531 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302926ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 05:55:30,414 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302853ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 06:07:36,218 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302897ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 06:13:39,140 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302881ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 06:19:42,091 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302897ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 06:25:44,971 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302852ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 06:31:47,907 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302902ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 06:51:51,032 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302856ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 06:57:53,947 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302884ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 07:03:56,897 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302933ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 07:09:59,838 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302914ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 07:15:42,778 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302921ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 07:21:45,688 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302882ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 07:32:06,758 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 561043ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 07:44:12,570 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302869ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 07:50:15,525 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302933ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 07:55:58,433 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302888ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 08:02:01,369 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302911ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 08:08:04,270 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302886ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 08:14:07,168 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302864ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 08:20:10,134 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302947ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 08:25:53,057 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302887ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 08:31:55,948 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302872ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 08:58:22,018 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 302881ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 09:07:57,976 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 555934ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 09:11:16,005 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 158008ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 09:14:11,190 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 155165ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 09:17:12,967 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 161758ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 09:26:54,682 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 581705ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 09:34:08,683 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 413992ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 09:38:36,025 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 247330ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 09:48:03,188 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 567158ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 09:51:06,796 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 163590ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 09:54:08,040 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 161229ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 09:56:46,940 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 138874ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 09:59:14,154 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 147210ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 10:05:14,084 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 161732ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 10:10:09,521 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 295428ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 10:13:03,830 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 154281ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 10:16:29,640 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 165774ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 10:19:25,233 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 155575ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 10:22:45,989 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 180734ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 10:25:56,737 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 170731ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 10:28:58,243 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 161489ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 10:31:41,301 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 143036ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 10:34:17,244 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 135923ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 10:37:40,984 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 163728ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 10:40:25,924 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 144902ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 10:43:39,372 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 153418ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 10:46:40,229 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 160839ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 10:49:37,477 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 157234ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 10:52:02,764 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 145283ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 10:55:20,094 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 157305ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 10:58:20,344 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 160235ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 11:04:28,103 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 156356ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 11:07:28,128 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 140000ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 11:13:25,631 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 162515ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 11:16:27,673 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 162023ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 11:19:16,177 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 148498ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 11:22:02,781 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 146594ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 11:25:31,215 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 168407ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 11:28:18,409 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 147185ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 11:31:10,937 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 152494ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 11:34:21,556 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 150560ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 11:37:18,115 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 156545ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 11:40:42,197 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 164056ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 11:43:58,278 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 156043ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 11:47:02,895 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 164605ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 11:49:50,194 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 147276ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 11:53:15,570 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 165357ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 11:56:12,227 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 136642ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 11:59:15,174 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 162933ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 12:05:53,306 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 163442ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 12:08:54,244 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 140905ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 12:12:01,659 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 167398ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 12:15:18,694 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 157006ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 12:18:23,639 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 164925ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 12:21:31,791 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 148125ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 12:24:29,224 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 157416ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 12:27:29,159 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 159908ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 12:30:46,823 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 157647ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 12:33:40,304 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 153454ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 12:36:28,814 ERROR 50786 nodejs.ClusterClientNoResponseError: client no response in 148470ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 50786
+hostname: localhost
+
+2022-01-06 12:39:12,084 ERROR 57972 [-/10.129.19.27/-/22954ms GET /api/sync?userName=CheeryQ] nodejs.ResponseTimeoutError: Response timeout for 5000ms, GET https://leetcode.com/api/submissions/?offset=100&limit=20 -1 (connected: true, keepalive socket: true, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":5,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 6, socketHandledResponses: 5)
 headers: {}
 headers: {}
     at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/urllib/lib/urllib.js:997:15)
     at listOnTimeout (internal/timers.js:549:17)
     at processTimers (internal/timers.js:492:7)
 name: "ResponseTimeoutError"
-requestId: 1
+requestId: 6
 data: undefined
-path: "/api/submissions/?offset=0&limit=20"
+path: "/api/submissions/?offset=100&limit=20"
 status: -1
 headers: {}
-res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5582,"keepAliveSocket":false,"requestUrls":["https://leetcode.com/api/submissions/?offset=0&limit=20"],"timing":null,"remoteAddress":"172.67.72.213","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":0}
-pid: 30516
-hostname: localhost
-
-2022-01-03 23:20:57,527 ERROR 32232 [-/192.168.0.100/-/5531ms GET /api/sync?startTime=1641139200&endTime=1641225600] nodejs.ResponseTimeoutError: Response timeout for 5000ms, GET https://leetcode.com/api/submissions/?offset=0&limit=20 -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
-headers: {}
-headers: {}
-    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/urllib/lib/urllib.js:997:15)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ResponseTimeoutError"
-requestId: 1
-data: undefined
-path: "/api/submissions/?offset=0&limit=20"
-status: -1
-headers: {}
-res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5490,"keepAliveSocket":false,"requestUrls":["https://leetcode.com/api/submissions/?offset=0&limit=20"],"timing":null,"remoteAddress":"104.26.9.101","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":0}
-pid: 32232
-hostname: localhost
-
-2022-01-03 23:39:04,912 ERROR 33240 [-/192.168.0.100/-/7ms GET /] nodejs.Error: Please set config.keys first
-    at Application.get keys [as keys] (/Users/heqiang/days/my-leetcode-helper/node_modules/egg/lib/application.js:266:15)
-    at Object.get cookies [as cookies] (/Users/heqiang/days/my-leetcode-helper/node_modules/egg/app/extend/context.js:23:66)
-    at Object.get [egg-security#CSRF_SECRET] (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-security/app/extend/context.js:91:35)
-    at Object.ensureCsrfSecret (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-security/app/extend/context.js:104:13)
-    at csrf (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
-    at session (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-session/index.js:41:13)
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
-    at overrideMethod (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-override/index.js:13:70)
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
-    at bodyParser (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-bodyparser/index.js:95:11)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-    at async /Users/heqiang/days/my-leetcode-helper/node_modules/koa-static-cache/index.js:41:56
-
-pid: 33240
-hostname: localhost
-
-2022-01-04 17:15:42,054 ERROR 98427 [-/10.129.22.40/-/1907ms GET /api/sync?startTime=1641225600&endTime=1641308400] nodejs.TypeError: commits.map is not a function
-    at DataController.syncData (/Users/heqiang/codes/my-leetcode-helper/app/controller/data.js:17:25)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-
-pid: 98427
-hostname: heqiangdeMacBook-Pro.local
-
-2022-01-04 17:16:18,272 ERROR 98427 [-/10.129.22.40/-/623ms GET /api/sync?startTime=1641225600&endTime=1641308400] nodejs.TypeError: commits.map is not a function
-    at DataController.syncData (/Users/heqiang/codes/my-leetcode-helper/app/controller/data.js:17:25)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-
-pid: 98427
-hostname: heqiangdeMacBook-Pro.local
-
-2022-01-04 17:27:51,775 ERROR 1464 [-/10.129.22.40/-/895ms GET /api/sync?startTime=1641225600&endTime=1641308400] nodejs.TypeError: Promise.all(...).map is not a function
-    at DataController.syncData (/Users/heqiang/codes/my-leetcode-helper/app/controller/data.js:36:8)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-
-pid: 1464
-hostname: heqiangdeMacBook-Pro.local
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5019,"keepAliveSocket":true,"requestUrls":["https://leetcode.com/api/submissions/?offset=100&limit=20"],"timing":null,"remoteAddress":"104.26.9.101","remotePort":443,"socketHandledRequests":6,"socketHandledResponses":5}
+pid: 57972
+hostname: MacBook-Pro.local
 

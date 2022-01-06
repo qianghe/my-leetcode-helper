@@ -22,11 +22,11 @@ module.exports = app => {
 			type: Array,
 			default: []
 		},
-    updated_time: {
-      type: Date,
+    update_time: {
+			type: Date,
       default: new Date(),
     },
   })
   
-	return mongoose.model('Problem', ProblemSchema)
+	return mongoose.model('Problem', ProblemSchema, 'problem')
 };

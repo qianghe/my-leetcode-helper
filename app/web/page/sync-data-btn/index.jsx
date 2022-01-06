@@ -3,9 +3,10 @@ import axios from 'axios'
 import styles from './index.module.scss'
 
 function SyncDataBtn() {
-	function handleSyncData() {
-		const [startTime, endTime] = [1641225600, 1641308400]
-		const result = axios.get(`/api/sync?startTime=${startTime}&endTime=${endTime}`)
+	async function handleSyncData() {
+		const result = await axios.get('/api/sync?userName=CheeryQ', {
+			timeout: 0
+		})
 		console.log('result', result)
 	}
 	return (
