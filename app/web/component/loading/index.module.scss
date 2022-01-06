@@ -1,0 +1,89 @@
+
+// @import "bourbon";
+
+@keyframes spin {
+  from { 
+    transform: rotate(0deg);
+  }
+  to {
+   transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-reverse {
+  from { 
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.loaderWrapper {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+	overflow: hidden;
+}
+
+.loader {
+	display: block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #16a085;
+  animation: spin 1.7s linear infinite;
+  z-index: 11;
+  
+  &:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #e74c3c;
+    animation: spin-reverse .6s linear infinite;
+  }
+  
+  &:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #f9c922;
+    animation: spin 1s linear infinite;
+  }
+}
+
+
+// .loaderSection {
+// 	position: fixed;
+//   top: 0;
+//   width: 51%;
+//   height: 100%;
+//   background: #222;
+//   z-index: 10;
+// }
+
+// .sectionLeft {
+// 	left: 0;
+// 	// transform: translateX(-100%);
+//   // transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+// }
+
+// .sectionRight{
+// 	right: 0;
+// 	// transform: translateX(100%);
+//   // transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+// }

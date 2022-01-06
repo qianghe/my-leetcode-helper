@@ -163,3 +163,21 @@
 2022-01-06 12:40:22,000 INFO 58223 [egg-mongoose] instance[0] start successfully
 2022-01-06 12:40:22,002 INFO 58223 [egg-watcher:application] watcher start success
 2022-01-06 12:40:22,008 INFO 58223 [egg:core] dump config after ready, 5ms
+2022-01-06 13:11:49,528 INFO 60115 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-06 13:11:49,544 INFO 60115 [egg-multipart] stream mode enable
+2022-01-06 13:11:49,741 INFO 60115 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
+2022-01-06 13:11:49,814 INFO 60115 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
+2022-01-06 13:11:49,819 INFO 60115 [egg-security] use csrf middleware
+2022-01-06 13:11:49,820 INFO 60115 [egg-security] use methodnoallow middleware
+2022-01-06 13:11:49,820 INFO 60115 [egg-security] use noopen middleware
+2022-01-06 13:11:49,821 INFO 60115 [egg-security] use nosniff middleware
+2022-01-06 13:11:49,821 INFO 60115 [egg-security] use xssProtection middleware
+2022-01-06 13:11:49,821 INFO 60115 [egg-security] use xframe middleware
+2022-01-06 13:11:49,821 INFO 60115 [egg-security] use dta middleware
+2022-01-06 13:11:49,821 INFO 60115 [egg-security] compose 7 middlewares into one security middleware
+2022-01-06 13:11:49,832 INFO 60115 [egg:core] dump config after load, 5ms
+2022-01-06 13:11:49,835 INFO 60115 [egg-mongoose] starting...
+2022-01-06 13:11:49,859 INFO 60115 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
+2022-01-06 13:11:49,860 INFO 60115 [egg-mongoose] instance[0] start successfully
+2022-01-06 13:11:49,862 INFO 60115 [egg-watcher:application] watcher start success
+2022-01-06 13:11:49,868 INFO 60115 [egg:core] dump config after ready, 4ms

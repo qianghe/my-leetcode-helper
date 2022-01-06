@@ -642,6 +642,7 @@
       },
       "dependencies": {
         "axios": "^0.24.0",
+        "bourbon": "^7.0.0",
         "classnames": "^2.3.1",
         "echarts": "^5.2.2",
         "egg": "^2.1.0",

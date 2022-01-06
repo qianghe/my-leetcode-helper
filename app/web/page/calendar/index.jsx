@@ -1,8 +1,9 @@
-import React, { useMemo } from 'react'
+import React, { useMemo, useState } from 'react'
 import moment from 'moment'
 import { pick, toPairs } from 'lodash'
 import { cateColorMap } from 'app/web/utils/color'
 import Card from 'web/component/card'
+import Loading from 'web/component/loading'
 import TimeLabel from './time-label'
 import DotSeparator from './dot-separator'
 import BarScatter from './bar-scatter'
@@ -35,6 +36,7 @@ const mockData = [
 ]
 
 const Calendar = () => {
+  const [isLoading, setIsLoading] = useState(true)
   // 基于problems进行计算
   const cateByMonth = useMemo(() =>{
     const data = mockData.map(item => {
@@ -74,26 +76,30 @@ const Calendar = () => {
       <Card corner={30}>
         <div className={styles.header}>
           <p>日历</p>
-          <div className={styles.content}>
-            {
-              cateByMonth.map((item, index) => {
-                const { times, total, scatters } = item
-                const per = parseFloat((total / maxScatterTotal).toFixed(2))
-                return (
-                  <div key={index} className={styles.unit}>
-                    <TimeLabel times={times} />
-                    <DotSeparator size={16} color="#696464" />
-                    <BarScatter
-                      items={scatters}
-                      per={per}
-                      total={total}
-                      colorMap={cateColorMap}
-                    />
-                  </div>
-                )
-              })
-            }
-          </div>
+          {
+            isLoading ? <Loading /> : (
+              <div className={styles.content}>
+                {
+                  cateByMonth.map((item, index) => {
+                    const { times, total, scatters } = item
+                    const per = parseFloat((total / maxScatterTotal).toFixed(2))
+                    return (
+                      <div key={index} className={styles.unit}>
+                        <TimeLabel times={times} />
+                        <DotSeparator size={16} color="#696464" />
+                        <BarScatter
+                          items={scatters}
+                          per={per}
+                          total={total}
+                          colorMap={cateColorMap}
+                        />
+                      </div>
+                    )
+                  })
+                }
+              </div>
+            )
+          }
         </div>
       </Card>
     </div>
