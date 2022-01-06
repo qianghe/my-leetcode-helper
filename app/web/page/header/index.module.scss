@@ -1,0 +1,43 @@
+.header {
+  background-color: #151515;
+  height: 50px;
+  padding: 6px 40px;
+}
+
+.user {
+  color: #fff;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: end;
+
+  p {
+    font-size: 20px;
+  }
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  li {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 32px;
+    cursor: pointer;
+    color: #999;
+
+    &:hover {
+      transform: scale(1.05);
+      border-bottom: 2px double #999;
+    }
+  }
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+}

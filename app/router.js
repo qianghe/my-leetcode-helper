@@ -7,8 +7,11 @@ module.exports = app => {
   // app.get('/api/commit/byDate', app.controller.commit.byDate)
   // 同步数据
   app.get('/api/sync', app.controller.sync.syncData)
+
+  // 获取当前目标
+  app.get('/api/user/goal', app.controller.user.getUserGoalInfo)
   // 获取所有题目
-  app.get('/api/problems/all', app.controller.problem.getAllProblemByTimeRange)
+  app.get('/api/problems/byMonth', app.controller.problem.getAllProblemByMonth)
   // 获取已完成题目的分类
   app.get('/api/problem/group', app.controller.problem.getGroupedProblems)
   // 获取当日提交logs

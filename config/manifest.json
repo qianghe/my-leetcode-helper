@@ -8,8 +8,9 @@
   "img/easy_star.svg": "/public/img/easy_star.svg",
   "img/hard_star.svg": "/public/img/hard_star.svg",
   "img/lamp_duotone_line.svg": "/public/img/lamp_duotone_line.svg",
+  "img/logout.svg": "/public/img/logout.svg",
   "img/medium_star.svg": "/public/img/medium_star.svg",
-  "img/on_button_fill.svg": "/public/img/on_button_fill.svg",
+  "img/sync.svg": "/public/img/sync.svg",
   "deps": {
     "app.js": {
       "js": [

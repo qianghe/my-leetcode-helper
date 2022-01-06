@@ -44,3 +44,37 @@ hostname: MacBook-Pro.local
 2022-01-06 13:17:05,158 INFO 60115 [-/10.129.19.27/-/0ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
 2022-01-06 13:21:23,656 INFO 60115 [-/10.129.19.27/-/33ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 11 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
 2022-01-06 13:24:16,638 INFO 60115 [-/10.129.19.27/-/3ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 15:32:49,112 ERROR 28777 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/heqiang/codes/my-leetcode-helper/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /Users/heqiang/codes/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /Users/heqiang/codes/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /Users/heqiang/codes/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/heqiang/codes/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/Users/heqiang/codes/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:421:26)
+    at Socket.emit (events.js:314:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "MongoNetworkError"
+pid: 28777
+hostname: heqiangdeMacBook-Pro.local
+
+2022-01-06 15:34:19,284 INFO 29070 [-/10.129.22.40/-/24ms GET /] [access] 10.129.22.40: - GET / HTTP/200 783 - 12 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-06 15:34:46,543 INFO 29070 [-/10.129.22.40/-/16ms GET /public/67874c105770fa72ba04.hot-update.json] [access] 10.129.22.40: - GET /public/67874c105770fa72ba04.hot-update.json HTTP/200 783 http://10.129.22.40:7001/ 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-06 15:35:09,227 INFO 29070 [-/10.129.22.40/-/1ms GET /] [access] 10.129.22.40: - GET / HTTP/200 783 - 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-06 15:36:30,742 INFO 29070 [-/10.129.22.40/-/3ms GET /public/f1180c793dac739b1752.hot-update.json] [access] 10.129.22.40: - GET /public/f1180c793dac739b1752.hot-update.json HTTP/200 783 http://10.129.22.40:7001/ 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-06 15:36:48,015 INFO 29070 [-/10.129.22.40/-/1ms GET /] [access] 10.129.22.40: - GET / HTTP/200 783 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-06 15:38:15,827 INFO 29070 [-/10.129.22.40/-/2ms GET /] [access] 10.129.22.40: - GET / HTTP/200 783 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-06 15:43:15,443 INFO 29070 [-/10.129.22.40/-/36ms GET /public/215148a9ebb1257e91d1.hot-update.json] [access] 10.129.22.40: - GET /public/215148a9ebb1257e91d1.hot-update.json HTTP/200 783 http://10.129.22.40:7001/ 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-06 15:43:19,953 INFO 29070 [-/10.129.22.40/-/1ms GET /] [access] 10.129.22.40: - GET / HTTP/200 783 - 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-06 15:45:23,732 INFO 29070 [-/10.129.22.40/-/22ms GET /public/3f904d95711b1515835c.hot-update.json] [access] 10.129.22.40: - GET /public/3f904d95711b1515835c.hot-update.json HTTP/200 783 http://10.129.22.40:7001/ 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-06 15:53:53,507 INFO 29070 [-/10.129.22.40/-/1ms GET /] [access] 10.129.22.40: - GET / HTTP/200 783 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
+2022-01-06 15:54:58,905 INFO 29070 [-/10.129.22.40/-/45ms GET /public/cf227150d1d5a42222b2.hot-update.json] [access] 10.129.22.40: - GET /public/cf227150d1d5a42222b2.hot-update.json HTTP/200 783 http://10.129.22.40:7001/ 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36

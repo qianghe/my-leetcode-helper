@@ -19,8 +19,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/api/problems/all",
-    "regexp": "/^\\/api\\/problems\\/all(?:\\/(?=$))?$/",
+    "path": "/api/problems/byMonth",
+    "regexp": "/^\\/api\\/problems\\/byMonth(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

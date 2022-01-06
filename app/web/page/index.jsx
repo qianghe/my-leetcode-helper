@@ -2,24 +2,17 @@ import React from 'react'
 import 'web/asset/css/global.css'
 import Card from 'web/component/card'
 import FavoriteFillIcon from 'app/web/asset/icons/favorite_fill.svg'
-import CloseIcon from 'app/web/asset/icons/on_button_fill.svg'
+import Header from './header'
 import TargetModule from './target'
 import CalendarModule from './calendar'
 import TodayGainModule from './today-gain'
 import CateGraphModule from './cate-graph'
-import SyncDataBtn from './sync-data-btn'
 import styles from './index.module.scss'
 
 const App = () => (
   <div className={styles.page}>
     {/* header */}
-    <div className={styles.pageHeader}>
-      <div className={styles.user}>
-        <p>My Leetcode Helper</p>
-        <SyncDataBtn />
-        <img src={CloseIcon} style={{ width: 30 }}/>
-      </div>
-    </div>
+    <Header />
     {/* content */}
     <div className={styles.content}>
       <div className={styles.left}>
