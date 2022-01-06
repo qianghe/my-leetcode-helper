@@ -1,9 +1,13 @@
 const Controller = require('egg').Controller
 
 class UserController extends Controller {
-  async getUserGoalInfo(username) {
-    const user = await findOneByUserName(username)
-    return user
+  async getUserGoalInfo() {
+    const { ctx } = this
+    const { userName } = ctx.query
+
+    const user = await ctx.service.user.findOneByUserName(userName)
+    
+    ctx.body = user
   }
 }
 

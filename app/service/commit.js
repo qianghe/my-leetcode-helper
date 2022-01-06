@@ -13,12 +13,14 @@ class CommitService extends Service {
       }
     }
 
-    await this.ctx.model.Commit.find(search)
+    const res = await this.ctx.model.Commit.find(search)
+    return res
   }
 
   async findLatestCommit() {
     if(!this.ctx.model.Commit) return null
-    await this.ctx.model.Commit.find()
+    const res = await this.ctx.model.Commit.find()
+    return res
   }
 }
 

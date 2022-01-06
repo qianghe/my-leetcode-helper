@@ -1,4 +1,7 @@
-import React from 'react'
+import React, { useMemo } from 'react'
+import { useRequest } from '@umijs/hooks'
+import { getTodayCommitRequest } from 'app/web/page/api'
+import Loading from 'web/component/loading'
 import ProblemStarsCount from './problem-stars'
 import ProblemCommitLog from './problem-commit-log'
 import ProblemList from './problem-list'
@@ -20,13 +23,20 @@ const listMockData = new Array(5).fill(false).map((_, index) => ({
 }))
 
 function TodayGain(props) {
+  const { data, loading } = useRequest(getTodayCommitRequest, {
+    formatResult: res => res.data
+  })
   return (
     <div className={styles.todayGain}>
-      <div className={styles.starContainer}>
-        <ProblemStarsCount countMap={starsCountMockData} />
-      </div>
-      <ProblemCommitLog />
-      <ProblemList items={listMockData} />
+      { loading ? <Loading /> : (
+        <React.Fragment>
+          <div className={styles.starContainer}>
+          {/* <ProblemStarsCount countMap={starsCountMockData} /> */}
+          </div>
+          <ProblemCommitLog />
+          {/* <ProblemList items={listMockData} /> */}
+        </React.Fragment>
+      )}
     </div>
   )
 }

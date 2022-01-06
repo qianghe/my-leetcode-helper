@@ -10,7 +10,6 @@ class UserService extends Service {
       'user_name': user_name
     }
   
-    const all = await this.ctx.model.User.find({})
     const user = await this.ctx.model.User.findOne(search)
 
     return user

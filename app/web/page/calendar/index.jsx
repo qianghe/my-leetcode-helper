@@ -1,45 +1,26 @@
-import React, { useMemo, useState } from 'react'
+import React, { useMemo } from 'react'
 import moment from 'moment'
+import { useRequest } from '@umijs/hooks'
 import { pick, toPairs } from 'lodash'
 import { cateColorMap } from 'app/web/utils/color'
 import Card from 'web/component/card'
 import Loading from 'web/component/loading'
+import { getGroupedQuesByMonthRequest } from 'app/web/page/api'
 import TimeLabel from './time-label'
 import DotSeparator from './dot-separator'
 import BarScatter from './bar-scatter'
 import styles from './index.module.scss'
 
-const mockData = [
-  {
-    time: 1644508800000,
-    hard: 9,
-    medium: 20,
-    easy: 6
-  },
-  {
-    time: 1640966400000,
-    hard: 2,
-    medium: 32,
-    easy: 10
-  }, {
-    time: 1639152000000,
-    hard: 0,
-    medium: 2,
-    easy: 34
-  },
-  {
-    time: 1636560000000,
-    hard: 0,
-    medium: 64,
-    easy: 0
-  }
-]
-
 const Calendar = () => {
-  const [isLoading, setIsLoading] = useState(true)
+  const { data, loading } = useRequest(getGroupedQuesByMonthRequest, {
+    formatResult: res => res.data
+  })
+  
   // 基于problems进行计算
   const cateByMonth = useMemo(() =>{
-    const data = mockData.map(item => {
+    if (!data) return []
+
+    const items = data.map(item => {
       // 对题目进行排序
       const scatterCate = toPairs(pick(item, ['easy', 'medium', 'hard']))
       scatterCate.sort(([, val1], [, val2]) => val2 - val1)
@@ -51,7 +32,7 @@ const Calendar = () => {
     })
 
     // 获取隔年时间
-    const years = data.map(item => item.times[0])
+    const years = items.map(item => item.times[0])
     let diffYearIndex = 0
     
     for (let i = 1; i < years.length; i++) {
@@ -62,12 +43,12 @@ const Calendar = () => {
       }
     }
 
-    data.forEach((item, index) => {
+    items.forEach((item, index) => {
       index !== diffYearIndex && (item.times = [item.times[1]])
     })
 
-    return data
-  }, [])
+    return items
+  }, [data])
 
   const maxScatterTotal = cateByMonth.reduce((max, cur) => Math.max(max, cur.total), 0)
 
@@ -77,7 +58,7 @@ const Calendar = () => {
         <div className={styles.header}>
           <p>日历</p>
           {
-            isLoading ? <Loading /> : (
+            loading ? <Loading /> : (
               <div className={styles.content}>
                 {
                   cateByMonth.map((item, index) => {

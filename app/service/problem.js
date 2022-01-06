@@ -37,10 +37,16 @@ class ProblemService extends Service {
     return targets
   }
 
-  async findByConditions(search) {
-    const targets = await this.ctx.model.Problem.find(search)
+  async findByTimeRange() {
+    const search = {
+      'update_time': {
+        $lt: end,
+        $gt: start
+      }
+    }
 
-    return targets
+    const res = await this.ctx.model.Problem.find(search)
+    return res
   }
 }
 

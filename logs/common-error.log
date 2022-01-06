@@ -1028,3 +1028,292 @@ name: "MongoNetworkError"
 pid: 28777
 hostname: heqiangdeMacBook-Pro.local
 
+2022-01-06 19:53:39,637 ERROR 65536 [-/10.129.19.27/-/9ms GET /api/user/goal] nodejs.ReferenceError: findOneByUserName is not defined
+    at UserController.getUserGoalInfo (/Users/heqiang/days/my-leetcode-helper/app/controller/user.js:5:18)
+    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:45:18)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at Object.<anonymous> (/Users/heqiang/days/my-leetcode-helper/app/middleware/access.js:9:5)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:65:19)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:50:10)
+    at converted (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:17:15)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 65536
+hostname: MacBook-Pro.local
+
+2022-01-06 19:54:32,580 ERROR 65661 [-/undefined/-/10028ms GET /api/user/goal] nodejs.MongooseError: Operation `user.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+headerSent: true
+pid: 65661
+hostname: MacBook-Pro.local
+
+2022-01-06 19:54:33,018 ERROR 65661 [-/undefined/-/10006ms GET /api/user/goal] nodejs.MongooseError: Operation `user.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+headerSent: true
+pid: 65661
+hostname: MacBook-Pro.local
+
+2022-01-06 19:54:42,622 ERROR 65661 [-/10.129.19.27/-/10007ms GET /api/user/goal] nodejs.MongooseError: Operation `user.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+
+pid: 65661
+hostname: MacBook-Pro.local
+
+2022-01-06 19:55:18,643 ERROR 65661 [-/10.129.19.27/-/10010ms GET /api/user/goal?username=CheeryQ] nodejs.MongooseError: Operation `user.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+
+pid: 65661
+hostname: MacBook-Pro.local
+
+2022-01-06 19:55:53,140 ERROR 65823 [-/undefined/-/10017ms GET /api/user/goal?username=CheeryQ] nodejs.MongooseError: Operation `user.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+headerSent: true
+pid: 65823
+hostname: MacBook-Pro.local
+
+2022-01-06 19:55:57,870 ERROR 65823 [-/undefined/-/10009ms GET /api/user/goal?userName=CheeryQ] nodejs.MongooseError: Operation `user.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+headerSent: true
+pid: 65823
+hostname: MacBook-Pro.local
+
+2022-01-06 19:56:01,369 ERROR 65823 [-/10.129.19.27/-/10007ms GET /api/user/goal?userName=CheeryQ] nodejs.MongooseError: Operation `user.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+
+pid: 65823
+hostname: MacBook-Pro.local
+
+2022-01-06 19:57:31,397 ERROR 65959 [-/10.129.19.27/-/10030ms GET /api/user/goal?userName=CheeryQ] nodejs.MongooseError: Operation `user.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+
+pid: 65959
+hostname: MacBook-Pro.local
+
+2022-01-06 20:03:36,676 ERROR 66188 [-/10.129.19.27/-/45ms GET /api/problems/byMonth] nodejs.ReferenceError: getSliceTimestamp is not defined
+    at /Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:10:29
+    at Array.reduce (<anonymous>)
+    at ProblemController.getAllProblemByMonth (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:8:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 66188
+hostname: MacBook-Pro.local
+
+2022-01-06 20:03:45,087 ERROR 66188 [-/10.129.19.27/-/7ms GET /api/problem/group] nodejs.TypeError: this.getAllProblemByTimeRange is not a function
+    at ProblemController.getGroupedProblems (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:34:33)
+    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:45:18)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at Object.<anonymous> (/Users/heqiang/days/my-leetcode-helper/app/middleware/access.js:9:5)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:65:19)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:50:10)
+    at converted (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:17:15)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 66188
+hostname: MacBook-Pro.local
+
+2022-01-06 20:03:56,222 ERROR 66188 [-/10.129.19.27/-/7ms GET /api/commit/today] nodejs.ReferenceError: ctx is not defined
+    at CommitController.getCommitsByDate (/Users/heqiang/days/my-leetcode-helper/app/controller/commit.js:6:21)
+    at CommitController.getTodyLogs (/Users/heqiang/days/my-leetcode-helper/app/controller/commit.js:13:29)
+    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:45:18)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at Object.<anonymous> (/Users/heqiang/days/my-leetcode-helper/app/middleware/access.js:9:5)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:65:19)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:50:10)
+    at converted (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:17:15)
+
+pid: 66188
+hostname: MacBook-Pro.local
+
+2022-01-06 20:25:57,760 ERROR 67672 [-/10.129.19.27/-/55ms GET /api/problems/byMonth] nodejs.ReferenceError: getSliceTimestamp is not defined
+    at /Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:10:29
+    at Array.reduce (<anonymous>)
+    at ProblemController.getAllProblemByMonth (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:8:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 67672
+hostname: MacBook-Pro.local
+
+2022-01-06 20:26:24,570 ERROR 68756 [-/10.129.19.27/-/42ms GET /api/problems/byMonth] nodejs.TypeError: Cannot read property 'push' of undefined
+    at /Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:13:32
+    at Array.reduce (<anonymous>)
+    at ProblemController.getAllProblemByMonth (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:9:39)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 68756
+hostname: MacBook-Pro.local
+
+2022-01-06 20:26:48,658 ERROR 68796 [-/10.129.19.27/-/55ms GET /api/problems/byMonth] nodejs.TypeError: Cannot read property 'push' of undefined
+    at /Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:13:32
+    at Array.reduce (<anonymous>)
+    at ProblemController.getAllProblemByMonth (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:9:39)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 68796
+hostname: MacBook-Pro.local
+
+2022-01-06 20:27:20,701 ERROR 68840 [-/10.129.19.27/-/39ms GET /api/problems/byMonth] nodejs.TypeError: Cannot read property 'push' of undefined
+    at /Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:13:32
+    at Array.reduce (<anonymous>)
+    at ProblemController.getAllProblemByMonth (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:9:39)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 68840
+hostname: MacBook-Pro.local
+
+2022-01-06 20:27:51,571 ERROR 68963 [-/10.129.19.27/-/49ms GET /api/problems/byMonth] nodejs.TypeError: Cannot read property '[object Object]' of undefined
+    at /Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:12:19
+    at Array.reduce (<anonymous>)
+    at ProblemController.getAllProblemByMonth (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:9:39)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 68963
+hostname: MacBook-Pro.local
+
+2022-01-06 20:28:24,420 ERROR 69029 [-/10.129.19.27/-/59ms GET /api/problems/byMonth] nodejs.TypeError: Cannot read property '[object Object]' of undefined
+    at /Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:13:19
+    at Array.reduce (<anonymous>)
+    at ProblemController.getAllProblemByMonth (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:9:39)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 69029
+hostname: MacBook-Pro.local
+
+2022-01-06 20:29:03,886 ERROR 69116 [-/10.129.19.27/-/54ms GET /api/problems/byMonth] nodejs.TypeError: Cannot read property '1641052800' of undefined
+    at /Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:12:19
+    at Array.reduce (<anonymous>)
+    at ProblemController.getAllProblemByMonth (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:9:39)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 69116
+hostname: MacBook-Pro.local
+
+2022-01-06 20:29:56,130 ERROR 69214 [-/10.129.19.27/-/56ms GET /api/problems/byMonth] nodejs.TypeError: Cannot read property '1641052800' of undefined
+    at /Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:12:19
+    at Array.reduce (<anonymous>)
+    at ProblemController.getAllProblemByMonth (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:9:39)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 69214
+hostname: MacBook-Pro.local
+
+2022-01-06 20:30:37,649 ERROR 69291 [-/10.129.19.27/-/55ms GET /api/problems/byMonth] nodejs.TypeError: Cannot read property '1641052800' of undefined
+    at /Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:12:19
+    at Array.reduce (<anonymous>)
+    at ProblemController.getAllProblemByMonth (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:9:39)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 69291
+hostname: MacBook-Pro.local
+
+2022-01-06 20:31:15,888 ERROR 69339 [-/10.129.19.27/-/40ms GET /api/problems/byMonth] nodejs.ReferenceError: Cannot access 'cate' before initialization
+    at /Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:20:46
+    at Array.reduce (<anonymous>)
+    at ProblemController.getAllProblemByMonth (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:9:39)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 69339
+hostname: MacBook-Pro.local
+
+2022-01-06 20:31:33,462 ERROR 69392 [-/10.129.19.27/-/55ms GET /api/problems/byMonth] nodejs.TypeError: Cannot read property '1641052800' of undefined
+    at /Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:12:19
+    at Array.reduce (<anonymous>)
+    at ProblemController.getAllProblemByMonth (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:9:39)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 69392
+hostname: MacBook-Pro.local
+
+2022-01-06 20:41:47,434 ERROR 70046 [-/10.129.19.27/-/20ms GET /api/commit/today] nodejs.ReferenceError: ctx is not defined
+    at CommitController.getCommitsByDate (/Users/heqiang/days/my-leetcode-helper/app/controller/commit.js:6:21)
+    at CommitController.getTodyLogs (/Users/heqiang/days/my-leetcode-helper/app/controller/commit.js:13:29)
+    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:45:18)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at Object.<anonymous> (/Users/heqiang/days/my-leetcode-helper/app/middleware/access.js:9:5)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:65:19)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:50:10)
+    at converted (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:17:15)
+
+pid: 70046
+hostname: MacBook-Pro.local
+
+2022-01-06 21:04:43,105 ERROR 72250 [-/10.129.19.27/-/20ms GET /api/commit/today] nodejs.ReferenceError: log is not defined
+    at CommitController.getTodayLogs (/Users/heqiang/days/my-leetcode-helper/app/controller/commit.js:16:30)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 72250
+hostname: MacBook-Pro.local
+

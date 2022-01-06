@@ -1,18 +1,20 @@
 const Controller = require('egg').Controller
-const { formatTime } = require('../util')
+const { formatTime, getTimestamp } = require('../util')
 
 class CommitController extends Controller {
   async getCommitsByDate(start, end) {
+    const { ctx } = this
     const commits = await ctx.service.commit.findByTimeRange(start, end)
     
-		ctx.body = commits
+		return commits
   }
 
-  async getTodyLogs() {
-    const [start, end] = [formatTime(0), formatTime(24)] 
+  async getTodayLogs() {
+    const { ctx } = this
+    const [start, end] = [formatTime(0), formatTime(24)].map(t => new Date(getTimestamp(t) * 1000))
     const logs = await this.getCommitsByDate(start, end)
 
-    return logs
+    ctx.body = logs
   }
 }
 

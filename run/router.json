@@ -19,6 +19,19 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/api/user/goal",
+    "regexp": "/^\\/api\\/user\\/goal(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/api/problems/byMonth",
     "regexp": "/^\\/api\\/problems\\/byMonth(?:\\/(?=$))?$/",
     "stack": [

@@ -30,7 +30,7 @@ const getSliceTimestamp = (date, end = 'month') => {
       sliceTime.set(unit, 0)
     }
     return sliceTime
-  }, moment())
+  }, moment()).unix()
 }
 
 module.exports = {

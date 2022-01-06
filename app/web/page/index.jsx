@@ -27,12 +27,7 @@ const App = () => (
           level={1}
           corner={30}
         >
-          <TargetModule
-            startTime={1636646400000}
-            endTime={1640611343000}
-            targetProblemLen={180}
-            resolvedProblemLen={170}
-          />
+          <TargetModule />
         </Card>
         {/* 日历 */}
         <CalendarModule />

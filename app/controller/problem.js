@@ -1,4 +1,5 @@
 const Controller = require('egg').Controller
+const { getSliceTimestamp } = require('../util')
 
 class ProblemController extends Controller {
   async getAllProblemByMonth() {
@@ -9,21 +10,24 @@ class ProblemController extends Controller {
       const { update_time, difficulty } = problem
       const yearMonthTime = getSliceTimestamp(update_time)
       if (!grouped[yearMonthTime]) {
-        grouped[yearMonthTime].push({
+        grouped[yearMonthTime] = {
           hard: 0,
           medium: 0,
           easy: 0
-        })
+        }
       }
       const groupedInfo = grouped[yearMonthTime]
+      const cate = difficulty.toLowerCase()
       
-      if (groupedInfo[difficulty.toLowerCase()] !== undefined) {
-        [difficulty.toLowerCase()]++
+      if (groupedInfo[cate] !== undefined) {
+        groupedInfo[cate] += 1
       }
+
+      return grouped
     }, {})
 
     const monthGroupedInfos = Object.keys(groupedByDateMap).map(time => ({
-      time,
+      time: parseInt(time) * 1000,
       ...groupedByDateMap[time]
     })).sort((a, b) => b.time - a.time)
     
@@ -45,6 +49,14 @@ class ProblemController extends Controller {
     }, {})
     
     ctx.body = groupedMap
+  }
+
+  async getTodayProblems() {
+    const { ctx } = this
+    const [start, end] = [formatTime(0), formatTime(24)].map(t => new Date(getTimestamp(t) * 1000))
+    const problems = await ctx.service.problem.findByTimeRange(start, end)
+
+    ctx.body = problems
   }
 }
 

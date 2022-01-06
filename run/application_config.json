@@ -17,13 +17,13 @@
       "domainWhiteList": [
         "http://localhost:9000",
         "http://127.0.0.1:9000",
-        "http://10.129.22.40:9000",
+        "http://10.129.19.27:9000",
         "http://localhost:9001",
         "http://127.0.0.1:9001",
-        "http://10.129.22.40:9001",
+        "http://10.129.19.27:9001",
         "http://localhost:9002",
         "http://127.0.0.1:9002",
-        "http://10.129.22.40:9002"
+        "http://10.129.19.27:9002"
       ],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
@@ -100,30 +100,30 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-session/config/locales",
-        "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-security/config/locales",
-        "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-jsonp/config/locales",
-        "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-onerror/config/locales",
-        "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-i18n/config/locales",
-        "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-watcher/config/locales",
-        "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-schedule/config/locales",
-        "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart/config/locales",
-        "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-development/config/locales",
-        "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator/config/locales",
-        "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-static/config/locales",
-        "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-view/config/locales",
-        "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-view-react-ssr/config/locales",
-        "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-mongoose/config/locales",
-        "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-cors/config/locales",
-        "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-webpack/config/locales",
-        "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-webpack-react/config/locales",
-        "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg/config/locales",
-        "/Users/heqiang/codes/my-leetcode-helper/config/locales"
+        "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-session/config/locales",
+        "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-security/config/locales",
+        "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-jsonp/config/locales",
+        "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-onerror/config/locales",
+        "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-i18n/config/locales",
+        "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-watcher/config/locales",
+        "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-schedule/config/locales",
+        "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-multipart/config/locales",
+        "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-development/config/locales",
+        "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-logrotator/config/locales",
+        "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-static/config/locales",
+        "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-view/config/locales",
+        "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-view-react-ssr/config/locales",
+        "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-mongoose/config/locales",
+        "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-cors/config/locales",
+        "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-webpack/config/locales",
+        "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-webpack-react/config/locales",
+        "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/locales",
+        "/Users/heqiang/days/my-leetcode-helper/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -134,8 +134,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -159,7 +159,7 @@
       "fileExtensions": [],
       "whitelist": null,
       "allowArrayField": false,
-      "tmpdir": "/var/folders/bn/shmtghld0m567kd754x3qwb00000gn/T/egg-multipart-tmp/my-leetcode-helper",
+      "tmpdir": "/var/folders/tl/6c_78kr55ds_9fys4np464sr0000gn/T/egg-multipart-tmp/my-leetcode-helper",
       "cleanSchedule": {
         "cron": "0 30 4 * * *",
         "disable": false
@@ -190,7 +190,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/heqiang/codes/my-leetcode-helper/public",
+      "dir": "/Users/heqiang/days/my-leetcode-helper/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -199,7 +199,7 @@
     },
     "view": {
       "root": [
-        "/Users/heqiang/codes/my-leetcode-helper/app/view"
+        "/Users/heqiang/days/my-leetcode-helper/app/view"
       ],
       "cache": false,
       "defaultExtension": ".html",
@@ -211,8 +211,8 @@
     },
     "reactssr": {
       "doctype": "<!doctype html>",
-      "layout": "/Users/heqiang/codes/my-leetcode-helper/app/web/view/layout.html",
-      "manifest": "/Users/heqiang/codes/my-leetcode-helper/config/manifest.json",
+      "layout": "/Users/heqiang/days/my-leetcode-helper/app/web/view/layout.html",
+      "manifest": "/Users/heqiang/days/my-leetcode-helper/config/manifest.json",
       "injectHeadRegex": "/(<\\/head>)/i",
       "injectBodyRegex": "/(<\\/body>)/i",
       "injectCss": true,
@@ -229,7 +229,13 @@
       "plugins": [],
       "loadModel": true,
       "app": true,
-      "agent": false
+      "agent": false,
+      "client": {
+        "url": "mongodb://127.0.0.1/leetcode",
+        "options": {
+          "useNewUrlParser": true
+        }
+      }
     },
     "cors": {
       "origin": "<Function corsOrigin>"
@@ -241,19 +247,19 @@
         "match": "/^\\/public\\//"
       },
       "webpackConfigList": {
-        "context": "/Users/heqiang/codes/my-leetcode-helper",
+        "context": "/Users/heqiang/days/my-leetcode-helper",
         "entry": {
           "app": [
             "react-hot-loader/patch",
-            "/Users/heqiang/codes/my-leetcode-helper/node_modules/webpack-hot-middleware/client?path=http://10.129.22.40:9001/__webpack_hmr&noInfo=false&reload=false&quiet=false",
-            "/Users/heqiang/codes/my-leetcode-helper/node_modules/easywebpack/utils/hot.js",
-            "babel-loader?{\"cacheDirectory\":\"/var/folders/bn/shmtghld0m567kd754x3qwb00000gn/T/easywebpack/my-leetcode-helper/dev/cache/client/babel-loader\",\"presets\":[\"react\",[\"env\",{\"modules\":false}]],\"plugins\":[\"transform-object-assign\",\"syntax-dynamic-import\",\"transform-object-rest-spread\",\"transform-runtime\"],\"env\":{\"development\":{\"plugins\":[\"react-hot-loader/babel\"]}},\"comments\":false,\"babelrc\":\"/Users/heqiang/codes/my-leetcode-helper/node_modules/easywebpack-react/config/.babelrc\"}!react-entry-template-loader?templateFile=,renderMode=csr!/Users/heqiang/codes/my-leetcode-helper/app/web/page/index.jsx"
+            "/Users/heqiang/days/my-leetcode-helper/node_modules/webpack-hot-middleware/client?path=http://10.129.19.27:9001/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+            "/Users/heqiang/days/my-leetcode-helper/node_modules/easywebpack/utils/hot.js",
+            "babel-loader?{\"cacheDirectory\":\"/var/folders/tl/6c_78kr55ds_9fys4np464sr0000gn/T/easywebpack/my-leetcode-helper/dev/cache/client/babel-loader\",\"presets\":[\"react\",[\"env\",{\"modules\":false}]],\"plugins\":[\"transform-object-assign\",\"syntax-dynamic-import\",\"transform-object-rest-spread\",\"transform-runtime\"],\"env\":{\"development\":{\"plugins\":[\"react-hot-loader/babel\"]}},\"comments\":false,\"babelrc\":\"/Users/heqiang/days/my-leetcode-helper/node_modules/easywebpack-react/config/.babelrc\"}!react-entry-template-loader?templateFile=,renderMode=csr!/Users/heqiang/days/my-leetcode-helper/app/web/page/index.jsx"
           ]
         },
         "output": {
           "filename": "js/[name].js",
           "chunkFilename": "js/chunk/[name].js",
-          "path": "/Users/heqiang/codes/my-leetcode-helper/public",
+          "path": "/Users/heqiang/days/my-leetcode-helper/public",
           "publicPath": "/public/"
         },
         "resolve": {
@@ -263,19 +269,19 @@
           ],
           "alias": {
             "react-dom": "@hot-loader/react-dom",
-            "asset": "/Users/heqiang/codes/my-leetcode-helper/app/web/asset",
-            "component": "/Users/heqiang/codes/my-leetcode-helper/app/web/component",
+            "asset": "/Users/heqiang/days/my-leetcode-helper/app/web/asset",
+            "component": "/Users/heqiang/days/my-leetcode-helper/app/web/component",
             "framework": "app/web/framework",
-            "app": "/Users/heqiang/codes/my-leetcode-helper/app",
-            "web": "/Users/heqiang/codes/my-leetcode-helper/app/web"
+            "app": "/Users/heqiang/days/my-leetcode-helper/app",
+            "web": "/Users/heqiang/days/my-leetcode-helper/app/web"
           }
         },
         "externals": [],
         "resolveLoader": {
           "modules": [
-            "/Users/heqiang/codes/my-leetcode-helper/node_modules",
-            "/Users/heqiang/codes/my-leetcode-helper/node_modules/easywebpack/lib/node_modules",
-            "/Users/heqiang/codes/my-leetcode-helper/node_modules/easywebpack-react/node_modules"
+            "/Users/heqiang/days/my-leetcode-helper/node_modules",
+            "/Users/heqiang/days/my-leetcode-helper/node_modules/easywebpack/lib/node_modules",
+            "/Users/heqiang/days/my-leetcode-helper/node_modules/easywebpack-react/node_modules"
           ]
         },
         "mode": "development",
@@ -299,7 +305,7 @@
                 {
                   "loader": "babel-loader",
                   "options": {
-                    "cacheDirectory": "/var/folders/bn/shmtghld0m567kd754x3qwb00000gn/T/easywebpack/my-leetcode-helper/dev/cache/client/babel-loader",
+                    "cacheDirectory": "/var/folders/tl/6c_78kr55ds_9fys4np464sr0000gn/T/easywebpack/my-leetcode-helper/dev/cache/client/babel-loader",
                     "presets": [
                       "react",
                       [
@@ -330,7 +336,7 @@
             {
               "test": {},
               "use": [
-                "/Users/heqiang/codes/my-leetcode-helper/node_modules/mini-css-extract-plugin/dist/loader.js",
+                "/Users/heqiang/days/my-leetcode-helper/node_modules/mini-css-extract-plugin/dist/loader.js",
                 {
                   "options": {
                     "sourceMap": true
@@ -343,7 +349,7 @@
                     "sourceMap": true,
                     "ident": "postcss",
                     "config": {
-                      "path": "/Users/heqiang/codes/my-leetcode-helper/node_modules/easywebpack/config"
+                      "path": "/Users/heqiang/days/my-leetcode-helper/node_modules/easywebpack/config"
                     }
                   }
                 }
@@ -355,7 +361,7 @@
             {
               "test": {},
               "use": [
-                "/Users/heqiang/codes/my-leetcode-helper/node_modules/mini-css-extract-plugin/dist/loader.js",
+                "/Users/heqiang/days/my-leetcode-helper/node_modules/mini-css-extract-plugin/dist/loader.js",
                 {
                   "options": {
                     "sourceMap": true
@@ -368,7 +374,7 @@
                     "sourceMap": true,
                     "ident": "postcss",
                     "config": {
-                      "path": "/Users/heqiang/codes/my-leetcode-helper/node_modules/easywebpack/config"
+                      "path": "/Users/heqiang/days/my-leetcode-helper/node_modules/easywebpack/config"
                     }
                   }
                 },
@@ -422,7 +428,7 @@
             {
               "test": "~config~webpack~webpackConfigList~module~rules~1~exclude~0",
               "use": [
-                "/Users/heqiang/codes/my-leetcode-helper/node_modules/mini-css-extract-plugin/dist/loader.js",
+                "/Users/heqiang/days/my-leetcode-helper/node_modules/mini-css-extract-plugin/dist/loader.js",
                 {
                   "options": {
                     "sourceMap": true,
@@ -437,7 +443,7 @@
                     "sourceMap": true,
                     "ident": "postcss",
                     "config": {
-                      "path": "/Users/heqiang/codes/my-leetcode-helper/node_modules/easywebpack/config"
+                      "path": "/Users/heqiang/days/my-leetcode-helper/node_modules/easywebpack/config"
                     }
                   }
                 }
@@ -449,7 +455,7 @@
             {
               "test": "~config~webpack~webpackConfigList~module~rules~2~exclude~0",
               "use": [
-                "/Users/heqiang/codes/my-leetcode-helper/node_modules/mini-css-extract-plugin/dist/loader.js",
+                "/Users/heqiang/days/my-leetcode-helper/node_modules/mini-css-extract-plugin/dist/loader.js",
                 {
                   "options": {
                     "sourceMap": true,
@@ -464,7 +470,7 @@
                     "sourceMap": true,
                     "ident": "postcss",
                     "config": {
-                      "path": "/Users/heqiang/codes/my-leetcode-helper/node_modules/easywebpack/config"
+                      "path": "/Users/heqiang/days/my-leetcode-helper/node_modules/easywebpack/config"
                     }
                   }
                 },
@@ -505,14 +511,14 @@
               "EASY_ENV_IS_NODE": false,
               "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
               "EASY_ENV_PUBLIC_PATH": "\"/public/\"",
-              "EASY_ENV_HOST_URL": "\"http://10.129.22.40:9001\""
+              "EASY_ENV_HOST_URL": "\"http://10.129.19.27:9001\""
             },
             "__plugin__": "DefinePlugin",
             "__lable__": "define"
           },
           {
             "opts": {
-              "buildPath": "/Users/heqiang/codes/my-leetcode-helper/public",
+              "buildPath": "/Users/heqiang/days/my-leetcode-helper/public",
               "basePath": "",
               "absPath": "",
               "fileName": "../config/manifest.json",
@@ -529,13 +535,13 @@
               "map": null,
               "generate": null,
               "sort": null,
-              "baseDir": "/Users/heqiang/codes/my-leetcode-helper",
-              "host": "http://10.129.22.40:9001",
+              "baseDir": "/Users/heqiang/days/my-leetcode-helper",
+              "host": "http://10.129.19.27:9001",
               "proxy": true,
               "publicPath": "/public/",
               "localPublicPath": "/public/",
               "assets": false,
-              "filepath": "/Users/heqiang/codes/my-leetcode-helper/config/manifest.json"
+              "filepath": "/Users/heqiang/days/my-leetcode-helper/config/manifest.json"
             },
             "isRunned": false,
             "__plugin__": "webpack-manifest-resource-plugin",
@@ -635,6 +641,7 @@
         "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
       },
       "dependencies": {
+        "@umijs/hooks": "^1.9.3",
         "axios": "^0.24.0",
         "bourbon": "^7.0.0",
         "classnames": "^2.3.1",
@@ -696,9 +703,9 @@
         }
       }
     },
-    "baseDir": "/Users/heqiang/codes/my-leetcode-helper",
+    "baseDir": "/Users/heqiang/days/my-leetcode-helper",
     "HOME": "/Users/heqiang",
-    "rundir": "/Users/heqiang/codes/my-leetcode-helper/run",
+    "rundir": "/Users/heqiang/days/my-leetcode-helper/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -730,7 +737,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/heqiang/codes/my-leetcode-helper/logs",
+      "dir": "/Users/heqiang/days/my-leetcode-helper/logs",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -829,8 +836,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg/config/plugin.js",
-      "path": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-onerror",
+      "from": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/plugin.js",
+      "path": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-onerror",
       "version": "2.1.0"
     },
     "session": {
@@ -840,8 +847,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg/config/plugin.js",
-      "path": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-session",
+      "from": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/plugin.js",
+      "path": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-session",
       "version": "3.3.0"
     },
     "i18n": {
@@ -851,8 +858,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg/config/plugin.js",
-      "path": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-i18n",
+      "from": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/plugin.js",
+      "path": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -862,8 +869,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg/config/plugin.js",
-      "path": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-watcher",
+      "from": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/plugin.js",
+      "path": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-watcher",
       "version": "3.1.1"
     },
     "multipart": {
@@ -875,8 +882,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg/config/plugin.js",
-      "path": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-multipart",
+      "from": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/plugin.js",
+      "path": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-multipart",
       "version": "2.13.1"
     },
     "security": {
@@ -888,8 +895,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg/config/plugin.js",
-      "path": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-security",
+      "from": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/plugin.js",
+      "path": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-security",
       "version": "2.9.0"
     },
     "development": {
@@ -903,8 +910,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg/config/plugin.js",
-      "path": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-development",
+      "from": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/plugin.js",
+      "path": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-development",
       "version": "2.7.0"
     },
     "logrotator": {
@@ -916,8 +923,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg/config/plugin.js",
-      "path": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-logrotator",
+      "from": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/plugin.js",
+      "path": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-logrotator",
       "version": "3.1.0"
     },
     "schedule": {
@@ -927,8 +934,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg/config/plugin.js",
-      "path": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-schedule",
+      "from": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/plugin.js",
+      "path": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-schedule",
       "version": "3.6.6"
     },
     "static": {
@@ -938,8 +945,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/heqiang/codes/my-leetcode-helper/config/plugin.js",
-      "path": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-static",
+      "from": "/Users/heqiang/days/my-leetcode-helper/config/plugin.js",
+      "path": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-static",
       "version": "2.2.0"
     },
     "jsonp": {
@@ -951,8 +958,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg/config/plugin.js",
-      "path": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-jsonp",
+      "from": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/plugin.js",
+      "path": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "view": {
@@ -962,8 +969,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg/config/plugin.js",
-      "path": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-view",
+      "from": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg/config/plugin.js",
+      "path": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-view",
       "version": "2.1.3"
     },
     "reactssr": {
@@ -973,8 +980,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/heqiang/codes/my-leetcode-helper/config/plugin.js",
-      "path": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-view-react-ssr",
+      "from": "/Users/heqiang/days/my-leetcode-helper/config/plugin.js",
+      "path": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-view-react-ssr",
       "version": "2.5.4"
     },
     "mongoose": {
@@ -984,8 +991,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/heqiang/codes/my-leetcode-helper/config/plugin.js",
-      "path": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-mongoose",
+      "from": "/Users/heqiang/days/my-leetcode-helper/config/plugin.js",
+      "path": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-mongoose",
       "version": "3.3.1"
     },
     "cors": {
@@ -995,8 +1002,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/heqiang/codes/my-leetcode-helper/config/plugin.local.js",
-      "path": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-cors",
+      "from": "/Users/heqiang/days/my-leetcode-helper/config/plugin.local.js",
+      "path": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-cors",
       "version": "2.2.3"
     },
     "webpack": {
@@ -1008,8 +1015,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/heqiang/codes/my-leetcode-helper/config/plugin.local.js",
-      "path": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-webpack",
+      "from": "/Users/heqiang/days/my-leetcode-helper/config/plugin.local.js",
+      "path": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-webpack",
       "version": "4.5.5"
     },
     "webpackreact": {
@@ -1021,8 +1028,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/heqiang/codes/my-leetcode-helper/config/plugin.local.js",
-      "path": "/Users/heqiang/codes/my-leetcode-helper/node_modules/egg-webpack-react",
+      "from": "/Users/heqiang/days/my-leetcode-helper/config/plugin.local.js",
+      "path": "/Users/heqiang/days/my-leetcode-helper/node_modules/egg-webpack-react",
       "version": "2.0.3"
     }
   }
