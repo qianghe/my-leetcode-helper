@@ -16,3 +16,6 @@ export const getGroupedQuesByMonthRequest = () => axios.get('/api/problems/byMon
 
 // 获取当前的commit记录
 export const getTodayCommitRequest = () => axios.get('/api/commit/today')
+
+// 获取当日的题目
+export const getTodayProblemRequest = () => axios.get('/api/problem/today')

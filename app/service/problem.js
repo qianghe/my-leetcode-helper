@@ -37,7 +37,7 @@ class ProblemService extends Service {
     return targets
   }
 
-  async findByTimeRange() {
+  async findByTimeRange(start, end) {
     const search = {
       'update_time': {
         $lt: end,

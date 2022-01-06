@@ -1,1601 +1,182 @@
-2022-01-06 01:26:35,987 INFO 50828 [egg-logrotator] app logger reload: got log-reload message
-2022-01-06 01:31:52,526 WARN 50828 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2022-01-06 01:31:52,527 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 02:03:59,906 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 02:10:02,857 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 02:16:05,746 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 02:21:48,627 WARN 50828 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2022-01-06 02:21:48,628 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 02:27:51,519 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 02:33:54,442 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 02:39:57,367 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 02:46:00,249 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 02:49:59,982 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 02:55:42,856 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 03:07:48,753 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 03:13:51,699 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 03:19:54,607 WARN 50828 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2022-01-06 03:19:54,612 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 03:25:37,481 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 03:31:40,372 WARN 50828 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2022-01-06 03:31:40,372 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 03:37:43,261 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 03:43:46,173 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 03:49:49,073 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 03:55:31,982 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 04:01:34,870 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 04:07:37,835 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 04:19:43,685 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 04:25:46,565 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 04:31:29,476 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 04:49:38,188 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 04:55:41,082 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 05:01:24,261 WARN 50828 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2022-01-06 05:01:24,262 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 05:07:27,027 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 05:13:29,960 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 05:19:32,875 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 05:25:35,785 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 05:31:38,702 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 05:37:21,662 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 05:43:24,579 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 05:49:27,531 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 05:55:30,414 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 06:07:36,218 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 06:13:39,140 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 06:19:42,069 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 06:25:44,970 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 06:31:47,905 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 06:51:51,031 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 06:57:53,946 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 07:03:56,895 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 07:09:59,835 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 07:15:42,778 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 07:21:45,687 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 07:32:06,759 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 07:44:12,571 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 07:50:15,525 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 07:55:58,433 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 08:02:01,369 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 08:08:04,272 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 08:14:07,168 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 08:20:10,136 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 08:25:53,057 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 08:31:55,950 WARN 50828 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2022-01-06 08:31:55,952 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 08:58:22,017 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 09:07:57,973 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 09:11:16,003 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 09:14:11,190 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 09:17:12,967 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 09:26:54,682 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 09:34:08,684 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 09:38:36,025 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 09:48:03,188 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 09:51:06,796 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 09:54:08,040 WARN 50828 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2022-01-06 09:54:08,040 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 09:56:46,940 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 09:59:14,154 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 10:05:14,085 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 10:10:09,522 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 10:13:03,833 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 10:16:29,640 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 10:19:25,235 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 10:22:45,988 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 10:25:56,735 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 10:28:58,243 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 10:31:41,303 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 10:34:17,244 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 10:37:41,006 WARN 50828 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2022-01-06 10:37:41,008 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 10:40:25,924 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 10:43:39,372 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 10:46:40,229 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 10:49:37,477 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 10:52:02,764 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 10:55:20,094 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 10:58:20,344 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 11:04:28,102 WARN 50828 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2022-01-06 11:04:28,103 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 11:07:28,128 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 11:13:25,630 WARN 50828 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2022-01-06 11:13:25,631 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 11:16:27,673 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 11:19:16,177 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 11:22:02,780 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 11:25:31,215 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 11:28:18,414 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 11:31:10,938 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 11:34:21,523 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 11:37:18,115 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 11:40:42,200 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 11:43:58,277 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 11:47:02,898 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 11:49:50,194 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 11:53:15,570 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 11:56:12,227 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 11:59:15,174 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 12:05:53,313 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 12:08:54,245 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 12:12:01,659 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 12:15:18,694 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 12:18:23,639 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 12:21:31,791 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 12:24:29,224 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 12:27:29,158 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 12:30:46,823 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 12:33:40,303 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 12:36:28,815 WARN 50828 [ClusterClient:Watcher] follower closed, and try to init it again
-2022-01-06 12:38:33,732 INFO 57972 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 12:38:33,749 INFO 57972 [egg-multipart] stream mode enable
-2022-01-06 12:38:33,942 INFO 57972 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 12:38:34,026 INFO 57972 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 12:38:34,031 INFO 57972 [egg-security] use csrf middleware
-2022-01-06 12:38:34,031 INFO 57972 [egg-security] use methodnoallow middleware
-2022-01-06 12:38:34,032 INFO 57972 [egg-security] use noopen middleware
-2022-01-06 12:38:34,032 INFO 57972 [egg-security] use nosniff middleware
-2022-01-06 12:38:34,032 INFO 57972 [egg-security] use xssProtection middleware
-2022-01-06 12:38:34,033 INFO 57972 [egg-security] use xframe middleware
-2022-01-06 12:38:34,033 INFO 57972 [egg-security] use dta middleware
-2022-01-06 12:38:34,033 INFO 57972 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 12:38:34,043 INFO 57972 [egg:core] dump config after load, 5ms
-2022-01-06 12:38:34,046 INFO 57972 [egg-mongoose] starting...
-2022-01-06 12:38:34,067 INFO 57972 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 12:38:34,068 INFO 57972 [egg-mongoose] instance[0] start successfully
-2022-01-06 12:38:34,069 INFO 57972 [egg-watcher:application] watcher start success
-2022-01-06 12:38:34,075 INFO 57972 [egg:core] dump config after ready, 4ms
-2022-01-06 12:40:21,590 INFO 58223 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 12:40:21,607 INFO 58223 [egg-multipart] stream mode enable
-2022-01-06 12:40:21,837 INFO 58223 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 12:40:21,951 INFO 58223 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 12:40:21,957 INFO 58223 [egg-security] use csrf middleware
-2022-01-06 12:40:21,957 INFO 58223 [egg-security] use methodnoallow middleware
-2022-01-06 12:40:21,957 INFO 58223 [egg-security] use noopen middleware
-2022-01-06 12:40:21,958 INFO 58223 [egg-security] use nosniff middleware
-2022-01-06 12:40:21,958 INFO 58223 [egg-security] use xssProtection middleware
-2022-01-06 12:40:21,958 INFO 58223 [egg-security] use xframe middleware
-2022-01-06 12:40:21,958 INFO 58223 [egg-security] use dta middleware
-2022-01-06 12:40:21,958 INFO 58223 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 12:40:21,969 INFO 58223 [egg:core] dump config after load, 5ms
-2022-01-06 12:40:21,971 INFO 58223 [egg-mongoose] starting...
-2022-01-06 12:40:21,999 INFO 58223 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 12:40:22,000 INFO 58223 [egg-mongoose] instance[0] start successfully
-2022-01-06 12:40:22,002 INFO 58223 [egg-watcher:application] watcher start success
-2022-01-06 12:40:22,008 INFO 58223 [egg:core] dump config after ready, 5ms
-2022-01-06 13:11:49,528 INFO 60115 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 13:11:49,544 INFO 60115 [egg-multipart] stream mode enable
-2022-01-06 13:11:49,741 INFO 60115 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 13:11:49,814 INFO 60115 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 13:11:49,819 INFO 60115 [egg-security] use csrf middleware
-2022-01-06 13:11:49,820 INFO 60115 [egg-security] use methodnoallow middleware
-2022-01-06 13:11:49,820 INFO 60115 [egg-security] use noopen middleware
-2022-01-06 13:11:49,821 INFO 60115 [egg-security] use nosniff middleware
-2022-01-06 13:11:49,821 INFO 60115 [egg-security] use xssProtection middleware
-2022-01-06 13:11:49,821 INFO 60115 [egg-security] use xframe middleware
-2022-01-06 13:11:49,821 INFO 60115 [egg-security] use dta middleware
-2022-01-06 13:11:49,821 INFO 60115 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 13:11:49,832 INFO 60115 [egg:core] dump config after load, 5ms
-2022-01-06 13:11:49,835 INFO 60115 [egg-mongoose] starting...
-2022-01-06 13:11:49,859 INFO 60115 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 13:11:49,860 INFO 60115 [egg-mongoose] instance[0] start successfully
-2022-01-06 13:11:49,862 INFO 60115 [egg-watcher:application] watcher start success
-2022-01-06 13:11:49,868 INFO 60115 [egg:core] dump config after ready, 4ms
-2022-01-06 15:32:48,222 INFO 28777 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/codes/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 15:32:48,248 INFO 28777 [egg-multipart] stream mode enable
-2022-01-06 15:32:48,836 INFO 28777 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 15:32:49,042 INFO 28777 [egg-static] starting static serve /public/ -> /Users/heqiang/codes/my-leetcode-helper/public
-2022-01-06 15:32:49,046 INFO 28777 [egg-security] use csrf middleware
-2022-01-06 15:32:49,048 INFO 28777 [egg-security] use methodnoallow middleware
-2022-01-06 15:32:49,049 INFO 28777 [egg-security] use noopen middleware
-2022-01-06 15:32:49,051 INFO 28777 [egg-security] use nosniff middleware
-2022-01-06 15:32:49,052 INFO 28777 [egg-security] use xssProtection middleware
-2022-01-06 15:32:49,053 INFO 28777 [egg-security] use xframe middleware
-2022-01-06 15:32:49,055 INFO 28777 [egg-security] use dta middleware
-2022-01-06 15:32:49,055 INFO 28777 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 15:32:49,073 INFO 28777 [egg:core] dump config after load, 8ms
-2022-01-06 15:32:49,077 INFO 28777 [egg-mongoose] starting...
-2022-01-06 15:32:49,106 ERROR 28777 [egg-mongoose] mongodb://127.0.0.1/leetcode disconnected
-2022-01-06 15:32:49,109 ERROR 28777 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16) {
-  name: 'MongoNetworkError'
-}]
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16) {
-  name: 'MongoNetworkError'
-}]
-    at Pool.<anonymous> (/Users/heqiang/codes/my-leetcode-helper/node_modules/mongodb/lib/core/topologies/server.js:441:11)
-    at Pool.emit (events.js:314:20)
-    at /Users/heqiang/codes/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:564:14
-    at /Users/heqiang/codes/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:1000:11
-    at /Users/heqiang/codes/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:32:7
-    at callback (/Users/heqiang/codes/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:300:5)
-    at Socket.<anonymous> (/Users/heqiang/codes/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:330:7)
-    at Object.onceWrapper (events.js:421:26)
-    at Socket.emit (events.js:314:20)
-    at emitErrorNT (internal/streams/destroy.js:92:8)
-    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
-    at processTicksAndRejections (internal/process/task_queues.js:84:21)
-name: "MongoNetworkError"
-pid: 28777
-hostname: heqiangdeMacBook-Pro.local
-
-2022-01-06 15:32:49,109 ERROR 28777 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16) {
-  name: 'MongoNetworkError'
-}]
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16) {
-  name: 'MongoNetworkError'
-}]
-    at Pool.<anonymous> (/Users/heqiang/codes/my-leetcode-helper/node_modules/mongodb/lib/core/topologies/server.js:441:11)
-    at Pool.emit (events.js:314:20)
-    at /Users/heqiang/codes/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:564:14
-    at /Users/heqiang/codes/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:1000:11
-    at /Users/heqiang/codes/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:32:7
-    at callback (/Users/heqiang/codes/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:300:5)
-    at Socket.<anonymous> (/Users/heqiang/codes/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:330:7)
-    at Object.onceWrapper (events.js:421:26)
-    at Socket.emit (events.js:314:20)
-    at emitErrorNT (internal/streams/destroy.js:92:8)
-    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
-    at processTicksAndRejections (internal/process/task_queues.js:84:21)
-name: "MongoNetworkError"
-pid: 28777
-hostname: heqiangdeMacBook-Pro.local
-
-2022-01-06 15:32:49,121 INFO 28777 [egg:core] dump config after ready, 7ms
-2022-01-06 15:32:49,128 INFO 28777 [egg-watcher:application] watcher start success
-2022-01-06 15:34:13,300 INFO 29070 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/codes/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 15:34:13,319 INFO 29070 [egg-multipart] stream mode enable
-2022-01-06 15:34:13,932 INFO 29070 [egg-static] starting static serve /public/ -> /Users/heqiang/codes/my-leetcode-helper/public
-2022-01-06 15:34:13,935 INFO 29070 [egg-security] use csrf middleware
-2022-01-06 15:34:13,936 INFO 29070 [egg-security] use methodnoallow middleware
-2022-01-06 15:34:13,937 INFO 29070 [egg-security] use noopen middleware
-2022-01-06 15:34:13,938 INFO 29070 [egg-security] use nosniff middleware
-2022-01-06 15:34:13,939 INFO 29070 [egg-security] use xssProtection middleware
-2022-01-06 15:34:13,940 INFO 29070 [egg-security] use xframe middleware
-2022-01-06 15:34:13,941 INFO 29070 [egg-security] use dta middleware
-2022-01-06 15:34:13,941 INFO 29070 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 15:34:13,957 INFO 29070 [egg:core] dump config after load, 5ms
-2022-01-06 15:34:13,986 INFO 29070 [egg-watcher:application] watcher start success
-2022-01-06 15:34:13,994 INFO 29070 [egg:core] dump config after ready, 6ms
-2022-01-06 15:56:38,395 INFO 30873 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/codes/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 15:56:38,426 INFO 30873 [egg-multipart] stream mode enable
-2022-01-06 15:56:39,107 INFO 30873 [egg-static] starting static serve /public/ -> /Users/heqiang/codes/my-leetcode-helper/public
-2022-01-06 15:56:39,111 INFO 30873 [egg-security] use csrf middleware
-2022-01-06 15:56:39,112 INFO 30873 [egg-security] use methodnoallow middleware
-2022-01-06 15:56:39,114 INFO 30873 [egg-security] use noopen middleware
-2022-01-06 15:56:39,115 INFO 30873 [egg-security] use nosniff middleware
-2022-01-06 15:56:39,117 INFO 30873 [egg-security] use xssProtection middleware
-2022-01-06 15:56:39,118 INFO 30873 [egg-security] use xframe middleware
-2022-01-06 15:56:39,119 INFO 30873 [egg-security] use dta middleware
-2022-01-06 15:56:39,119 INFO 30873 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 15:56:39,131 INFO 30873 [egg:core] dump config after load, 5ms
-2022-01-06 15:56:39,152 INFO 30873 [egg-watcher:application] watcher start success
-2022-01-06 15:56:39,160 INFO 30873 [egg:core] dump config after ready, 6ms
-2022-01-06 15:56:40,978 INFO 30898 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/codes/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 15:56:41,002 INFO 30898 [egg-multipart] stream mode enable
-2022-01-06 15:56:41,340 INFO 30898 [egg-static] starting static serve /public/ -> /Users/heqiang/codes/my-leetcode-helper/public
-2022-01-06 15:56:41,342 INFO 30898 [egg-security] use csrf middleware
-2022-01-06 15:56:41,343 INFO 30898 [egg-security] use methodnoallow middleware
-2022-01-06 15:56:41,343 INFO 30898 [egg-security] use noopen middleware
-2022-01-06 15:56:41,344 INFO 30898 [egg-security] use nosniff middleware
-2022-01-06 15:56:41,344 INFO 30898 [egg-security] use xssProtection middleware
-2022-01-06 15:56:41,345 INFO 30898 [egg-security] use xframe middleware
-2022-01-06 15:56:41,345 INFO 30898 [egg-security] use dta middleware
-2022-01-06 15:56:41,345 INFO 30898 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 15:56:41,354 INFO 30898 [egg:core] dump config after load, 4ms
-2022-01-06 15:56:41,376 INFO 30898 [egg-watcher:application] watcher start success
-2022-01-06 15:56:41,383 INFO 30898 [egg:core] dump config after ready, 5ms
-2022-01-06 15:56:50,162 INFO 30951 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/codes/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 15:56:50,187 INFO 30951 [egg-multipart] stream mode enable
-2022-01-06 15:56:50,560 INFO 30951 [egg-static] starting static serve /public/ -> /Users/heqiang/codes/my-leetcode-helper/public
-2022-01-06 15:56:50,562 INFO 30951 [egg-security] use csrf middleware
-2022-01-06 15:56:50,563 INFO 30951 [egg-security] use methodnoallow middleware
-2022-01-06 15:56:50,563 INFO 30951 [egg-security] use noopen middleware
-2022-01-06 15:56:50,563 INFO 30951 [egg-security] use nosniff middleware
-2022-01-06 15:56:50,564 INFO 30951 [egg-security] use xssProtection middleware
-2022-01-06 15:56:50,564 INFO 30951 [egg-security] use xframe middleware
-2022-01-06 15:56:50,564 INFO 30951 [egg-security] use dta middleware
-2022-01-06 15:56:50,564 INFO 30951 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 15:56:50,573 INFO 30951 [egg:core] dump config after load, 4ms
-2022-01-06 15:56:50,596 INFO 30951 [egg-watcher:application] watcher start success
-2022-01-06 15:56:50,606 INFO 30951 [egg:core] dump config after ready, 8ms
-2022-01-06 16:00:31,007 INFO 31276 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/codes/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 16:00:31,035 INFO 31276 [egg-multipart] stream mode enable
-2022-01-06 16:00:31,440 INFO 31276 [egg-static] starting static serve /public/ -> /Users/heqiang/codes/my-leetcode-helper/public
-2022-01-06 16:00:31,442 INFO 31276 [egg-security] use csrf middleware
-2022-01-06 16:00:31,443 INFO 31276 [egg-security] use methodnoallow middleware
-2022-01-06 16:00:31,443 INFO 31276 [egg-security] use noopen middleware
-2022-01-06 16:00:31,444 INFO 31276 [egg-security] use nosniff middleware
-2022-01-06 16:00:31,444 INFO 31276 [egg-security] use xssProtection middleware
-2022-01-06 16:00:31,445 INFO 31276 [egg-security] use xframe middleware
-2022-01-06 16:00:31,445 INFO 31276 [egg-security] use dta middleware
-2022-01-06 16:00:31,445 INFO 31276 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 16:00:31,456 INFO 31276 [egg:core] dump config after load, 5ms
-2022-01-06 16:00:31,481 INFO 31276 [egg-watcher:application] watcher start success
-2022-01-06 16:00:31,490 INFO 31276 [egg:core] dump config after ready, 7ms
-2022-01-06 16:00:48,832 INFO 31326 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/codes/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 16:00:48,861 INFO 31326 [egg-multipart] stream mode enable
-2022-01-06 16:00:49,175 INFO 31326 [egg-static] starting static serve /public/ -> /Users/heqiang/codes/my-leetcode-helper/public
-2022-01-06 16:00:49,177 INFO 31326 [egg-security] use csrf middleware
-2022-01-06 16:00:49,178 INFO 31326 [egg-security] use methodnoallow middleware
-2022-01-06 16:00:49,179 INFO 31326 [egg-security] use noopen middleware
-2022-01-06 16:00:49,180 INFO 31326 [egg-security] use nosniff middleware
-2022-01-06 16:00:49,180 INFO 31326 [egg-security] use xssProtection middleware
-2022-01-06 16:00:49,181 INFO 31326 [egg-security] use xframe middleware
-2022-01-06 16:00:49,181 INFO 31326 [egg-security] use dta middleware
-2022-01-06 16:00:49,181 INFO 31326 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 16:00:49,191 INFO 31326 [egg:core] dump config after load, 4ms
-2022-01-06 16:00:49,211 INFO 31326 [egg-watcher:application] watcher start success
-2022-01-06 16:00:49,218 INFO 31326 [egg:core] dump config after ready, 5ms
-2022-01-06 16:01:04,454 INFO 31378 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/codes/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 16:01:04,475 INFO 31378 [egg-multipart] stream mode enable
-2022-01-06 16:01:04,810 INFO 31378 [egg-static] starting static serve /public/ -> /Users/heqiang/codes/my-leetcode-helper/public
-2022-01-06 16:01:04,812 INFO 31378 [egg-security] use csrf middleware
-2022-01-06 16:01:04,812 INFO 31378 [egg-security] use methodnoallow middleware
-2022-01-06 16:01:04,812 INFO 31378 [egg-security] use noopen middleware
-2022-01-06 16:01:04,813 INFO 31378 [egg-security] use nosniff middleware
-2022-01-06 16:01:04,813 INFO 31378 [egg-security] use xssProtection middleware
-2022-01-06 16:01:04,813 INFO 31378 [egg-security] use xframe middleware
-2022-01-06 16:01:04,813 INFO 31378 [egg-security] use dta middleware
-2022-01-06 16:01:04,813 INFO 31378 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 16:01:04,823 INFO 31378 [egg:core] dump config after load, 6ms
-2022-01-06 16:01:04,843 INFO 31378 [egg-watcher:application] watcher start success
-2022-01-06 16:01:04,852 INFO 31378 [egg:core] dump config after ready, 6ms
-2022-01-06 16:03:16,371 INFO 31505 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/codes/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 16:03:16,396 INFO 31505 [egg-multipart] stream mode enable
-2022-01-06 16:03:16,698 INFO 31505 [egg-static] starting static serve /public/ -> /Users/heqiang/codes/my-leetcode-helper/public
-2022-01-06 16:03:16,700 INFO 31505 [egg-security] use csrf middleware
-2022-01-06 16:03:16,700 INFO 31505 [egg-security] use methodnoallow middleware
-2022-01-06 16:03:16,701 INFO 31505 [egg-security] use noopen middleware
-2022-01-06 16:03:16,701 INFO 31505 [egg-security] use nosniff middleware
-2022-01-06 16:03:16,701 INFO 31505 [egg-security] use xssProtection middleware
-2022-01-06 16:03:16,701 INFO 31505 [egg-security] use xframe middleware
-2022-01-06 16:03:16,702 INFO 31505 [egg-security] use dta middleware
-2022-01-06 16:03:16,702 INFO 31505 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 16:03:16,711 INFO 31505 [egg:core] dump config after load, 5ms
-2022-01-06 16:03:16,731 INFO 31505 [egg-watcher:application] watcher start success
-2022-01-06 16:03:16,739 INFO 31505 [egg:core] dump config after ready, 6ms
-2022-01-06 16:03:47,652 INFO 31576 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/codes/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 16:03:47,669 INFO 31576 [egg-multipart] stream mode enable
-2022-01-06 16:03:48,015 INFO 31576 [egg-static] starting static serve /public/ -> /Users/heqiang/codes/my-leetcode-helper/public
-2022-01-06 16:03:48,017 INFO 31576 [egg-security] use csrf middleware
-2022-01-06 16:03:48,017 INFO 31576 [egg-security] use methodnoallow middleware
-2022-01-06 16:03:48,017 INFO 31576 [egg-security] use noopen middleware
-2022-01-06 16:03:48,018 INFO 31576 [egg-security] use nosniff middleware
-2022-01-06 16:03:48,018 INFO 31576 [egg-security] use xssProtection middleware
-2022-01-06 16:03:48,018 INFO 31576 [egg-security] use xframe middleware
-2022-01-06 16:03:48,019 INFO 31576 [egg-security] use dta middleware
-2022-01-06 16:03:48,019 INFO 31576 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 16:03:48,029 INFO 31576 [egg:core] dump config after load, 5ms
-2022-01-06 16:03:48,053 INFO 31576 [egg-watcher:application] watcher start success
-2022-01-06 16:03:48,061 INFO 31576 [egg:core] dump config after ready, 6ms
-2022-01-06 16:03:57,791 INFO 31629 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/codes/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 16:03:57,815 INFO 31629 [egg-multipart] stream mode enable
-2022-01-06 16:03:58,176 INFO 31629 [egg-static] starting static serve /public/ -> /Users/heqiang/codes/my-leetcode-helper/public
-2022-01-06 16:03:58,178 INFO 31629 [egg-security] use csrf middleware
-2022-01-06 16:03:58,178 INFO 31629 [egg-security] use methodnoallow middleware
-2022-01-06 16:03:58,179 INFO 31629 [egg-security] use noopen middleware
-2022-01-06 16:03:58,179 INFO 31629 [egg-security] use nosniff middleware
-2022-01-06 16:03:58,179 INFO 31629 [egg-security] use xssProtection middleware
-2022-01-06 16:03:58,180 INFO 31629 [egg-security] use xframe middleware
-2022-01-06 16:03:58,180 INFO 31629 [egg-security] use dta middleware
-2022-01-06 16:03:58,180 INFO 31629 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 16:03:58,193 INFO 31629 [egg:core] dump config after load, 5ms
-2022-01-06 16:03:58,215 INFO 31629 [egg-watcher:application] watcher start success
-2022-01-06 16:03:58,223 INFO 31629 [egg:core] dump config after ready, 5ms
-2022-01-06 16:07:51,969 INFO 31963 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/codes/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 16:07:52,046 INFO 31963 [egg-multipart] stream mode enable
-2022-01-06 16:07:53,015 INFO 31963 [egg-static] starting static serve /public/ -> /Users/heqiang/codes/my-leetcode-helper/public
-2022-01-06 16:07:53,018 INFO 31963 [egg-security] use csrf middleware
-2022-01-06 16:07:53,020 INFO 31963 [egg-security] use methodnoallow middleware
-2022-01-06 16:07:53,021 INFO 31963 [egg-security] use noopen middleware
-2022-01-06 16:07:53,023 INFO 31963 [egg-security] use nosniff middleware
-2022-01-06 16:07:53,024 INFO 31963 [egg-security] use xssProtection middleware
-2022-01-06 16:07:53,025 INFO 31963 [egg-security] use xframe middleware
-2022-01-06 16:07:53,026 INFO 31963 [egg-security] use dta middleware
-2022-01-06 16:07:53,026 INFO 31963 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 16:07:53,045 INFO 31963 [egg:core] dump config after load, 9ms
-2022-01-06 16:07:53,081 INFO 31963 [egg-watcher:application] watcher start success
-2022-01-06 16:07:53,094 INFO 31963 [egg:core] dump config after ready, 9ms
-2022-01-06 16:07:55,372 INFO 32046 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/codes/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 16:07:55,393 INFO 32046 [egg-multipart] stream mode enable
-2022-01-06 16:07:55,731 INFO 32046 [egg-static] starting static serve /public/ -> /Users/heqiang/codes/my-leetcode-helper/public
-2022-01-06 16:07:55,734 INFO 32046 [egg-security] use csrf middleware
-2022-01-06 16:07:55,734 INFO 32046 [egg-security] use methodnoallow middleware
-2022-01-06 16:07:55,735 INFO 32046 [egg-security] use noopen middleware
-2022-01-06 16:07:55,735 INFO 32046 [egg-security] use nosniff middleware
-2022-01-06 16:07:55,736 INFO 32046 [egg-security] use xssProtection middleware
-2022-01-06 16:07:55,736 INFO 32046 [egg-security] use xframe middleware
-2022-01-06 16:07:55,736 INFO 32046 [egg-security] use dta middleware
-2022-01-06 16:07:55,736 INFO 32046 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 16:07:55,746 INFO 32046 [egg:core] dump config after load, 5ms
-2022-01-06 16:07:55,787 INFO 32046 [egg-watcher:application] watcher start success
-2022-01-06 16:07:55,797 INFO 32046 [egg:core] dump config after ready, 7ms
-2022-01-06 16:08:03,310 INFO 32089 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/codes/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 16:08:03,336 INFO 32089 [egg-multipart] stream mode enable
-2022-01-06 16:08:03,731 INFO 32089 [egg-static] starting static serve /public/ -> /Users/heqiang/codes/my-leetcode-helper/public
-2022-01-06 16:08:03,734 INFO 32089 [egg-security] use csrf middleware
-2022-01-06 16:08:03,734 INFO 32089 [egg-security] use methodnoallow middleware
-2022-01-06 16:08:03,734 INFO 32089 [egg-security] use noopen middleware
-2022-01-06 16:08:03,735 INFO 32089 [egg-security] use nosniff middleware
-2022-01-06 16:08:03,736 INFO 32089 [egg-security] use xssProtection middleware
-2022-01-06 16:08:03,736 INFO 32089 [egg-security] use xframe middleware
-2022-01-06 16:08:03,737 INFO 32089 [egg-security] use dta middleware
-2022-01-06 16:08:03,737 INFO 32089 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 16:08:03,753 INFO 32089 [egg:core] dump config after load, 7ms
-2022-01-06 16:08:03,785 INFO 32089 [egg-watcher:application] watcher start success
-2022-01-06 16:08:03,796 INFO 32089 [egg:core] dump config after ready, 8ms
-2022-01-06 16:08:12,383 INFO 32130 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/codes/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 16:08:12,411 INFO 32130 [egg-multipart] stream mode enable
-2022-01-06 16:08:12,841 INFO 32130 [egg-static] starting static serve /public/ -> /Users/heqiang/codes/my-leetcode-helper/public
-2022-01-06 16:08:12,844 INFO 32130 [egg-security] use csrf middleware
-2022-01-06 16:08:12,846 INFO 32130 [egg-security] use methodnoallow middleware
-2022-01-06 16:08:12,847 INFO 32130 [egg-security] use noopen middleware
-2022-01-06 16:08:12,848 INFO 32130 [egg-security] use nosniff middleware
-2022-01-06 16:08:12,849 INFO 32130 [egg-security] use xssProtection middleware
-2022-01-06 16:08:12,850 INFO 32130 [egg-security] use xframe middleware
-2022-01-06 16:08:12,850 INFO 32130 [egg-security] use dta middleware
-2022-01-06 16:08:12,850 INFO 32130 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 16:08:12,867 INFO 32130 [egg:core] dump config after load, 8ms
-2022-01-06 16:08:12,899 INFO 32130 [egg-watcher:application] watcher start success
-2022-01-06 16:08:12,914 INFO 32130 [egg:core] dump config after ready, 12ms
-2022-01-06 16:08:16,078 INFO 32156 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/codes/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 16:08:16,105 INFO 32156 [egg-multipart] stream mode enable
-2022-01-06 16:08:16,524 INFO 32156 [egg-static] starting static serve /public/ -> /Users/heqiang/codes/my-leetcode-helper/public
-2022-01-06 16:08:16,525 INFO 32156 [egg-security] use csrf middleware
-2022-01-06 16:08:16,526 INFO 32156 [egg-security] use methodnoallow middleware
-2022-01-06 16:08:16,526 INFO 32156 [egg-security] use noopen middleware
-2022-01-06 16:08:16,527 INFO 32156 [egg-security] use nosniff middleware
-2022-01-06 16:08:16,527 INFO 32156 [egg-security] use xssProtection middleware
-2022-01-06 16:08:16,527 INFO 32156 [egg-security] use xframe middleware
-2022-01-06 16:08:16,527 INFO 32156 [egg-security] use dta middleware
-2022-01-06 16:08:16,527 INFO 32156 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 16:08:16,536 INFO 32156 [egg:core] dump config after load, 4ms
-2022-01-06 16:08:16,556 INFO 32156 [egg-watcher:application] watcher start success
-2022-01-06 16:08:16,564 INFO 32156 [egg:core] dump config after ready, 6ms
-2022-01-06 16:08:18,719 INFO 32177 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/codes/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 16:08:18,741 INFO 32177 [egg-multipart] stream mode enable
-2022-01-06 16:08:19,092 INFO 32177 [egg-static] starting static serve /public/ -> /Users/heqiang/codes/my-leetcode-helper/public
-2022-01-06 16:08:19,095 INFO 32177 [egg-security] use csrf middleware
-2022-01-06 16:08:19,095 INFO 32177 [egg-security] use methodnoallow middleware
-2022-01-06 16:08:19,096 INFO 32177 [egg-security] use noopen middleware
-2022-01-06 16:08:19,096 INFO 32177 [egg-security] use nosniff middleware
-2022-01-06 16:08:19,097 INFO 32177 [egg-security] use xssProtection middleware
-2022-01-06 16:08:19,097 INFO 32177 [egg-security] use xframe middleware
-2022-01-06 16:08:19,097 INFO 32177 [egg-security] use dta middleware
-2022-01-06 16:08:19,097 INFO 32177 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 16:08:19,111 INFO 32177 [egg:core] dump config after load, 6ms
-2022-01-06 16:08:19,135 INFO 32177 [egg-watcher:application] watcher start success
-2022-01-06 16:08:19,143 INFO 32177 [egg:core] dump config after ready, 6ms
-2022-01-06 16:08:25,217 INFO 32206 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/codes/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 16:08:25,238 INFO 32206 [egg-multipart] stream mode enable
-2022-01-06 16:08:25,538 INFO 32206 [egg-static] starting static serve /public/ -> /Users/heqiang/codes/my-leetcode-helper/public
-2022-01-06 16:08:25,540 INFO 32206 [egg-security] use csrf middleware
-2022-01-06 16:08:25,540 INFO 32206 [egg-security] use methodnoallow middleware
-2022-01-06 16:08:25,541 INFO 32206 [egg-security] use noopen middleware
-2022-01-06 16:08:25,541 INFO 32206 [egg-security] use nosniff middleware
-2022-01-06 16:08:25,541 INFO 32206 [egg-security] use xssProtection middleware
-2022-01-06 16:08:25,541 INFO 32206 [egg-security] use xframe middleware
-2022-01-06 16:08:25,542 INFO 32206 [egg-security] use dta middleware
-2022-01-06 16:08:25,542 INFO 32206 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 16:08:25,552 INFO 32206 [egg:core] dump config after load, 6ms
-2022-01-06 16:08:25,575 INFO 32206 [egg-watcher:application] watcher start success
-2022-01-06 16:08:25,582 INFO 32206 [egg:core] dump config after ready, 5ms
-2022-01-06 16:09:08,389 INFO 32236 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/codes/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 16:09:08,419 INFO 32236 [egg-multipart] stream mode enable
-2022-01-06 16:09:08,748 INFO 32236 [egg-static] starting static serve /public/ -> /Users/heqiang/codes/my-leetcode-helper/public
-2022-01-06 16:09:08,750 INFO 32236 [egg-security] use csrf middleware
-2022-01-06 16:09:08,751 INFO 32236 [egg-security] use methodnoallow middleware
-2022-01-06 16:09:08,752 INFO 32236 [egg-security] use noopen middleware
-2022-01-06 16:09:08,752 INFO 32236 [egg-security] use nosniff middleware
-2022-01-06 16:09:08,753 INFO 32236 [egg-security] use xssProtection middleware
-2022-01-06 16:09:08,753 INFO 32236 [egg-security] use xframe middleware
-2022-01-06 16:09:08,753 INFO 32236 [egg-security] use dta middleware
-2022-01-06 16:09:08,753 INFO 32236 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 16:09:08,763 INFO 32236 [egg:core] dump config after load, 5ms
-2022-01-06 16:09:08,787 INFO 32236 [egg-watcher:application] watcher start success
-2022-01-06 16:09:08,794 INFO 32236 [egg:core] dump config after ready, 5ms
-2022-01-06 16:09:20,409 INFO 32273 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/codes/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 16:09:20,434 INFO 32273 [egg-multipart] stream mode enable
-2022-01-06 16:09:20,773 INFO 32273 [egg-static] starting static serve /public/ -> /Users/heqiang/codes/my-leetcode-helper/public
-2022-01-06 16:09:20,775 INFO 32273 [egg-security] use csrf middleware
-2022-01-06 16:09:20,775 INFO 32273 [egg-security] use methodnoallow middleware
-2022-01-06 16:09:20,776 INFO 32273 [egg-security] use noopen middleware
-2022-01-06 16:09:20,776 INFO 32273 [egg-security] use nosniff middleware
-2022-01-06 16:09:20,777 INFO 32273 [egg-security] use xssProtection middleware
-2022-01-06 16:09:20,777 INFO 32273 [egg-security] use xframe middleware
-2022-01-06 16:09:20,777 INFO 32273 [egg-security] use dta middleware
-2022-01-06 16:09:20,777 INFO 32273 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 16:09:20,786 INFO 32273 [egg:core] dump config after load, 4ms
-2022-01-06 16:09:20,805 INFO 32273 [egg-watcher:application] watcher start success
-2022-01-06 16:09:20,840 INFO 32273 [egg:core] dump config after ready, 32ms
-2022-01-06 16:09:56,470 INFO 32372 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/codes/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 16:09:56,491 INFO 32372 [egg-multipart] stream mode enable
-2022-01-06 16:09:56,882 INFO 32372 [egg-static] starting static serve /public/ -> /Users/heqiang/codes/my-leetcode-helper/public
-2022-01-06 16:09:56,884 INFO 32372 [egg-security] use csrf middleware
-2022-01-06 16:09:56,885 INFO 32372 [egg-security] use methodnoallow middleware
-2022-01-06 16:09:56,885 INFO 32372 [egg-security] use noopen middleware
-2022-01-06 16:09:56,885 INFO 32372 [egg-security] use nosniff middleware
-2022-01-06 16:09:56,885 INFO 32372 [egg-security] use xssProtection middleware
-2022-01-06 16:09:56,886 INFO 32372 [egg-security] use xframe middleware
-2022-01-06 16:09:56,886 INFO 32372 [egg-security] use dta middleware
-2022-01-06 16:09:56,886 INFO 32372 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 16:09:56,896 INFO 32372 [egg:core] dump config after load, 5ms
-2022-01-06 16:09:56,918 INFO 32372 [egg-watcher:application] watcher start success
-2022-01-06 16:09:56,927 INFO 32372 [egg:core] dump config after ready, 6ms
-2022-01-06 16:10:13,708 INFO 32404 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/codes/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 16:10:13,735 INFO 32404 [egg-multipart] stream mode enable
-2022-01-06 16:10:14,129 INFO 32404 [egg-static] starting static serve /public/ -> /Users/heqiang/codes/my-leetcode-helper/public
-2022-01-06 16:10:14,131 INFO 32404 [egg-security] use csrf middleware
-2022-01-06 16:10:14,131 INFO 32404 [egg-security] use methodnoallow middleware
-2022-01-06 16:10:14,132 INFO 32404 [egg-security] use noopen middleware
-2022-01-06 16:10:14,132 INFO 32404 [egg-security] use nosniff middleware
-2022-01-06 16:10:14,133 INFO 32404 [egg-security] use xssProtection middleware
-2022-01-06 16:10:14,133 INFO 32404 [egg-security] use xframe middleware
-2022-01-06 16:10:14,133 INFO 32404 [egg-security] use dta middleware
-2022-01-06 16:10:14,133 INFO 32404 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 16:10:14,145 INFO 32404 [egg:core] dump config after load, 5ms
-2022-01-06 16:10:14,174 INFO 32404 [egg-watcher:application] watcher start success
-2022-01-06 16:10:14,182 INFO 32404 [egg:core] dump config after ready, 6ms
-2022-01-06 19:53:17,461 INFO 65536 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 19:53:17,478 INFO 65536 [egg-multipart] stream mode enable
-2022-01-06 19:53:17,733 INFO 65536 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 19:53:17,738 INFO 65536 [egg-security] use csrf middleware
-2022-01-06 19:53:17,738 INFO 65536 [egg-security] use methodnoallow middleware
-2022-01-06 19:53:17,739 INFO 65536 [egg-security] use noopen middleware
-2022-01-06 19:53:17,739 INFO 65536 [egg-security] use nosniff middleware
-2022-01-06 19:53:17,739 INFO 65536 [egg-security] use xssProtection middleware
-2022-01-06 19:53:17,740 INFO 65536 [egg-security] use xframe middleware
-2022-01-06 19:53:17,740 INFO 65536 [egg-security] use dta middleware
-2022-01-06 19:53:17,740 INFO 65536 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 19:53:17,751 INFO 65536 [egg:core] dump config after load, 4ms
-2022-01-06 19:53:17,775 INFO 65536 [egg-watcher:application] watcher start success
-2022-01-06 19:53:17,781 INFO 65536 [egg:core] dump config after ready, 4ms
-2022-01-06 19:54:18,244 INFO 65633 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 19:54:18,275 INFO 65633 [egg-multipart] stream mode enable
-2022-01-06 19:54:18,711 INFO 65633 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 19:54:18,724 INFO 65633 [egg-security] use csrf middleware
-2022-01-06 19:54:18,724 INFO 65633 [egg-security] use methodnoallow middleware
-2022-01-06 19:54:18,726 INFO 65633 [egg-security] use noopen middleware
-2022-01-06 19:54:18,726 INFO 65633 [egg-security] use nosniff middleware
-2022-01-06 19:54:18,727 INFO 65633 [egg-security] use xssProtection middleware
-2022-01-06 19:54:18,728 INFO 65633 [egg-security] use xframe middleware
-2022-01-06 19:54:18,729 INFO 65633 [egg-security] use dta middleware
-2022-01-06 19:54:18,729 INFO 65633 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 19:54:18,765 INFO 65633 [egg:core] dump config after load, 12ms
-2022-01-06 19:54:18,808 INFO 65633 [egg-watcher:application] watcher start success
-2022-01-06 19:54:18,821 INFO 65633 [egg:core] dump config after ready, 9ms
-2022-01-06 19:54:20,916 INFO 65661 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 19:54:20,944 INFO 65661 [egg-multipart] stream mode enable
-2022-01-06 19:54:21,262 INFO 65661 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 19:54:21,274 INFO 65661 [egg-security] use csrf middleware
-2022-01-06 19:54:21,275 INFO 65661 [egg-security] use methodnoallow middleware
-2022-01-06 19:54:21,275 INFO 65661 [egg-security] use noopen middleware
-2022-01-06 19:54:21,275 INFO 65661 [egg-security] use nosniff middleware
-2022-01-06 19:54:21,275 INFO 65661 [egg-security] use xssProtection middleware
-2022-01-06 19:54:21,275 INFO 65661 [egg-security] use xframe middleware
-2022-01-06 19:54:21,276 INFO 65661 [egg-security] use dta middleware
-2022-01-06 19:54:21,276 INFO 65661 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 19:54:21,297 INFO 65661 [egg:core] dump config after load, 9ms
-2022-01-06 19:54:21,335 INFO 65661 [egg-watcher:application] watcher start success
-2022-01-06 19:54:21,344 INFO 65661 [egg:core] dump config after ready, 5ms
-2022-01-06 19:55:31,763 INFO 65751 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 19:55:31,804 INFO 65751 [egg-multipart] stream mode enable
-2022-01-06 19:55:32,159 INFO 65751 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 19:55:32,166 INFO 65751 [egg-security] use csrf middleware
-2022-01-06 19:55:32,168 INFO 65751 [egg-security] use methodnoallow middleware
-2022-01-06 19:55:32,168 INFO 65751 [egg-security] use noopen middleware
-2022-01-06 19:55:32,169 INFO 65751 [egg-security] use nosniff middleware
-2022-01-06 19:55:32,169 INFO 65751 [egg-security] use xssProtection middleware
-2022-01-06 19:55:32,169 INFO 65751 [egg-security] use xframe middleware
-2022-01-06 19:55:32,170 INFO 65751 [egg-security] use dta middleware
-2022-01-06 19:55:32,170 INFO 65751 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 19:55:32,184 INFO 65751 [egg:core] dump config after load, 7ms
-2022-01-06 19:55:32,224 INFO 65751 [egg-watcher:application] watcher start success
-2022-01-06 19:55:32,232 INFO 65751 [egg:core] dump config after ready, 5ms
-2022-01-06 19:55:39,054 INFO 65781 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 19:55:39,231 INFO 65781 [egg-multipart] stream mode enable
-2022-01-06 19:55:40,645 INFO 65781 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 19:55:40,654 INFO 65781 [egg-security] use csrf middleware
-2022-01-06 19:55:40,654 INFO 65781 [egg-security] use methodnoallow middleware
-2022-01-06 19:55:40,655 INFO 65781 [egg-security] use noopen middleware
-2022-01-06 19:55:40,656 INFO 65781 [egg-security] use nosniff middleware
-2022-01-06 19:55:40,656 INFO 65781 [egg-security] use xssProtection middleware
-2022-01-06 19:55:40,657 INFO 65781 [egg-security] use xframe middleware
-2022-01-06 19:55:40,657 INFO 65781 [egg-security] use dta middleware
-2022-01-06 19:55:40,657 INFO 65781 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 19:55:40,682 INFO 65781 [egg:core] dump config after load, 14ms
-2022-01-06 19:55:40,710 INFO 65781 [egg-watcher:application] watcher start success
-2022-01-06 19:55:40,723 INFO 65781 [egg:core] dump config after ready, 10ms
-2022-01-06 19:55:42,673 INFO 65823 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 19:55:42,695 INFO 65823 [egg-multipart] stream mode enable
-2022-01-06 19:55:42,933 INFO 65823 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 19:55:42,938 INFO 65823 [egg-security] use csrf middleware
-2022-01-06 19:55:42,938 INFO 65823 [egg-security] use methodnoallow middleware
-2022-01-06 19:55:42,939 INFO 65823 [egg-security] use noopen middleware
-2022-01-06 19:55:42,939 INFO 65823 [egg-security] use nosniff middleware
-2022-01-06 19:55:42,939 INFO 65823 [egg-security] use xssProtection middleware
-2022-01-06 19:55:42,939 INFO 65823 [egg-security] use xframe middleware
-2022-01-06 19:55:42,939 INFO 65823 [egg-security] use dta middleware
-2022-01-06 19:55:42,939 INFO 65823 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 19:55:42,949 INFO 65823 [egg:core] dump config after load, 5ms
-2022-01-06 19:55:42,968 INFO 65823 [egg-watcher:application] watcher start success
-2022-01-06 19:55:42,993 INFO 65823 [egg:core] dump config after ready, 23ms
-2022-01-06 19:57:08,711 INFO 65911 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 19:57:08,747 INFO 65911 [egg-multipart] stream mode enable
-2022-01-06 19:57:09,135 INFO 65911 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 19:57:09,142 INFO 65911 [egg-security] use csrf middleware
-2022-01-06 19:57:09,143 INFO 65911 [egg-security] use methodnoallow middleware
-2022-01-06 19:57:09,143 INFO 65911 [egg-security] use noopen middleware
-2022-01-06 19:57:09,144 INFO 65911 [egg-security] use nosniff middleware
-2022-01-06 19:57:09,144 INFO 65911 [egg-security] use xssProtection middleware
-2022-01-06 19:57:09,144 INFO 65911 [egg-security] use xframe middleware
-2022-01-06 19:57:09,145 INFO 65911 [egg-security] use dta middleware
-2022-01-06 19:57:09,145 INFO 65911 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 19:57:09,165 INFO 65911 [egg:core] dump config after load, 10ms
-2022-01-06 19:57:09,195 INFO 65911 [egg-watcher:application] watcher start success
-2022-01-06 19:57:09,205 INFO 65911 [egg:core] dump config after ready, 6ms
-2022-01-06 19:57:15,893 INFO 65959 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 19:57:15,918 INFO 65959 [egg-multipart] stream mode enable
-2022-01-06 19:57:16,343 INFO 65959 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 19:57:16,349 INFO 65959 [egg-security] use csrf middleware
-2022-01-06 19:57:16,349 INFO 65959 [egg-security] use methodnoallow middleware
-2022-01-06 19:57:16,350 INFO 65959 [egg-security] use noopen middleware
-2022-01-06 19:57:16,350 INFO 65959 [egg-security] use nosniff middleware
-2022-01-06 19:57:16,351 INFO 65959 [egg-security] use xssProtection middleware
-2022-01-06 19:57:16,351 INFO 65959 [egg-security] use xframe middleware
-2022-01-06 19:57:16,351 INFO 65959 [egg-security] use dta middleware
-2022-01-06 19:57:16,352 INFO 65959 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 19:57:16,378 INFO 65959 [egg:core] dump config after load, 9ms
-2022-01-06 19:57:16,413 INFO 65959 [egg-watcher:application] watcher start success
-2022-01-06 19:57:16,436 INFO 65959 [egg:core] dump config after ready, 17ms
-2022-01-06 19:58:26,672 INFO 66100 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 19:58:26,690 INFO 66100 [egg-multipart] stream mode enable
-2022-01-06 19:58:26,982 INFO 66100 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 19:58:26,989 INFO 66100 [egg-security] use csrf middleware
-2022-01-06 19:58:26,990 INFO 66100 [egg-security] use methodnoallow middleware
-2022-01-06 19:58:26,991 INFO 66100 [egg-security] use noopen middleware
-2022-01-06 19:58:26,991 INFO 66100 [egg-security] use nosniff middleware
-2022-01-06 19:58:26,992 INFO 66100 [egg-security] use xssProtection middleware
-2022-01-06 19:58:26,992 INFO 66100 [egg-security] use xframe middleware
-2022-01-06 19:58:26,993 INFO 66100 [egg-security] use dta middleware
-2022-01-06 19:58:26,993 INFO 66100 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 19:58:27,008 INFO 66100 [egg:core] dump config after load, 8ms
-2022-01-06 19:58:27,032 INFO 66100 [egg-watcher:application] watcher start success
-2022-01-06 19:58:27,038 INFO 66100 [egg:core] dump config after ready, 4ms
-2022-01-06 19:58:36,784 INFO 66188 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 19:58:36,802 INFO 66188 [egg-multipart] stream mode enable
-2022-01-06 19:58:37,016 INFO 66188 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 19:58:37,090 INFO 66188 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 19:58:37,095 INFO 66188 [egg-security] use csrf middleware
-2022-01-06 19:58:37,096 INFO 66188 [egg-security] use methodnoallow middleware
-2022-01-06 19:58:37,096 INFO 66188 [egg-security] use noopen middleware
-2022-01-06 19:58:37,096 INFO 66188 [egg-security] use nosniff middleware
-2022-01-06 19:58:37,097 INFO 66188 [egg-security] use xssProtection middleware
-2022-01-06 19:58:37,097 INFO 66188 [egg-security] use xframe middleware
-2022-01-06 19:58:37,097 INFO 66188 [egg-security] use dta middleware
-2022-01-06 19:58:37,097 INFO 66188 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 19:58:37,108 INFO 66188 [egg:core] dump config after load, 5ms
-2022-01-06 19:58:37,110 INFO 66188 [egg-mongoose] starting...
-2022-01-06 19:58:37,132 INFO 66188 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 19:58:37,133 INFO 66188 [egg-mongoose] instance[0] start successfully
-2022-01-06 19:58:37,134 INFO 66188 [egg-watcher:application] watcher start success
-2022-01-06 19:58:37,140 INFO 66188 [egg:core] dump config after ready, 4ms
-2022-01-06 20:04:35,653 INFO 66624 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:04:35,674 INFO 66624 [egg-multipart] stream mode enable
-2022-01-06 20:04:35,928 INFO 66624 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:04:36,029 INFO 66624 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:04:36,032 INFO 66624 [egg-security] use csrf middleware
-2022-01-06 20:04:36,032 INFO 66624 [egg-security] use methodnoallow middleware
-2022-01-06 20:04:36,032 INFO 66624 [egg-security] use noopen middleware
-2022-01-06 20:04:36,033 INFO 66624 [egg-security] use nosniff middleware
-2022-01-06 20:04:36,033 INFO 66624 [egg-security] use xssProtection middleware
-2022-01-06 20:04:36,034 INFO 66624 [egg-security] use xframe middleware
-2022-01-06 20:04:36,034 INFO 66624 [egg-security] use dta middleware
-2022-01-06 20:04:36,034 INFO 66624 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:04:36,045 INFO 66624 [egg:core] dump config after load, 5ms
-2022-01-06 20:04:36,047 INFO 66624 [egg-mongoose] starting...
-2022-01-06 20:04:36,072 INFO 66624 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:04:36,074 INFO 66624 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:04:36,075 INFO 66624 [egg-watcher:application] watcher start success
-2022-01-06 20:04:36,084 INFO 66624 [egg:core] dump config after ready, 6ms
-2022-01-06 20:04:40,488 INFO 66648 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:04:40,511 INFO 66648 [egg-multipart] stream mode enable
-2022-01-06 20:04:40,703 INFO 66648 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:04:40,779 INFO 66648 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:04:40,781 INFO 66648 [egg-security] use csrf middleware
-2022-01-06 20:04:40,782 INFO 66648 [egg-security] use methodnoallow middleware
-2022-01-06 20:04:40,782 INFO 66648 [egg-security] use noopen middleware
-2022-01-06 20:04:40,782 INFO 66648 [egg-security] use nosniff middleware
-2022-01-06 20:04:40,782 INFO 66648 [egg-security] use xssProtection middleware
-2022-01-06 20:04:40,782 INFO 66648 [egg-security] use xframe middleware
-2022-01-06 20:04:40,783 INFO 66648 [egg-security] use dta middleware
-2022-01-06 20:04:40,783 INFO 66648 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:04:40,793 INFO 66648 [egg:core] dump config after load, 5ms
-2022-01-06 20:04:40,797 INFO 66648 [egg-mongoose] starting...
-2022-01-06 20:04:40,823 INFO 66648 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:04:40,824 INFO 66648 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:04:40,826 INFO 66648 [egg-watcher:application] watcher start success
-2022-01-06 20:04:40,833 INFO 66648 [egg:core] dump config after ready, 5ms
-2022-01-06 20:04:45,426 INFO 66675 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:04:45,449 INFO 66675 [egg-multipart] stream mode enable
-2022-01-06 20:04:45,697 INFO 66675 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:04:45,779 INFO 66675 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:04:45,781 INFO 66675 [egg-security] use csrf middleware
-2022-01-06 20:04:45,781 INFO 66675 [egg-security] use methodnoallow middleware
-2022-01-06 20:04:45,782 INFO 66675 [egg-security] use noopen middleware
-2022-01-06 20:04:45,782 INFO 66675 [egg-security] use nosniff middleware
-2022-01-06 20:04:45,782 INFO 66675 [egg-security] use xssProtection middleware
-2022-01-06 20:04:45,782 INFO 66675 [egg-security] use xframe middleware
-2022-01-06 20:04:45,782 INFO 66675 [egg-security] use dta middleware
-2022-01-06 20:04:45,782 INFO 66675 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:04:45,801 INFO 66675 [egg:core] dump config after load, 13ms
-2022-01-06 20:04:45,805 INFO 66675 [egg-mongoose] starting...
-2022-01-06 20:04:45,840 INFO 66675 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:04:45,842 INFO 66675 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:04:45,844 INFO 66675 [egg-watcher:application] watcher start success
-2022-01-06 20:04:45,855 INFO 66675 [egg:core] dump config after ready, 5ms
-2022-01-06 20:04:48,169 INFO 66705 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:04:48,198 INFO 66705 [egg-multipart] stream mode enable
-2022-01-06 20:04:48,394 INFO 66705 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:04:48,514 INFO 66705 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:04:48,522 INFO 66705 [egg-security] use csrf middleware
-2022-01-06 20:04:48,523 INFO 66705 [egg-security] use methodnoallow middleware
-2022-01-06 20:04:48,523 INFO 66705 [egg-security] use noopen middleware
-2022-01-06 20:04:48,523 INFO 66705 [egg-security] use nosniff middleware
-2022-01-06 20:04:48,523 INFO 66705 [egg-security] use xssProtection middleware
-2022-01-06 20:04:48,524 INFO 66705 [egg-security] use xframe middleware
-2022-01-06 20:04:48,524 INFO 66705 [egg-security] use dta middleware
-2022-01-06 20:04:48,524 INFO 66705 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:04:48,541 INFO 66705 [egg:core] dump config after load, 9ms
-2022-01-06 20:04:48,545 INFO 66705 [egg-mongoose] starting...
-2022-01-06 20:04:48,573 INFO 66705 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:04:48,574 INFO 66705 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:04:48,576 INFO 66705 [egg-watcher:application] watcher start success
-2022-01-06 20:04:48,582 INFO 66705 [egg:core] dump config after ready, 4ms
-2022-01-06 20:14:40,480 INFO 67672 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:14:40,496 INFO 67672 [egg-multipart] stream mode enable
-2022-01-06 20:14:40,758 INFO 67672 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:14:40,848 INFO 67672 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:14:40,854 INFO 67672 [egg-security] use csrf middleware
-2022-01-06 20:14:40,855 INFO 67672 [egg-security] use methodnoallow middleware
-2022-01-06 20:14:40,855 INFO 67672 [egg-security] use noopen middleware
-2022-01-06 20:14:40,855 INFO 67672 [egg-security] use nosniff middleware
-2022-01-06 20:14:40,856 INFO 67672 [egg-security] use xssProtection middleware
-2022-01-06 20:14:40,856 INFO 67672 [egg-security] use xframe middleware
-2022-01-06 20:14:40,856 INFO 67672 [egg-security] use dta middleware
-2022-01-06 20:14:40,856 INFO 67672 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:14:40,873 INFO 67672 [egg:core] dump config after load, 5ms
-2022-01-06 20:14:40,875 INFO 67672 [egg-mongoose] starting...
-2022-01-06 20:14:40,904 INFO 67672 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:14:40,905 INFO 67672 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:14:40,907 INFO 67672 [egg-watcher:application] watcher start success
-2022-01-06 20:14:40,912 INFO 67672 [egg:core] dump config after ready, 4ms
-2022-01-06 20:26:23,063 INFO 68756 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:26:23,097 INFO 68756 [egg-multipart] stream mode enable
-2022-01-06 20:26:23,420 INFO 68756 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:26:23,565 INFO 68756 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:26:23,575 INFO 68756 [egg-security] use csrf middleware
-2022-01-06 20:26:23,576 INFO 68756 [egg-security] use methodnoallow middleware
-2022-01-06 20:26:23,577 INFO 68756 [egg-security] use noopen middleware
-2022-01-06 20:26:23,577 INFO 68756 [egg-security] use nosniff middleware
-2022-01-06 20:26:23,578 INFO 68756 [egg-security] use xssProtection middleware
-2022-01-06 20:26:23,578 INFO 68756 [egg-security] use xframe middleware
-2022-01-06 20:26:23,579 INFO 68756 [egg-security] use dta middleware
-2022-01-06 20:26:23,579 INFO 68756 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:26:23,596 INFO 68756 [egg:core] dump config after load, 6ms
-2022-01-06 20:26:23,600 INFO 68756 [egg-mongoose] starting...
-2022-01-06 20:26:23,628 INFO 68756 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:26:23,629 INFO 68756 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:26:23,638 INFO 68756 [egg-watcher:application] watcher start success
-2022-01-06 20:26:23,645 INFO 68756 [egg:core] dump config after ready, 5ms
-2022-01-06 20:26:45,204 INFO 68796 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:26:45,224 INFO 68796 [egg-multipart] stream mode enable
-2022-01-06 20:26:45,460 INFO 68796 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:26:45,543 INFO 68796 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:26:45,549 INFO 68796 [egg-security] use csrf middleware
-2022-01-06 20:26:45,549 INFO 68796 [egg-security] use methodnoallow middleware
-2022-01-06 20:26:45,549 INFO 68796 [egg-security] use noopen middleware
-2022-01-06 20:26:45,550 INFO 68796 [egg-security] use nosniff middleware
-2022-01-06 20:26:45,550 INFO 68796 [egg-security] use xssProtection middleware
-2022-01-06 20:26:45,550 INFO 68796 [egg-security] use xframe middleware
-2022-01-06 20:26:45,551 INFO 68796 [egg-security] use dta middleware
-2022-01-06 20:26:45,551 INFO 68796 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:26:45,563 INFO 68796 [egg:core] dump config after load, 6ms
-2022-01-06 20:26:45,566 INFO 68796 [egg-mongoose] starting...
-2022-01-06 20:26:45,589 INFO 68796 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:26:45,590 INFO 68796 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:26:45,592 INFO 68796 [egg-watcher:application] watcher start success
-2022-01-06 20:26:45,598 INFO 68796 [egg:core] dump config after ready, 4ms
-2022-01-06 20:27:17,556 INFO 68840 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:27:17,581 INFO 68840 [egg-multipart] stream mode enable
-2022-01-06 20:27:17,823 INFO 68840 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:27:17,939 INFO 68840 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:27:17,946 INFO 68840 [egg-security] use csrf middleware
-2022-01-06 20:27:17,947 INFO 68840 [egg-security] use methodnoallow middleware
-2022-01-06 20:27:17,947 INFO 68840 [egg-security] use noopen middleware
-2022-01-06 20:27:17,948 INFO 68840 [egg-security] use nosniff middleware
-2022-01-06 20:27:17,948 INFO 68840 [egg-security] use xssProtection middleware
-2022-01-06 20:27:17,948 INFO 68840 [egg-security] use xframe middleware
-2022-01-06 20:27:17,949 INFO 68840 [egg-security] use dta middleware
-2022-01-06 20:27:17,949 INFO 68840 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:27:17,961 INFO 68840 [egg:core] dump config after load, 6ms
-2022-01-06 20:27:17,965 INFO 68840 [egg-mongoose] starting...
-2022-01-06 20:27:17,990 INFO 68840 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:27:17,991 INFO 68840 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:27:17,993 INFO 68840 [egg-watcher:application] watcher start success
-2022-01-06 20:27:18,000 INFO 68840 [egg:core] dump config after ready, 5ms
-2022-01-06 20:27:32,784 INFO 68889 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:27:32,805 INFO 68889 [egg-multipart] stream mode enable
-2022-01-06 20:27:33,071 INFO 68889 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:27:33,190 INFO 68889 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:27:33,198 INFO 68889 [egg-security] use csrf middleware
-2022-01-06 20:27:33,199 INFO 68889 [egg-security] use methodnoallow middleware
-2022-01-06 20:27:33,200 INFO 68889 [egg-security] use noopen middleware
-2022-01-06 20:27:33,201 INFO 68889 [egg-security] use nosniff middleware
-2022-01-06 20:27:33,201 INFO 68889 [egg-security] use xssProtection middleware
-2022-01-06 20:27:33,202 INFO 68889 [egg-security] use xframe middleware
-2022-01-06 20:27:33,202 INFO 68889 [egg-security] use dta middleware
-2022-01-06 20:27:33,202 INFO 68889 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:27:33,219 INFO 68889 [egg:core] dump config after load, 7ms
-2022-01-06 20:27:33,226 INFO 68889 [egg-mongoose] starting...
-2022-01-06 20:27:33,264 INFO 68889 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:27:33,266 INFO 68889 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:27:33,271 INFO 68889 [egg-watcher:application] watcher start success
-2022-01-06 20:27:33,290 INFO 68889 [egg:core] dump config after ready, 16ms
-2022-01-06 20:27:40,115 INFO 68924 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:27:40,140 INFO 68924 [egg-multipart] stream mode enable
-2022-01-06 20:27:40,383 INFO 68924 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:27:40,487 INFO 68924 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:27:40,493 INFO 68924 [egg-security] use csrf middleware
-2022-01-06 20:27:40,493 INFO 68924 [egg-security] use methodnoallow middleware
-2022-01-06 20:27:40,494 INFO 68924 [egg-security] use noopen middleware
-2022-01-06 20:27:40,494 INFO 68924 [egg-security] use nosniff middleware
-2022-01-06 20:27:40,495 INFO 68924 [egg-security] use xssProtection middleware
-2022-01-06 20:27:40,495 INFO 68924 [egg-security] use xframe middleware
-2022-01-06 20:27:40,495 INFO 68924 [egg-security] use dta middleware
-2022-01-06 20:27:40,495 INFO 68924 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:27:40,509 INFO 68924 [egg:core] dump config after load, 6ms
-2022-01-06 20:27:40,513 INFO 68924 [egg-mongoose] starting...
-2022-01-06 20:27:40,539 INFO 68924 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:27:40,541 INFO 68924 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:27:40,543 INFO 68924 [egg-watcher:application] watcher start success
-2022-01-06 20:27:40,551 INFO 68924 [egg:core] dump config after ready, 6ms
-2022-01-06 20:27:49,189 INFO 68963 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:27:49,238 INFO 68963 [egg-multipart] stream mode enable
-2022-01-06 20:27:49,564 INFO 68963 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:27:49,699 INFO 68963 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:27:49,711 INFO 68963 [egg-security] use csrf middleware
-2022-01-06 20:27:49,711 INFO 68963 [egg-security] use methodnoallow middleware
-2022-01-06 20:27:49,712 INFO 68963 [egg-security] use noopen middleware
-2022-01-06 20:27:49,712 INFO 68963 [egg-security] use nosniff middleware
-2022-01-06 20:27:49,712 INFO 68963 [egg-security] use xssProtection middleware
-2022-01-06 20:27:49,713 INFO 68963 [egg-security] use xframe middleware
-2022-01-06 20:27:49,713 INFO 68963 [egg-security] use dta middleware
-2022-01-06 20:27:49,713 INFO 68963 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:27:49,730 INFO 68963 [egg:core] dump config after load, 10ms
-2022-01-06 20:27:49,735 INFO 68963 [egg-mongoose] starting...
-2022-01-06 20:27:49,783 INFO 68963 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:27:49,785 INFO 68963 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:27:49,789 INFO 68963 [egg-watcher:application] watcher start success
-2022-01-06 20:27:49,801 INFO 68963 [egg:core] dump config after ready, 10ms
-2022-01-06 20:28:18,529 INFO 69004 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:28:18,554 INFO 69004 [egg-multipart] stream mode enable
-2022-01-06 20:28:18,780 INFO 69004 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:28:18,878 INFO 69004 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:28:18,884 INFO 69004 [egg-security] use csrf middleware
-2022-01-06 20:28:18,885 INFO 69004 [egg-security] use methodnoallow middleware
-2022-01-06 20:28:18,885 INFO 69004 [egg-security] use noopen middleware
-2022-01-06 20:28:18,886 INFO 69004 [egg-security] use nosniff middleware
-2022-01-06 20:28:18,886 INFO 69004 [egg-security] use xssProtection middleware
-2022-01-06 20:28:18,886 INFO 69004 [egg-security] use xframe middleware
-2022-01-06 20:28:18,887 INFO 69004 [egg-security] use dta middleware
-2022-01-06 20:28:18,887 INFO 69004 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:28:18,897 INFO 69004 [egg:core] dump config after load, 4ms
-2022-01-06 20:28:18,901 INFO 69004 [egg-mongoose] starting...
-2022-01-06 20:28:18,923 INFO 69004 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:28:18,925 INFO 69004 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:28:18,926 INFO 69004 [egg-watcher:application] watcher start success
-2022-01-06 20:28:18,932 INFO 69004 [egg:core] dump config after ready, 4ms
-2022-01-06 20:28:22,602 INFO 69029 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:28:22,621 INFO 69029 [egg-multipart] stream mode enable
-2022-01-06 20:28:22,788 INFO 69029 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:28:22,855 INFO 69029 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:28:22,860 INFO 69029 [egg-security] use csrf middleware
-2022-01-06 20:28:22,860 INFO 69029 [egg-security] use methodnoallow middleware
-2022-01-06 20:28:22,860 INFO 69029 [egg-security] use noopen middleware
-2022-01-06 20:28:22,860 INFO 69029 [egg-security] use nosniff middleware
-2022-01-06 20:28:22,861 INFO 69029 [egg-security] use xssProtection middleware
-2022-01-06 20:28:22,861 INFO 69029 [egg-security] use xframe middleware
-2022-01-06 20:28:22,861 INFO 69029 [egg-security] use dta middleware
-2022-01-06 20:28:22,861 INFO 69029 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:28:22,870 INFO 69029 [egg:core] dump config after load, 4ms
-2022-01-06 20:28:22,873 INFO 69029 [egg-mongoose] starting...
-2022-01-06 20:28:22,894 INFO 69029 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:28:22,895 INFO 69029 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:28:22,897 INFO 69029 [egg-watcher:application] watcher start success
-2022-01-06 20:28:22,902 INFO 69029 [egg:core] dump config after ready, 4ms
-2022-01-06 20:28:46,434 INFO 69065 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:28:46,456 INFO 69065 [egg-multipart] stream mode enable
-2022-01-06 20:28:46,693 INFO 69065 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:28:46,788 INFO 69065 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:28:46,794 INFO 69065 [egg-security] use csrf middleware
-2022-01-06 20:28:46,795 INFO 69065 [egg-security] use methodnoallow middleware
-2022-01-06 20:28:46,795 INFO 69065 [egg-security] use noopen middleware
-2022-01-06 20:28:46,796 INFO 69065 [egg-security] use nosniff middleware
-2022-01-06 20:28:46,796 INFO 69065 [egg-security] use xssProtection middleware
-2022-01-06 20:28:46,796 INFO 69065 [egg-security] use xframe middleware
-2022-01-06 20:28:46,797 INFO 69065 [egg-security] use dta middleware
-2022-01-06 20:28:46,797 INFO 69065 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:28:46,808 INFO 69065 [egg:core] dump config after load, 5ms
-2022-01-06 20:28:46,811 INFO 69065 [egg-mongoose] starting...
-2022-01-06 20:28:46,834 INFO 69065 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:28:46,835 INFO 69065 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:28:46,836 INFO 69065 [egg-watcher:application] watcher start success
-2022-01-06 20:28:46,843 INFO 69065 [egg:core] dump config after ready, 5ms
-2022-01-06 20:29:00,858 INFO 69116 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:29:00,886 INFO 69116 [egg-multipart] stream mode enable
-2022-01-06 20:29:01,177 INFO 69116 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:29:01,286 INFO 69116 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:29:01,294 INFO 69116 [egg-security] use csrf middleware
-2022-01-06 20:29:01,295 INFO 69116 [egg-security] use methodnoallow middleware
-2022-01-06 20:29:01,295 INFO 69116 [egg-security] use noopen middleware
-2022-01-06 20:29:01,296 INFO 69116 [egg-security] use nosniff middleware
-2022-01-06 20:29:01,297 INFO 69116 [egg-security] use xssProtection middleware
-2022-01-06 20:29:01,297 INFO 69116 [egg-security] use xframe middleware
-2022-01-06 20:29:01,297 INFO 69116 [egg-security] use dta middleware
-2022-01-06 20:29:01,297 INFO 69116 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:29:01,317 INFO 69116 [egg:core] dump config after load, 9ms
-2022-01-06 20:29:01,323 INFO 69116 [egg-mongoose] starting...
-2022-01-06 20:29:01,369 INFO 69116 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:29:01,371 INFO 69116 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:29:01,373 INFO 69116 [egg-watcher:application] watcher start success
-2022-01-06 20:29:01,383 INFO 69116 [egg:core] dump config after ready, 7ms
-2022-01-06 20:29:50,402 INFO 69190 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:29:50,424 INFO 69190 [egg-multipart] stream mode enable
-2022-01-06 20:29:50,652 INFO 69190 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:29:50,748 INFO 69190 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:29:50,754 INFO 69190 [egg-security] use csrf middleware
-2022-01-06 20:29:50,755 INFO 69190 [egg-security] use methodnoallow middleware
-2022-01-06 20:29:50,755 INFO 69190 [egg-security] use noopen middleware
-2022-01-06 20:29:50,755 INFO 69190 [egg-security] use nosniff middleware
-2022-01-06 20:29:50,756 INFO 69190 [egg-security] use xssProtection middleware
-2022-01-06 20:29:50,756 INFO 69190 [egg-security] use xframe middleware
-2022-01-06 20:29:50,756 INFO 69190 [egg-security] use dta middleware
-2022-01-06 20:29:50,756 INFO 69190 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:29:50,773 INFO 69190 [egg:core] dump config after load, 5ms
-2022-01-06 20:29:50,776 INFO 69190 [egg-mongoose] starting...
-2022-01-06 20:29:50,798 INFO 69190 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:29:50,799 INFO 69190 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:29:50,800 INFO 69190 [egg-watcher:application] watcher start success
-2022-01-06 20:29:50,806 INFO 69190 [egg:core] dump config after ready, 4ms
-2022-01-06 20:29:54,281 INFO 69214 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:29:54,306 INFO 69214 [egg-multipart] stream mode enable
-2022-01-06 20:29:54,505 INFO 69214 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:29:54,581 INFO 69214 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:29:54,587 INFO 69214 [egg-security] use csrf middleware
-2022-01-06 20:29:54,587 INFO 69214 [egg-security] use methodnoallow middleware
-2022-01-06 20:29:54,587 INFO 69214 [egg-security] use noopen middleware
-2022-01-06 20:29:54,588 INFO 69214 [egg-security] use nosniff middleware
-2022-01-06 20:29:54,588 INFO 69214 [egg-security] use xssProtection middleware
-2022-01-06 20:29:54,588 INFO 69214 [egg-security] use xframe middleware
-2022-01-06 20:29:54,588 INFO 69214 [egg-security] use dta middleware
-2022-01-06 20:29:54,588 INFO 69214 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:29:54,600 INFO 69214 [egg:core] dump config after load, 6ms
-2022-01-06 20:29:54,604 INFO 69214 [egg-mongoose] starting...
-2022-01-06 20:29:54,632 INFO 69214 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:29:54,634 INFO 69214 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:29:54,636 INFO 69214 [egg-watcher:application] watcher start success
-2022-01-06 20:29:54,642 INFO 69214 [egg:core] dump config after ready, 5ms
-2022-01-06 20:30:23,487 INFO 69260 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:30:23,510 INFO 69260 [egg-multipart] stream mode enable
-2022-01-06 20:30:23,735 INFO 69260 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:30:23,829 INFO 69260 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:30:23,835 INFO 69260 [egg-security] use csrf middleware
-2022-01-06 20:30:23,836 INFO 69260 [egg-security] use methodnoallow middleware
-2022-01-06 20:30:23,836 INFO 69260 [egg-security] use noopen middleware
-2022-01-06 20:30:23,836 INFO 69260 [egg-security] use nosniff middleware
-2022-01-06 20:30:23,837 INFO 69260 [egg-security] use xssProtection middleware
-2022-01-06 20:30:23,837 INFO 69260 [egg-security] use xframe middleware
-2022-01-06 20:30:23,838 INFO 69260 [egg-security] use dta middleware
-2022-01-06 20:30:23,838 INFO 69260 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:30:23,849 INFO 69260 [egg:core] dump config after load, 5ms
-2022-01-06 20:30:23,851 INFO 69260 [egg-mongoose] starting...
-2022-01-06 20:30:23,876 INFO 69260 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:30:23,878 INFO 69260 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:30:23,879 INFO 69260 [egg-watcher:application] watcher start success
-2022-01-06 20:30:23,886 INFO 69260 [egg:core] dump config after ready, 5ms
-2022-01-06 20:30:29,831 INFO 69291 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:30:29,853 INFO 69291 [egg-multipart] stream mode enable
-2022-01-06 20:30:30,111 INFO 69291 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:30:30,223 INFO 69291 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:30:30,230 INFO 69291 [egg-security] use csrf middleware
-2022-01-06 20:30:30,230 INFO 69291 [egg-security] use methodnoallow middleware
-2022-01-06 20:30:30,231 INFO 69291 [egg-security] use noopen middleware
-2022-01-06 20:30:30,232 INFO 69291 [egg-security] use nosniff middleware
-2022-01-06 20:30:30,232 INFO 69291 [egg-security] use xssProtection middleware
-2022-01-06 20:30:30,233 INFO 69291 [egg-security] use xframe middleware
-2022-01-06 20:30:30,233 INFO 69291 [egg-security] use dta middleware
-2022-01-06 20:30:30,233 INFO 69291 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:30:30,247 INFO 69291 [egg:core] dump config after load, 6ms
-2022-01-06 20:30:30,252 INFO 69291 [egg-mongoose] starting...
-2022-01-06 20:30:30,300 INFO 69291 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:30:30,301 INFO 69291 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:30:30,303 INFO 69291 [egg-watcher:application] watcher start success
-2022-01-06 20:30:30,315 INFO 69291 [egg:core] dump config after ready, 8ms
-2022-01-06 20:31:12,996 INFO 69339 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:31:13,032 INFO 69339 [egg-multipart] stream mode enable
-2022-01-06 20:31:13,345 INFO 69339 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:31:13,481 INFO 69339 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:31:13,488 INFO 69339 [egg-security] use csrf middleware
-2022-01-06 20:31:13,489 INFO 69339 [egg-security] use methodnoallow middleware
-2022-01-06 20:31:13,489 INFO 69339 [egg-security] use noopen middleware
-2022-01-06 20:31:13,489 INFO 69339 [egg-security] use nosniff middleware
-2022-01-06 20:31:13,490 INFO 69339 [egg-security] use xssProtection middleware
-2022-01-06 20:31:13,490 INFO 69339 [egg-security] use xframe middleware
-2022-01-06 20:31:13,491 INFO 69339 [egg-security] use dta middleware
-2022-01-06 20:31:13,491 INFO 69339 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:31:13,507 INFO 69339 [egg:core] dump config after load, 6ms
-2022-01-06 20:31:13,515 INFO 69339 [egg-mongoose] starting...
-2022-01-06 20:31:13,551 INFO 69339 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:31:13,554 INFO 69339 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:31:13,557 INFO 69339 [egg-watcher:application] watcher start success
-2022-01-06 20:31:13,566 INFO 69339 [egg:core] dump config after ready, 7ms
-2022-01-06 20:31:29,921 INFO 69392 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:31:29,956 INFO 69392 [egg-multipart] stream mode enable
-2022-01-06 20:31:30,238 INFO 69392 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:31:30,383 INFO 69392 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:31:30,396 INFO 69392 [egg-security] use csrf middleware
-2022-01-06 20:31:30,396 INFO 69392 [egg-security] use methodnoallow middleware
-2022-01-06 20:31:30,397 INFO 69392 [egg-security] use noopen middleware
-2022-01-06 20:31:30,397 INFO 69392 [egg-security] use nosniff middleware
-2022-01-06 20:31:30,398 INFO 69392 [egg-security] use xssProtection middleware
-2022-01-06 20:31:30,398 INFO 69392 [egg-security] use xframe middleware
-2022-01-06 20:31:30,399 INFO 69392 [egg-security] use dta middleware
-2022-01-06 20:31:30,399 INFO 69392 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:31:30,429 INFO 69392 [egg:core] dump config after load, 8ms
-2022-01-06 20:31:30,436 INFO 69392 [egg-mongoose] starting...
-2022-01-06 20:31:30,479 INFO 69392 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:31:30,481 INFO 69392 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:31:30,485 INFO 69392 [egg-watcher:application] watcher start success
-2022-01-06 20:31:30,498 INFO 69392 [egg:core] dump config after ready, 11ms
-2022-01-06 20:31:49,482 INFO 69451 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:31:49,510 INFO 69451 [egg-multipart] stream mode enable
-2022-01-06 20:31:49,842 INFO 69451 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:31:49,967 INFO 69451 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:31:49,976 INFO 69451 [egg-security] use csrf middleware
-2022-01-06 20:31:49,976 INFO 69451 [egg-security] use methodnoallow middleware
-2022-01-06 20:31:49,977 INFO 69451 [egg-security] use noopen middleware
-2022-01-06 20:31:49,977 INFO 69451 [egg-security] use nosniff middleware
-2022-01-06 20:31:49,978 INFO 69451 [egg-security] use xssProtection middleware
-2022-01-06 20:31:49,978 INFO 69451 [egg-security] use xframe middleware
-2022-01-06 20:31:49,978 INFO 69451 [egg-security] use dta middleware
-2022-01-06 20:31:49,978 INFO 69451 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:31:49,993 INFO 69451 [egg:core] dump config after load, 7ms
-2022-01-06 20:31:50,000 INFO 69451 [egg-mongoose] starting...
-2022-01-06 20:31:50,034 INFO 69451 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:31:50,035 INFO 69451 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:31:50,037 INFO 69451 [egg-watcher:application] watcher start success
-2022-01-06 20:31:50,047 INFO 69451 [egg:core] dump config after ready, 6ms
-2022-01-06 20:31:51,558 INFO 69470 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:31:51,580 INFO 69470 [egg-multipart] stream mode enable
-2022-01-06 20:31:51,745 INFO 69470 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:31:51,807 INFO 69470 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:31:51,812 INFO 69470 [egg-security] use csrf middleware
-2022-01-06 20:31:51,813 INFO 69470 [egg-security] use methodnoallow middleware
-2022-01-06 20:31:51,813 INFO 69470 [egg-security] use noopen middleware
-2022-01-06 20:31:51,813 INFO 69470 [egg-security] use nosniff middleware
-2022-01-06 20:31:51,813 INFO 69470 [egg-security] use xssProtection middleware
-2022-01-06 20:31:51,813 INFO 69470 [egg-security] use xframe middleware
-2022-01-06 20:31:51,813 INFO 69470 [egg-security] use dta middleware
-2022-01-06 20:31:51,813 INFO 69470 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:31:51,823 INFO 69470 [egg:core] dump config after load, 5ms
-2022-01-06 20:31:51,825 INFO 69470 [egg-mongoose] starting...
-2022-01-06 20:31:51,850 INFO 69470 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:31:51,851 INFO 69470 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:31:51,853 INFO 69470 [egg-watcher:application] watcher start success
-2022-01-06 20:31:51,859 INFO 69470 [egg:core] dump config after ready, 4ms
-2022-01-06 20:31:54,745 INFO 69492 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:31:54,782 INFO 69492 [egg-multipart] stream mode enable
-2022-01-06 20:31:55,115 INFO 69492 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:31:55,188 INFO 69492 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:31:55,193 INFO 69492 [egg-security] use csrf middleware
-2022-01-06 20:31:55,193 INFO 69492 [egg-security] use methodnoallow middleware
-2022-01-06 20:31:55,194 INFO 69492 [egg-security] use noopen middleware
-2022-01-06 20:31:55,194 INFO 69492 [egg-security] use nosniff middleware
-2022-01-06 20:31:55,194 INFO 69492 [egg-security] use xssProtection middleware
-2022-01-06 20:31:55,194 INFO 69492 [egg-security] use xframe middleware
-2022-01-06 20:31:55,195 INFO 69492 [egg-security] use dta middleware
-2022-01-06 20:31:55,195 INFO 69492 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:31:55,206 INFO 69492 [egg:core] dump config after load, 5ms
-2022-01-06 20:31:55,210 INFO 69492 [egg-mongoose] starting...
-2022-01-06 20:31:55,236 INFO 69492 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:31:55,237 INFO 69492 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:31:55,239 INFO 69492 [egg-watcher:application] watcher start success
-2022-01-06 20:31:55,246 INFO 69492 [egg:core] dump config after ready, 5ms
-2022-01-06 20:37:10,661 INFO 69791 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:37:10,687 INFO 69791 [egg-multipart] stream mode enable
-2022-01-06 20:37:10,915 INFO 69791 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:37:11,024 INFO 69791 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:37:11,030 INFO 69791 [egg-security] use csrf middleware
-2022-01-06 20:37:11,031 INFO 69791 [egg-security] use methodnoallow middleware
-2022-01-06 20:37:11,031 INFO 69791 [egg-security] use noopen middleware
-2022-01-06 20:37:11,032 INFO 69791 [egg-security] use nosniff middleware
-2022-01-06 20:37:11,032 INFO 69791 [egg-security] use xssProtection middleware
-2022-01-06 20:37:11,032 INFO 69791 [egg-security] use xframe middleware
-2022-01-06 20:37:11,033 INFO 69791 [egg-security] use dta middleware
-2022-01-06 20:37:11,033 INFO 69791 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:37:11,043 INFO 69791 [egg:core] dump config after load, 5ms
-2022-01-06 20:37:11,046 INFO 69791 [egg-mongoose] starting...
-2022-01-06 20:37:11,071 INFO 69791 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:37:11,072 INFO 69791 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:37:11,083 INFO 69791 [egg-watcher:application] watcher start success
-2022-01-06 20:37:11,091 INFO 69791 [egg:core] dump config after ready, 6ms
-2022-01-06 20:37:33,184 INFO 69845 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:37:33,209 INFO 69845 [egg-multipart] stream mode enable
-2022-01-06 20:37:33,458 INFO 69845 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:37:33,564 INFO 69845 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:37:33,573 INFO 69845 [egg-security] use csrf middleware
-2022-01-06 20:37:33,575 INFO 69845 [egg-security] use methodnoallow middleware
-2022-01-06 20:37:33,575 INFO 69845 [egg-security] use noopen middleware
-2022-01-06 20:37:33,577 INFO 69845 [egg-security] use nosniff middleware
-2022-01-06 20:37:33,577 INFO 69845 [egg-security] use xssProtection middleware
-2022-01-06 20:37:33,578 INFO 69845 [egg-security] use xframe middleware
-2022-01-06 20:37:33,578 INFO 69845 [egg-security] use dta middleware
-2022-01-06 20:37:33,578 INFO 69845 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:37:33,596 INFO 69845 [egg:core] dump config after load, 6ms
-2022-01-06 20:37:33,600 INFO 69845 [egg-mongoose] starting...
-2022-01-06 20:37:33,635 INFO 69845 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:37:33,640 INFO 69845 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:37:33,642 INFO 69845 [egg-watcher:application] watcher start success
-2022-01-06 20:37:33,651 INFO 69845 [egg:core] dump config after ready, 7ms
-2022-01-06 20:40:00,642 INFO 70009 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:40:00,678 INFO 70009 [egg-multipart] stream mode enable
-2022-01-06 20:40:01,240 INFO 70009 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:40:01,375 INFO 70009 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:40:01,394 INFO 70009 [egg-security] use csrf middleware
-2022-01-06 20:40:01,398 INFO 70009 [egg-security] use methodnoallow middleware
-2022-01-06 20:40:01,405 INFO 70009 [egg-security] use noopen middleware
-2022-01-06 20:40:01,409 INFO 70009 [egg-security] use nosniff middleware
-2022-01-06 20:40:01,411 INFO 70009 [egg-security] use xssProtection middleware
-2022-01-06 20:40:01,411 INFO 70009 [egg-security] use xframe middleware
-2022-01-06 20:40:01,412 INFO 70009 [egg-security] use dta middleware
-2022-01-06 20:40:01,412 INFO 70009 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:40:01,428 INFO 70009 [egg:core] dump config after load, 9ms
-2022-01-06 20:40:01,435 INFO 70009 [egg-mongoose] starting...
-2022-01-06 20:40:01,472 INFO 70009 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:40:01,476 INFO 70009 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:40:01,480 INFO 70009 [egg-watcher:application] watcher start success
-2022-01-06 20:40:01,488 INFO 70009 [egg:core] dump config after ready, 5ms
-2022-01-06 20:40:03,931 INFO 70046 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:40:03,949 INFO 70046 [egg-multipart] stream mode enable
-2022-01-06 20:40:04,134 INFO 70046 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:40:04,204 INFO 70046 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:40:04,209 INFO 70046 [egg-security] use csrf middleware
-2022-01-06 20:40:04,209 INFO 70046 [egg-security] use methodnoallow middleware
-2022-01-06 20:40:04,209 INFO 70046 [egg-security] use noopen middleware
-2022-01-06 20:40:04,210 INFO 70046 [egg-security] use nosniff middleware
-2022-01-06 20:40:04,210 INFO 70046 [egg-security] use xssProtection middleware
-2022-01-06 20:40:04,210 INFO 70046 [egg-security] use xframe middleware
-2022-01-06 20:40:04,210 INFO 70046 [egg-security] use dta middleware
-2022-01-06 20:40:04,210 INFO 70046 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:40:04,220 INFO 70046 [egg:core] dump config after load, 5ms
-2022-01-06 20:40:04,223 INFO 70046 [egg-mongoose] starting...
-2022-01-06 20:40:04,246 INFO 70046 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:40:04,247 INFO 70046 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:40:04,248 INFO 70046 [egg-watcher:application] watcher start success
-2022-01-06 20:40:04,253 INFO 70046 [egg:core] dump config after ready, 4ms
-2022-01-06 20:42:22,832 INFO 70174 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:42:22,878 INFO 70174 [egg-multipart] stream mode enable
-2022-01-06 20:42:23,190 INFO 70174 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:42:23,343 INFO 70174 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:42:23,362 INFO 70174 [egg-security] use csrf middleware
-2022-01-06 20:42:23,363 INFO 70174 [egg-security] use methodnoallow middleware
-2022-01-06 20:42:23,364 INFO 70174 [egg-security] use noopen middleware
-2022-01-06 20:42:23,364 INFO 70174 [egg-security] use nosniff middleware
-2022-01-06 20:42:23,365 INFO 70174 [egg-security] use xssProtection middleware
-2022-01-06 20:42:23,365 INFO 70174 [egg-security] use xframe middleware
-2022-01-06 20:42:23,366 INFO 70174 [egg-security] use dta middleware
-2022-01-06 20:42:23,366 INFO 70174 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:42:23,380 INFO 70174 [egg:core] dump config after load, 7ms
-2022-01-06 20:42:23,394 INFO 70174 [egg-mongoose] starting...
-2022-01-06 20:42:23,441 INFO 70174 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:42:23,443 INFO 70174 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:42:23,463 INFO 70174 [egg-watcher:application] watcher start success
-2022-01-06 20:42:23,478 INFO 70174 [egg:core] dump config after ready, 12ms
-2022-01-06 20:43:47,858 INFO 70290 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:43:47,874 INFO 70290 [egg-multipart] stream mode enable
-2022-01-06 20:43:48,100 INFO 70290 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:43:48,185 INFO 70290 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:43:48,191 INFO 70290 [egg-security] use csrf middleware
-2022-01-06 20:43:48,191 INFO 70290 [egg-security] use methodnoallow middleware
-2022-01-06 20:43:48,192 INFO 70290 [egg-security] use noopen middleware
-2022-01-06 20:43:48,192 INFO 70290 [egg-security] use nosniff middleware
-2022-01-06 20:43:48,193 INFO 70290 [egg-security] use xssProtection middleware
-2022-01-06 20:43:48,193 INFO 70290 [egg-security] use xframe middleware
-2022-01-06 20:43:48,193 INFO 70290 [egg-security] use dta middleware
-2022-01-06 20:43:48,193 INFO 70290 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:43:48,204 INFO 70290 [egg:core] dump config after load, 5ms
-2022-01-06 20:43:48,207 INFO 70290 [egg-mongoose] starting...
-2022-01-06 20:43:48,229 INFO 70290 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:43:48,230 INFO 70290 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:43:48,232 INFO 70290 [egg-watcher:application] watcher start success
-2022-01-06 20:43:48,238 INFO 70290 [egg:core] dump config after ready, 5ms
-2022-01-06 20:45:05,898 INFO 70534 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:45:05,914 INFO 70534 [egg-multipart] stream mode enable
-2022-01-06 20:45:06,106 INFO 70534 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:45:06,185 INFO 70534 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:45:06,191 INFO 70534 [egg-security] use csrf middleware
-2022-01-06 20:45:06,191 INFO 70534 [egg-security] use methodnoallow middleware
-2022-01-06 20:45:06,192 INFO 70534 [egg-security] use noopen middleware
-2022-01-06 20:45:06,192 INFO 70534 [egg-security] use nosniff middleware
-2022-01-06 20:45:06,192 INFO 70534 [egg-security] use xssProtection middleware
-2022-01-06 20:45:06,193 INFO 70534 [egg-security] use xframe middleware
-2022-01-06 20:45:06,193 INFO 70534 [egg-security] use dta middleware
-2022-01-06 20:45:06,193 INFO 70534 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:45:06,203 INFO 70534 [egg:core] dump config after load, 5ms
-2022-01-06 20:45:06,206 INFO 70534 [egg-mongoose] starting...
-2022-01-06 20:45:06,231 INFO 70534 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:45:06,232 INFO 70534 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:45:06,234 INFO 70534 [egg-watcher:application] watcher start success
-2022-01-06 20:45:06,240 INFO 70534 [egg:core] dump config after ready, 4ms
-2022-01-06 20:46:31,477 INFO 70626 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:46:31,500 INFO 70626 [egg-multipart] stream mode enable
-2022-01-06 20:46:31,720 INFO 70626 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:46:31,818 INFO 70626 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:46:31,823 INFO 70626 [egg-security] use csrf middleware
-2022-01-06 20:46:31,824 INFO 70626 [egg-security] use methodnoallow middleware
-2022-01-06 20:46:31,824 INFO 70626 [egg-security] use noopen middleware
-2022-01-06 20:46:31,825 INFO 70626 [egg-security] use nosniff middleware
-2022-01-06 20:46:31,825 INFO 70626 [egg-security] use xssProtection middleware
-2022-01-06 20:46:31,825 INFO 70626 [egg-security] use xframe middleware
-2022-01-06 20:46:31,826 INFO 70626 [egg-security] use dta middleware
-2022-01-06 20:46:31,826 INFO 70626 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:46:31,838 INFO 70626 [egg:core] dump config after load, 6ms
-2022-01-06 20:46:31,840 INFO 70626 [egg-mongoose] starting...
-2022-01-06 20:46:31,862 INFO 70626 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:46:31,863 INFO 70626 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:46:31,865 INFO 70626 [egg-watcher:application] watcher start success
-2022-01-06 20:46:31,871 INFO 70626 [egg:core] dump config after ready, 4ms
-2022-01-06 20:46:35,754 INFO 70650 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:46:35,783 INFO 70650 [egg-multipart] stream mode enable
-2022-01-06 20:46:35,994 INFO 70650 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:46:36,068 INFO 70650 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:46:36,074 INFO 70650 [egg-security] use csrf middleware
-2022-01-06 20:46:36,074 INFO 70650 [egg-security] use methodnoallow middleware
-2022-01-06 20:46:36,074 INFO 70650 [egg-security] use noopen middleware
-2022-01-06 20:46:36,074 INFO 70650 [egg-security] use nosniff middleware
-2022-01-06 20:46:36,075 INFO 70650 [egg-security] use xssProtection middleware
-2022-01-06 20:46:36,075 INFO 70650 [egg-security] use xframe middleware
-2022-01-06 20:46:36,075 INFO 70650 [egg-security] use dta middleware
-2022-01-06 20:46:36,075 INFO 70650 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:46:36,086 INFO 70650 [egg:core] dump config after load, 6ms
-2022-01-06 20:46:36,089 INFO 70650 [egg-mongoose] starting...
-2022-01-06 20:46:36,121 INFO 70650 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:46:36,123 INFO 70650 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:46:36,126 INFO 70650 [egg-watcher:application] watcher start success
-2022-01-06 20:46:36,139 INFO 70650 [egg:core] dump config after ready, 10ms
-2022-01-06 20:46:45,171 INFO 70691 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:46:45,197 INFO 70691 [egg-multipart] stream mode enable
-2022-01-06 20:46:45,414 INFO 70691 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:46:45,490 INFO 70691 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:46:45,496 INFO 70691 [egg-security] use csrf middleware
-2022-01-06 20:46:45,496 INFO 70691 [egg-security] use methodnoallow middleware
-2022-01-06 20:46:45,496 INFO 70691 [egg-security] use noopen middleware
-2022-01-06 20:46:45,497 INFO 70691 [egg-security] use nosniff middleware
-2022-01-06 20:46:45,497 INFO 70691 [egg-security] use xssProtection middleware
-2022-01-06 20:46:45,497 INFO 70691 [egg-security] use xframe middleware
-2022-01-06 20:46:45,497 INFO 70691 [egg-security] use dta middleware
-2022-01-06 20:46:45,497 INFO 70691 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:46:45,507 INFO 70691 [egg:core] dump config after load, 5ms
-2022-01-06 20:46:45,511 INFO 70691 [egg-mongoose] starting...
-2022-01-06 20:46:45,535 INFO 70691 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:46:45,536 INFO 70691 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:46:45,541 INFO 70691 [egg-watcher:application] watcher start success
-2022-01-06 20:46:45,549 INFO 70691 [egg:core] dump config after ready, 6ms
-2022-01-06 20:52:40,356 INFO 71261 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:52:40,381 INFO 71261 [egg-multipart] stream mode enable
-2022-01-06 20:52:40,654 INFO 71261 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:52:40,774 INFO 71261 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:52:40,777 INFO 71261 [egg-security] use csrf middleware
-2022-01-06 20:52:40,778 INFO 71261 [egg-security] use methodnoallow middleware
-2022-01-06 20:52:40,778 INFO 71261 [egg-security] use noopen middleware
-2022-01-06 20:52:40,779 INFO 71261 [egg-security] use nosniff middleware
-2022-01-06 20:52:40,779 INFO 71261 [egg-security] use xssProtection middleware
-2022-01-06 20:52:40,780 INFO 71261 [egg-security] use xframe middleware
-2022-01-06 20:52:40,780 INFO 71261 [egg-security] use dta middleware
-2022-01-06 20:52:40,780 INFO 71261 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:52:40,792 INFO 71261 [egg:core] dump config after load, 5ms
-2022-01-06 20:52:40,795 INFO 71261 [egg-mongoose] starting...
-2022-01-06 20:52:40,821 INFO 71261 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:52:40,822 INFO 71261 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:52:40,826 INFO 71261 [egg-watcher:application] watcher start success
-2022-01-06 20:52:40,836 INFO 71261 [egg:core] dump config after ready, 7ms
-2022-01-06 20:52:53,798 INFO 71303 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:52:53,825 INFO 71303 [egg-multipart] stream mode enable
-2022-01-06 20:52:54,128 INFO 71303 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:52:54,239 INFO 71303 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:52:54,242 INFO 71303 [egg-security] use csrf middleware
-2022-01-06 20:52:54,242 INFO 71303 [egg-security] use methodnoallow middleware
-2022-01-06 20:52:54,243 INFO 71303 [egg-security] use noopen middleware
-2022-01-06 20:52:54,243 INFO 71303 [egg-security] use nosniff middleware
-2022-01-06 20:52:54,244 INFO 71303 [egg-security] use xssProtection middleware
-2022-01-06 20:52:54,244 INFO 71303 [egg-security] use xframe middleware
-2022-01-06 20:52:54,244 INFO 71303 [egg-security] use dta middleware
-2022-01-06 20:52:54,245 INFO 71303 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:52:54,259 INFO 71303 [egg:core] dump config after load, 7ms
-2022-01-06 20:52:54,263 INFO 71303 [egg-mongoose] starting...
-2022-01-06 20:52:54,302 INFO 71303 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:52:54,305 INFO 71303 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:52:54,308 INFO 71303 [egg-watcher:application] watcher start success
-2022-01-06 20:52:54,319 INFO 71303 [egg:core] dump config after ready, 7ms
-2022-01-06 20:52:57,101 INFO 71335 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:52:57,131 INFO 71335 [egg-multipart] stream mode enable
-2022-01-06 20:52:57,367 INFO 71335 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:52:57,454 INFO 71335 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:52:57,456 INFO 71335 [egg-security] use csrf middleware
-2022-01-06 20:52:57,457 INFO 71335 [egg-security] use methodnoallow middleware
-2022-01-06 20:52:57,457 INFO 71335 [egg-security] use noopen middleware
-2022-01-06 20:52:57,457 INFO 71335 [egg-security] use nosniff middleware
-2022-01-06 20:52:57,457 INFO 71335 [egg-security] use xssProtection middleware
-2022-01-06 20:52:57,457 INFO 71335 [egg-security] use xframe middleware
-2022-01-06 20:52:57,457 INFO 71335 [egg-security] use dta middleware
-2022-01-06 20:52:57,458 INFO 71335 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:52:57,469 INFO 71335 [egg:core] dump config after load, 5ms
-2022-01-06 20:52:57,472 INFO 71335 [egg-mongoose] starting...
-2022-01-06 20:52:57,497 INFO 71335 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:52:57,500 INFO 71335 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:52:57,502 INFO 71335 [egg-watcher:application] watcher start success
-2022-01-06 20:52:57,516 INFO 71335 [egg:core] dump config after ready, 9ms
-2022-01-06 20:53:14,034 INFO 71368 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:53:14,062 INFO 71368 [egg-multipart] stream mode enable
-2022-01-06 20:53:14,357 INFO 71368 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:53:14,504 INFO 71368 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:53:14,510 INFO 71368 [egg-security] use csrf middleware
-2022-01-06 20:53:14,511 INFO 71368 [egg-security] use methodnoallow middleware
-2022-01-06 20:53:14,511 INFO 71368 [egg-security] use noopen middleware
-2022-01-06 20:53:14,511 INFO 71368 [egg-security] use nosniff middleware
-2022-01-06 20:53:14,512 INFO 71368 [egg-security] use xssProtection middleware
-2022-01-06 20:53:14,512 INFO 71368 [egg-security] use xframe middleware
-2022-01-06 20:53:14,512 INFO 71368 [egg-security] use dta middleware
-2022-01-06 20:53:14,512 INFO 71368 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:53:14,528 INFO 71368 [egg:core] dump config after load, 6ms
-2022-01-06 20:53:14,531 INFO 71368 [egg-mongoose] starting...
-2022-01-06 20:53:14,558 INFO 71368 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:53:14,559 INFO 71368 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:53:14,562 INFO 71368 [egg-watcher:application] watcher start success
-2022-01-06 20:53:14,570 INFO 71368 [egg:core] dump config after ready, 5ms
-2022-01-06 20:53:16,585 INFO 71392 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:53:16,625 INFO 71392 [egg-multipart] stream mode enable
-2022-01-06 20:53:16,936 INFO 71392 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:53:17,102 INFO 71392 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:53:17,118 INFO 71392 [egg-security] use csrf middleware
-2022-01-06 20:53:17,119 INFO 71392 [egg-security] use methodnoallow middleware
-2022-01-06 20:53:17,119 INFO 71392 [egg-security] use noopen middleware
-2022-01-06 20:53:17,120 INFO 71392 [egg-security] use nosniff middleware
-2022-01-06 20:53:17,121 INFO 71392 [egg-security] use xssProtection middleware
-2022-01-06 20:53:17,121 INFO 71392 [egg-security] use xframe middleware
-2022-01-06 20:53:17,122 INFO 71392 [egg-security] use dta middleware
-2022-01-06 20:53:17,122 INFO 71392 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:53:17,139 INFO 71392 [egg:core] dump config after load, 5ms
-2022-01-06 20:53:17,144 INFO 71392 [egg-mongoose] starting...
-2022-01-06 20:53:17,183 INFO 71392 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:53:17,185 INFO 71392 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:53:17,190 INFO 71392 [egg-watcher:application] watcher start success
-2022-01-06 20:53:17,203 INFO 71392 [egg:core] dump config after ready, 8ms
-2022-01-06 20:54:01,337 INFO 71466 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:54:01,372 INFO 71466 [egg-multipart] stream mode enable
-2022-01-06 20:54:01,681 INFO 71466 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:54:01,806 INFO 71466 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:54:01,813 INFO 71466 [egg-security] use csrf middleware
-2022-01-06 20:54:01,813 INFO 71466 [egg-security] use methodnoallow middleware
-2022-01-06 20:54:01,814 INFO 71466 [egg-security] use noopen middleware
-2022-01-06 20:54:01,814 INFO 71466 [egg-security] use nosniff middleware
-2022-01-06 20:54:01,814 INFO 71466 [egg-security] use xssProtection middleware
-2022-01-06 20:54:01,815 INFO 71466 [egg-security] use xframe middleware
-2022-01-06 20:54:01,815 INFO 71466 [egg-security] use dta middleware
-2022-01-06 20:54:01,815 INFO 71466 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:54:01,831 INFO 71466 [egg:core] dump config after load, 6ms
-2022-01-06 20:54:01,833 INFO 71466 [egg-mongoose] starting...
-2022-01-06 20:54:01,876 INFO 71466 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:54:01,880 INFO 71466 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:54:01,885 INFO 71466 [egg-watcher:application] watcher start success
-2022-01-06 20:54:01,894 INFO 71466 [egg:core] dump config after ready, 5ms
-2022-01-06 20:54:52,096 INFO 71551 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:54:52,122 INFO 71551 [egg-multipart] stream mode enable
-2022-01-06 20:54:52,740 INFO 71551 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:54:53,101 INFO 71551 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:54:53,107 INFO 71551 [egg-security] use csrf middleware
-2022-01-06 20:54:53,107 INFO 71551 [egg-security] use methodnoallow middleware
-2022-01-06 20:54:53,108 INFO 71551 [egg-security] use noopen middleware
-2022-01-06 20:54:53,108 INFO 71551 [egg-security] use nosniff middleware
-2022-01-06 20:54:53,108 INFO 71551 [egg-security] use xssProtection middleware
-2022-01-06 20:54:53,109 INFO 71551 [egg-security] use xframe middleware
-2022-01-06 20:54:53,109 INFO 71551 [egg-security] use dta middleware
-2022-01-06 20:54:53,109 INFO 71551 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:54:53,121 INFO 71551 [egg:core] dump config after load, 5ms
-2022-01-06 20:54:53,125 INFO 71551 [egg-mongoose] starting...
-2022-01-06 20:54:53,306 INFO 71551 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:54:53,339 INFO 71551 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:54:53,397 INFO 71551 [egg-watcher:application] watcher start success
-2022-01-06 20:54:53,420 INFO 71551 [egg:core] dump config after ready, 8ms
-2022-01-06 20:54:57,022 INFO 71595 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:54:57,047 INFO 71595 [egg-multipart] stream mode enable
-2022-01-06 20:54:57,220 INFO 71595 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:54:57,284 INFO 71595 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:54:57,289 INFO 71595 [egg-security] use csrf middleware
-2022-01-06 20:54:57,290 INFO 71595 [egg-security] use methodnoallow middleware
-2022-01-06 20:54:57,290 INFO 71595 [egg-security] use noopen middleware
-2022-01-06 20:54:57,290 INFO 71595 [egg-security] use nosniff middleware
-2022-01-06 20:54:57,290 INFO 71595 [egg-security] use xssProtection middleware
-2022-01-06 20:54:57,290 INFO 71595 [egg-security] use xframe middleware
-2022-01-06 20:54:57,291 INFO 71595 [egg-security] use dta middleware
-2022-01-06 20:54:57,291 INFO 71595 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:54:57,301 INFO 71595 [egg:core] dump config after load, 5ms
-2022-01-06 20:54:57,304 INFO 71595 [egg-mongoose] starting...
-2022-01-06 20:54:57,333 INFO 71595 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:54:57,334 INFO 71595 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:54:57,336 INFO 71595 [egg-watcher:application] watcher start success
-2022-01-06 20:54:57,341 INFO 71598 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:54:57,360 INFO 71598 [egg-multipart] stream mode enable
-2022-01-06 20:54:57,524 INFO 71598 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:54:57,587 INFO 71598 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:54:57,591 INFO 71598 [egg-security] use csrf middleware
-2022-01-06 20:54:57,592 INFO 71598 [egg-security] use methodnoallow middleware
-2022-01-06 20:54:57,592 INFO 71598 [egg-security] use noopen middleware
-2022-01-06 20:54:57,592 INFO 71598 [egg-security] use nosniff middleware
-2022-01-06 20:54:57,592 INFO 71598 [egg-security] use xssProtection middleware
-2022-01-06 20:54:57,592 INFO 71598 [egg-security] use xframe middleware
-2022-01-06 20:54:57,593 INFO 71598 [egg-security] use dta middleware
-2022-01-06 20:54:57,593 INFO 71598 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:54:57,602 INFO 71598 [egg:core] dump config after load, 5ms
-2022-01-06 20:54:57,605 INFO 71598 [egg-mongoose] starting...
-2022-01-06 20:54:57,626 INFO 71598 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:54:57,627 INFO 71598 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:54:57,629 INFO 71598 [egg-watcher:application] watcher start success
-2022-01-06 20:54:57,635 INFO 71598 [egg:core] dump config after ready, 5ms
-2022-01-06 20:55:08,424 INFO 71638 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:55:08,447 INFO 71638 [egg-multipart] stream mode enable
-2022-01-06 20:55:08,684 INFO 71638 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:55:08,794 INFO 71638 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:55:08,800 INFO 71638 [egg-security] use csrf middleware
-2022-01-06 20:55:08,801 INFO 71638 [egg-security] use methodnoallow middleware
-2022-01-06 20:55:08,801 INFO 71638 [egg-security] use noopen middleware
-2022-01-06 20:55:08,802 INFO 71638 [egg-security] use nosniff middleware
-2022-01-06 20:55:08,802 INFO 71638 [egg-security] use xssProtection middleware
-2022-01-06 20:55:08,802 INFO 71638 [egg-security] use xframe middleware
-2022-01-06 20:55:08,803 INFO 71638 [egg-security] use dta middleware
-2022-01-06 20:55:08,803 INFO 71638 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:55:08,815 INFO 71638 [egg:core] dump config after load, 5ms
-2022-01-06 20:55:08,819 INFO 71638 [egg-mongoose] starting...
-2022-01-06 20:55:08,850 INFO 71638 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:55:08,852 INFO 71638 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:55:08,854 INFO 71638 [egg-watcher:application] watcher start success
-2022-01-06 20:55:08,886 INFO 71638 [egg:core] dump config after ready, 29ms
-2022-01-06 20:56:46,163 INFO 71727 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 20:56:46,185 INFO 71727 [egg-multipart] stream mode enable
-2022-01-06 20:56:46,394 INFO 71727 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 20:56:46,483 INFO 71727 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 20:56:46,488 INFO 71727 [egg-security] use csrf middleware
-2022-01-06 20:56:46,489 INFO 71727 [egg-security] use methodnoallow middleware
-2022-01-06 20:56:46,489 INFO 71727 [egg-security] use noopen middleware
-2022-01-06 20:56:46,490 INFO 71727 [egg-security] use nosniff middleware
-2022-01-06 20:56:46,490 INFO 71727 [egg-security] use xssProtection middleware
-2022-01-06 20:56:46,490 INFO 71727 [egg-security] use xframe middleware
-2022-01-06 20:56:46,491 INFO 71727 [egg-security] use dta middleware
-2022-01-06 20:56:46,491 INFO 71727 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 20:56:46,501 INFO 71727 [egg:core] dump config after load, 5ms
-2022-01-06 20:56:46,504 INFO 71727 [egg-mongoose] starting...
-2022-01-06 20:56:46,525 INFO 71727 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 20:56:46,526 INFO 71727 [egg-mongoose] instance[0] start successfully
-2022-01-06 20:56:46,527 INFO 71727 [egg-watcher:application] watcher start success
-2022-01-06 20:56:46,533 INFO 71727 [egg:core] dump config after ready, 4ms
-2022-01-06 21:01:18,372 INFO 71875 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 21:01:18,395 INFO 71875 [egg-multipart] stream mode enable
-2022-01-06 21:01:18,649 INFO 71875 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 21:01:18,778 INFO 71875 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 21:01:18,784 INFO 71875 [egg-security] use csrf middleware
-2022-01-06 21:01:18,785 INFO 71875 [egg-security] use methodnoallow middleware
-2022-01-06 21:01:18,786 INFO 71875 [egg-security] use noopen middleware
-2022-01-06 21:01:18,786 INFO 71875 [egg-security] use nosniff middleware
-2022-01-06 21:01:18,787 INFO 71875 [egg-security] use xssProtection middleware
-2022-01-06 21:01:18,787 INFO 71875 [egg-security] use xframe middleware
-2022-01-06 21:01:18,788 INFO 71875 [egg-security] use dta middleware
-2022-01-06 21:01:18,788 INFO 71875 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 21:01:18,803 INFO 71875 [egg:core] dump config after load, 7ms
-2022-01-06 21:01:18,812 INFO 71875 [egg-mongoose] starting...
-2022-01-06 21:01:18,865 INFO 71875 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 21:01:18,867 INFO 71875 [egg-mongoose] instance[0] start successfully
-2022-01-06 21:01:18,870 INFO 71875 [egg-watcher:application] watcher start success
-2022-01-06 21:01:18,887 INFO 71875 [egg:core] dump config after ready, 10ms
-2022-01-06 21:04:04,388 INFO 72201 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 21:04:04,404 INFO 72201 [egg-multipart] stream mode enable
-2022-01-06 21:04:04,604 INFO 72201 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 21:04:04,683 INFO 72201 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 21:04:04,688 INFO 72201 [egg-security] use csrf middleware
-2022-01-06 21:04:04,688 INFO 72201 [egg-security] use methodnoallow middleware
-2022-01-06 21:04:04,689 INFO 72201 [egg-security] use noopen middleware
-2022-01-06 21:04:04,689 INFO 72201 [egg-security] use nosniff middleware
-2022-01-06 21:04:04,689 INFO 72201 [egg-security] use xssProtection middleware
-2022-01-06 21:04:04,690 INFO 72201 [egg-security] use xframe middleware
-2022-01-06 21:04:04,690 INFO 72201 [egg-security] use dta middleware
-2022-01-06 21:04:04,690 INFO 72201 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 21:04:04,701 INFO 72201 [egg:core] dump config after load, 5ms
-2022-01-06 21:04:04,703 INFO 72201 [egg-mongoose] starting...
-2022-01-06 21:04:04,730 INFO 72201 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 21:04:04,731 INFO 72201 [egg-mongoose] instance[0] start successfully
-2022-01-06 21:04:04,733 INFO 72201 [egg-watcher:application] watcher start success
-2022-01-06 21:04:04,738 INFO 72201 [egg:core] dump config after ready, 4ms
-2022-01-06 21:04:34,399 INFO 72250 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 21:04:34,428 INFO 72250 [egg-multipart] stream mode enable
-2022-01-06 21:04:34,738 INFO 72250 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 21:04:34,858 INFO 72250 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 21:04:34,866 INFO 72250 [egg-security] use csrf middleware
-2022-01-06 21:04:34,867 INFO 72250 [egg-security] use methodnoallow middleware
-2022-01-06 21:04:34,867 INFO 72250 [egg-security] use noopen middleware
-2022-01-06 21:04:34,868 INFO 72250 [egg-security] use nosniff middleware
-2022-01-06 21:04:34,868 INFO 72250 [egg-security] use xssProtection middleware
-2022-01-06 21:04:34,869 INFO 72250 [egg-security] use xframe middleware
-2022-01-06 21:04:34,869 INFO 72250 [egg-security] use dta middleware
-2022-01-06 21:04:34,869 INFO 72250 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 21:04:34,887 INFO 72250 [egg:core] dump config after load, 8ms
-2022-01-06 21:04:34,892 INFO 72250 [egg-mongoose] starting...
-2022-01-06 21:04:34,923 INFO 72250 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 21:04:34,925 INFO 72250 [egg-mongoose] instance[0] start successfully
-2022-01-06 21:04:34,927 INFO 72250 [egg-watcher:application] watcher start success
-2022-01-06 21:04:34,934 INFO 72250 [egg:core] dump config after ready, 5ms
-2022-01-06 21:05:09,663 INFO 72310 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 21:05:09,693 INFO 72310 [egg-multipart] stream mode enable
-2022-01-06 21:05:09,953 INFO 72310 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 21:05:10,079 INFO 72310 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 21:05:10,097 INFO 72310 [egg-security] use csrf middleware
-2022-01-06 21:05:10,098 INFO 72310 [egg-security] use methodnoallow middleware
-2022-01-06 21:05:10,098 INFO 72310 [egg-security] use noopen middleware
-2022-01-06 21:05:10,099 INFO 72310 [egg-security] use nosniff middleware
-2022-01-06 21:05:10,099 INFO 72310 [egg-security] use xssProtection middleware
-2022-01-06 21:05:10,100 INFO 72310 [egg-security] use xframe middleware
-2022-01-06 21:05:10,100 INFO 72310 [egg-security] use dta middleware
-2022-01-06 21:05:10,100 INFO 72310 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 21:05:10,130 INFO 72310 [egg:core] dump config after load, 17ms
-2022-01-06 21:05:10,135 INFO 72310 [egg-mongoose] starting...
-2022-01-06 21:05:10,179 INFO 72310 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 21:05:10,180 INFO 72310 [egg-mongoose] instance[0] start successfully
-2022-01-06 21:05:10,182 INFO 72310 [egg-watcher:application] watcher start success
-2022-01-06 21:05:10,195 INFO 72310 [egg:core] dump config after ready, 8ms
-2022-01-06 21:05:35,520 INFO 72372 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 21:05:35,542 INFO 72372 [egg-multipart] stream mode enable
-2022-01-06 21:05:35,785 INFO 72372 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 21:05:35,894 INFO 72372 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 21:05:35,899 INFO 72372 [egg-security] use csrf middleware
-2022-01-06 21:05:35,900 INFO 72372 [egg-security] use methodnoallow middleware
-2022-01-06 21:05:35,900 INFO 72372 [egg-security] use noopen middleware
-2022-01-06 21:05:35,901 INFO 72372 [egg-security] use nosniff middleware
-2022-01-06 21:05:35,901 INFO 72372 [egg-security] use xssProtection middleware
-2022-01-06 21:05:35,902 INFO 72372 [egg-security] use xframe middleware
-2022-01-06 21:05:35,902 INFO 72372 [egg-security] use dta middleware
-2022-01-06 21:05:35,902 INFO 72372 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 21:05:35,915 INFO 72372 [egg:core] dump config after load, 5ms
-2022-01-06 21:05:35,918 INFO 72372 [egg-mongoose] starting...
-2022-01-06 21:05:35,950 INFO 72372 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 21:05:35,951 INFO 72372 [egg-mongoose] instance[0] start successfully
-2022-01-06 21:05:35,953 INFO 72372 [egg-watcher:application] watcher start success
-2022-01-06 21:05:35,964 INFO 72372 [egg:core] dump config after ready, 5ms
-2022-01-06 21:05:53,842 INFO 72428 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
-2022-01-06 21:05:53,871 INFO 72428 [egg-multipart] stream mode enable
-2022-01-06 21:05:54,153 INFO 72428 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
-2022-01-06 21:05:54,276 INFO 72428 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
-2022-01-06 21:05:54,283 INFO 72428 [egg-security] use csrf middleware
-2022-01-06 21:05:54,284 INFO 72428 [egg-security] use methodnoallow middleware
-2022-01-06 21:05:54,285 INFO 72428 [egg-security] use noopen middleware
-2022-01-06 21:05:54,285 INFO 72428 [egg-security] use nosniff middleware
-2022-01-06 21:05:54,285 INFO 72428 [egg-security] use xssProtection middleware
-2022-01-06 21:05:54,286 INFO 72428 [egg-security] use xframe middleware
-2022-01-06 21:05:54,286 INFO 72428 [egg-security] use dta middleware
-2022-01-06 21:05:54,286 INFO 72428 [egg-security] compose 7 middlewares into one security middleware
-2022-01-06 21:05:54,303 INFO 72428 [egg:core] dump config after load, 7ms
-2022-01-06 21:05:54,307 INFO 72428 [egg-mongoose] starting...
-2022-01-06 21:05:54,342 INFO 72428 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
-2022-01-06 21:05:54,343 INFO 72428 [egg-mongoose] instance[0] start successfully
-2022-01-06 21:05:54,345 INFO 72428 [egg-watcher:application] watcher start success
-2022-01-06 21:05:54,352 INFO 72428 [egg:core] dump config after ready, 5ms
+2022-01-07 00:00:01,115 INFO 76154 [egg-logrotator] app logger reload: got log-reload message
+2022-01-07 00:03:06,987 INFO 76822 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-07 00:03:07,034 INFO 76822 [egg-multipart] stream mode enable
+2022-01-07 00:03:07,368 INFO 76822 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
+2022-01-07 00:03:07,482 INFO 76822 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
+2022-01-07 00:03:07,490 INFO 76822 [egg-security] use csrf middleware
+2022-01-07 00:03:07,491 INFO 76822 [egg-security] use methodnoallow middleware
+2022-01-07 00:03:07,491 INFO 76822 [egg-security] use noopen middleware
+2022-01-07 00:03:07,492 INFO 76822 [egg-security] use nosniff middleware
+2022-01-07 00:03:07,493 INFO 76822 [egg-security] use xssProtection middleware
+2022-01-07 00:03:07,493 INFO 76822 [egg-security] use xframe middleware
+2022-01-07 00:03:07,493 INFO 76822 [egg-security] use dta middleware
+2022-01-07 00:03:07,493 INFO 76822 [egg-security] compose 7 middlewares into one security middleware
+2022-01-07 00:03:07,508 INFO 76822 [egg:core] dump config after load, 6ms
+2022-01-07 00:03:07,512 INFO 76822 [egg-mongoose] starting...
+2022-01-07 00:03:07,545 INFO 76822 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
+2022-01-07 00:03:07,546 INFO 76822 [egg-mongoose] instance[0] start successfully
+2022-01-07 00:03:07,549 INFO 76822 [egg-watcher:application] watcher start success
+2022-01-07 00:03:07,555 INFO 76822 [egg:core] dump config after ready, 4ms
+2022-01-07 00:03:16,882 INFO 76865 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-07 00:03:16,916 INFO 76865 [egg-multipart] stream mode enable
+2022-01-07 00:03:17,188 INFO 76865 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
+2022-01-07 00:03:17,303 INFO 76865 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
+2022-01-07 00:03:17,308 INFO 76865 [egg-security] use csrf middleware
+2022-01-07 00:03:17,309 INFO 76865 [egg-security] use methodnoallow middleware
+2022-01-07 00:03:17,309 INFO 76865 [egg-security] use noopen middleware
+2022-01-07 00:03:17,309 INFO 76865 [egg-security] use nosniff middleware
+2022-01-07 00:03:17,310 INFO 76865 [egg-security] use xssProtection middleware
+2022-01-07 00:03:17,310 INFO 76865 [egg-security] use xframe middleware
+2022-01-07 00:03:17,310 INFO 76865 [egg-security] use dta middleware
+2022-01-07 00:03:17,310 INFO 76865 [egg-security] compose 7 middlewares into one security middleware
+2022-01-07 00:03:17,322 INFO 76865 [egg:core] dump config after load, 5ms
+2022-01-07 00:03:17,326 INFO 76865 [egg-mongoose] starting...
+2022-01-07 00:03:17,353 INFO 76865 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
+2022-01-07 00:03:17,354 INFO 76865 [egg-mongoose] instance[0] start successfully
+2022-01-07 00:03:17,357 INFO 76865 [egg-watcher:application] watcher start success
+2022-01-07 00:03:17,364 INFO 76865 [egg:core] dump config after ready, 5ms
+2022-01-06 23:30:34,896 INFO 76997 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-06 23:30:34,918 INFO 76997 [egg-multipart] stream mode enable
+2022-01-06 23:30:35,141 INFO 76997 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
+2022-01-06 23:30:35,232 INFO 76997 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
+2022-01-06 23:30:35,234 INFO 76997 [egg-security] use csrf middleware
+2022-01-06 23:30:35,235 INFO 76997 [egg-security] use methodnoallow middleware
+2022-01-06 23:30:35,235 INFO 76997 [egg-security] use noopen middleware
+2022-01-06 23:30:35,236 INFO 76997 [egg-security] use nosniff middleware
+2022-01-06 23:30:35,236 INFO 76997 [egg-security] use xssProtection middleware
+2022-01-06 23:30:35,236 INFO 76997 [egg-security] use xframe middleware
+2022-01-06 23:30:35,237 INFO 76997 [egg-security] use dta middleware
+2022-01-06 23:30:35,237 INFO 76997 [egg-security] compose 7 middlewares into one security middleware
+2022-01-06 23:30:35,248 INFO 76997 [egg:core] dump config after load, 5ms
+2022-01-06 23:30:35,251 INFO 76997 [egg-mongoose] starting...
+2022-01-06 23:30:35,276 INFO 76997 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
+2022-01-06 23:30:35,277 INFO 76997 [egg-mongoose] instance[0] start successfully
+2022-01-06 23:30:35,279 INFO 76997 [egg-watcher:application] watcher start success
+2022-01-06 23:30:35,285 INFO 76997 [egg:core] dump config after ready, 4ms
+2022-01-06 23:32:08,372 INFO 77071 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-06 23:32:08,392 INFO 77071 [egg-multipart] stream mode enable
+2022-01-06 23:32:08,621 INFO 77071 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
+2022-01-06 23:32:08,719 INFO 77071 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
+2022-01-06 23:32:08,727 INFO 77071 [egg-security] use csrf middleware
+2022-01-06 23:32:08,728 INFO 77071 [egg-security] use methodnoallow middleware
+2022-01-06 23:32:08,728 INFO 77071 [egg-security] use noopen middleware
+2022-01-06 23:32:08,728 INFO 77071 [egg-security] use nosniff middleware
+2022-01-06 23:32:08,729 INFO 77071 [egg-security] use xssProtection middleware
+2022-01-06 23:32:08,729 INFO 77071 [egg-security] use xframe middleware
+2022-01-06 23:32:08,729 INFO 77071 [egg-security] use dta middleware
+2022-01-06 23:32:08,729 INFO 77071 [egg-security] compose 7 middlewares into one security middleware
+2022-01-06 23:32:08,741 INFO 77071 [egg:core] dump config after load, 5ms
+2022-01-06 23:32:08,744 INFO 77071 [egg-mongoose] starting...
+2022-01-06 23:32:08,768 INFO 77071 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
+2022-01-06 23:32:08,769 INFO 77071 [egg-mongoose] instance[0] start successfully
+2022-01-06 23:32:08,771 INFO 77071 [egg-watcher:application] watcher start success
+2022-01-06 23:32:08,777 INFO 77071 [egg:core] dump config after ready, 4ms
+2022-01-06 23:32:10,869 INFO 77094 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-06 23:32:10,901 INFO 77094 [egg-multipart] stream mode enable
+2022-01-06 23:32:11,177 INFO 77094 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
+2022-01-06 23:32:11,303 INFO 77094 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
+2022-01-06 23:32:11,310 INFO 77094 [egg-security] use csrf middleware
+2022-01-06 23:32:11,311 INFO 77094 [egg-security] use methodnoallow middleware
+2022-01-06 23:32:11,312 INFO 77094 [egg-security] use noopen middleware
+2022-01-06 23:32:11,312 INFO 77094 [egg-security] use nosniff middleware
+2022-01-06 23:32:11,312 INFO 77094 [egg-security] use xssProtection middleware
+2022-01-06 23:32:11,313 INFO 77094 [egg-security] use xframe middleware
+2022-01-06 23:32:11,313 INFO 77094 [egg-security] use dta middleware
+2022-01-06 23:32:11,313 INFO 77094 [egg-security] compose 7 middlewares into one security middleware
+2022-01-06 23:32:11,331 INFO 77094 [egg:core] dump config after load, 9ms
+2022-01-06 23:32:11,335 INFO 77094 [egg-mongoose] starting...
+2022-01-06 23:32:11,370 INFO 77094 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
+2022-01-06 23:32:11,371 INFO 77094 [egg-mongoose] instance[0] start successfully
+2022-01-06 23:32:11,373 INFO 77094 [egg-watcher:application] watcher start success
+2022-01-06 23:32:11,388 INFO 77094 [egg:core] dump config after ready, 10ms
+2022-01-06 23:35:37,883 INFO 77320 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-06 23:35:37,904 INFO 77320 [egg-multipart] stream mode enable
+2022-01-06 23:35:38,119 INFO 77320 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
+2022-01-06 23:35:38,217 INFO 77320 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
+2022-01-06 23:35:38,224 INFO 77320 [egg-security] use csrf middleware
+2022-01-06 23:35:38,225 INFO 77320 [egg-security] use methodnoallow middleware
+2022-01-06 23:35:38,226 INFO 77320 [egg-security] use noopen middleware
+2022-01-06 23:35:38,227 INFO 77320 [egg-security] use nosniff middleware
+2022-01-06 23:35:38,228 INFO 77320 [egg-security] use xssProtection middleware
+2022-01-06 23:35:38,229 INFO 77320 [egg-security] use xframe middleware
+2022-01-06 23:35:38,230 INFO 77320 [egg-security] use dta middleware
+2022-01-06 23:35:38,230 INFO 77320 [egg-security] compose 7 middlewares into one security middleware
+2022-01-06 23:35:38,245 INFO 77320 [egg:core] dump config after load, 5ms
+2022-01-06 23:35:38,247 INFO 77320 [egg-mongoose] starting...
+2022-01-06 23:35:38,273 INFO 77320 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
+2022-01-06 23:35:38,274 INFO 77320 [egg-mongoose] instance[0] start successfully
+2022-01-06 23:35:38,275 INFO 77320 [egg-watcher:application] watcher start success
+2022-01-06 23:35:38,281 INFO 77320 [egg:core] dump config after ready, 4ms
+2022-01-06 23:35:47,256 INFO 77355 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-06 23:35:47,278 INFO 77355 [egg-multipart] stream mode enable
+2022-01-06 23:35:47,507 INFO 77355 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
+2022-01-06 23:35:47,607 INFO 77355 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
+2022-01-06 23:35:47,612 INFO 77355 [egg-security] use csrf middleware
+2022-01-06 23:35:47,613 INFO 77355 [egg-security] use methodnoallow middleware
+2022-01-06 23:35:47,613 INFO 77355 [egg-security] use noopen middleware
+2022-01-06 23:35:47,613 INFO 77355 [egg-security] use nosniff middleware
+2022-01-06 23:35:47,614 INFO 77355 [egg-security] use xssProtection middleware
+2022-01-06 23:35:47,614 INFO 77355 [egg-security] use xframe middleware
+2022-01-06 23:35:47,614 INFO 77355 [egg-security] use dta middleware
+2022-01-06 23:35:47,614 INFO 77355 [egg-security] compose 7 middlewares into one security middleware
+2022-01-06 23:35:47,626 INFO 77355 [egg:core] dump config after load, 5ms
+2022-01-06 23:35:47,629 INFO 77355 [egg-mongoose] starting...
+2022-01-06 23:35:47,651 INFO 77355 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
+2022-01-06 23:35:47,652 INFO 77355 [egg-mongoose] instance[0] start successfully
+2022-01-06 23:35:47,653 INFO 77355 [egg-watcher:application] watcher start success
+2022-01-06 23:35:47,659 INFO 77355 [egg:core] dump config after ready, 4ms
+2022-01-06 23:36:11,721 INFO 77391 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-06 23:36:11,742 INFO 77391 [egg-multipart] stream mode enable
+2022-01-06 23:36:11,966 INFO 77391 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
+2022-01-06 23:36:12,055 INFO 77391 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
+2022-01-06 23:36:12,060 INFO 77391 [egg-security] use csrf middleware
+2022-01-06 23:36:12,061 INFO 77391 [egg-security] use methodnoallow middleware
+2022-01-06 23:36:12,061 INFO 77391 [egg-security] use noopen middleware
+2022-01-06 23:36:12,061 INFO 77391 [egg-security] use nosniff middleware
+2022-01-06 23:36:12,062 INFO 77391 [egg-security] use xssProtection middleware
+2022-01-06 23:36:12,062 INFO 77391 [egg-security] use xframe middleware
+2022-01-06 23:36:12,062 INFO 77391 [egg-security] use dta middleware
+2022-01-06 23:36:12,063 INFO 77391 [egg-security] compose 7 middlewares into one security middleware
+2022-01-06 23:36:12,074 INFO 77391 [egg:core] dump config after load, 5ms
+2022-01-06 23:36:12,078 INFO 77391 [egg-mongoose] starting...
+2022-01-06 23:36:12,100 INFO 77391 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
+2022-01-06 23:36:12,101 INFO 77391 [egg-mongoose] instance[0] start successfully
+2022-01-06 23:36:12,103 INFO 77391 [egg-watcher:application] watcher start success
+2022-01-06 23:36:12,109 INFO 77391 [egg:core] dump config after ready, 5ms
+2022-01-06 23:54:14,062 INFO 77791 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-06 23:54:14,086 INFO 77791 [egg-multipart] stream mode enable
+2022-01-06 23:54:14,346 INFO 77791 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
+2022-01-06 23:54:14,453 INFO 77791 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
+2022-01-06 23:54:14,458 INFO 77791 [egg-security] use csrf middleware
+2022-01-06 23:54:14,459 INFO 77791 [egg-security] use methodnoallow middleware
+2022-01-06 23:54:14,460 INFO 77791 [egg-security] use noopen middleware
+2022-01-06 23:54:14,460 INFO 77791 [egg-security] use nosniff middleware
+2022-01-06 23:54:14,461 INFO 77791 [egg-security] use xssProtection middleware
+2022-01-06 23:54:14,461 INFO 77791 [egg-security] use xframe middleware
+2022-01-06 23:54:14,462 INFO 77791 [egg-security] use dta middleware
+2022-01-06 23:54:14,462 INFO 77791 [egg-security] compose 7 middlewares into one security middleware
+2022-01-06 23:54:14,477 INFO 77791 [egg:core] dump config after load, 8ms
+2022-01-06 23:54:14,482 INFO 77791 [egg-mongoose] starting...
+2022-01-06 23:54:14,511 INFO 77791 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
+2022-01-06 23:54:14,512 INFO 77791 [egg-mongoose] instance[0] start successfully
+2022-01-06 23:54:14,522 INFO 77791 [egg-watcher:application] watcher start success
+2022-01-06 23:54:14,530 INFO 77791 [egg:core] dump config after ready, 5ms
+2022-01-06 23:55:51,537 INFO 77986 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-06 23:55:51,552 INFO 77986 [egg-multipart] stream mode enable
+2022-01-06 23:55:51,757 INFO 77986 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
+2022-01-06 23:55:51,844 INFO 77986 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
+2022-01-06 23:55:51,849 INFO 77986 [egg-security] use csrf middleware
+2022-01-06 23:55:51,849 INFO 77986 [egg-security] use methodnoallow middleware
+2022-01-06 23:55:51,849 INFO 77986 [egg-security] use noopen middleware
+2022-01-06 23:55:51,850 INFO 77986 [egg-security] use nosniff middleware
+2022-01-06 23:55:51,850 INFO 77986 [egg-security] use xssProtection middleware
+2022-01-06 23:55:51,850 INFO 77986 [egg-security] use xframe middleware
+2022-01-06 23:55:51,851 INFO 77986 [egg-security] use dta middleware
+2022-01-06 23:55:51,851 INFO 77986 [egg-security] compose 7 middlewares into one security middleware
+2022-01-06 23:55:51,862 INFO 77986 [egg:core] dump config after load, 5ms
+2022-01-06 23:55:51,864 INFO 77986 [egg-mongoose] starting...
+2022-01-06 23:55:51,886 INFO 77986 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
+2022-01-06 23:55:51,887 INFO 77986 [egg-mongoose] instance[0] start successfully
+2022-01-06 23:55:51,889 INFO 77986 [egg-watcher:application] watcher start success
+2022-01-06 23:55:51,895 INFO 77986 [egg:core] dump config after ready, 4ms
+2022-01-07 00:32:14,223 WARN 77986 [ClusterClient:Watcher] follower closed, and try to init it again

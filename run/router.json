@@ -58,6 +58,19 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/api/problem/today",
+    "regexp": "/^\\/api\\/problem\\/today(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/api/commit/today",
     "regexp": "/^\\/api\\/commit\\/today(?:\\/(?=$))?$/",
     "stack": [

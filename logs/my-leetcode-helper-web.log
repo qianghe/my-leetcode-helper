@@ -1,530 +1,79 @@
-2022-01-06 12:38:37,889 INFO 57972 [-/10.129.19.27/-/30ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 19 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 12:39:12,084 ERROR 57972 [-/10.129.19.27/-/22954ms GET /api/sync?userName=CheeryQ] nodejs.ResponseTimeoutError: Response timeout for 5000ms, GET https://leetcode.com/api/submissions/?offset=100&limit=20 -1 (connected: true, keepalive socket: true, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":5,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 6, socketHandledResponses: 5)
-headers: {}
-headers: {}
-    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/urllib/lib/urllib.js:997:15)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ResponseTimeoutError"
-requestId: 6
-data: undefined
-path: "/api/submissions/?offset=100&limit=20"
-status: -1
-headers: {}
-res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5019,"keepAliveSocket":true,"requestUrls":["https://leetcode.com/api/submissions/?offset=100&limit=20"],"timing":null,"remoteAddress":"104.26.9.101","remotePort":443,"socketHandledRequests":6,"socketHandledResponses":5}
-pid: 57972
-hostname: MacBook-Pro.local
-
-2022-01-06 12:40:25,076 INFO 58223 [-/10.129.19.27/-/20ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 12 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 12:40:59,383 INFO 58223 [-/10.129.19.27/-/30265ms GET /api/sync?userName=CheeryQ] [access] 10.129.19.27: - GET /api/sync?userName=CheeryQ HTTP/200 2 http://10.129.19.27:7001/ 30263 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 12:52:25,894 INFO 58223 [-/10.129.19.27/-/124ms GET /api/problems/all] [access] 10.129.19.27: - GET /api/problems/all HTTP/200 29580 - 93 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:06:19,356 INFO 58223 [-/10.129.19.27/-/50ms GET /public/f044855fce2c8ed80694.hot-update.json] [access] 10.129.19.27: - GET /public/f044855fce2c8ed80694.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 11 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:06:21,581 INFO 58223 [-/10.129.19.27/-/37ms GET /public/f044855fce2c8ed80694.hot-update.json] [access] 10.129.19.27: - GET /public/f044855fce2c8ed80694.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 2 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:07:10,896 INFO 58223 [-/10.129.19.27/-/8ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 4 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:08:07,280 INFO 58223 [-/10.129.19.27/-/10ms GET /public/5dbcbf74c4c3d3fee882.hot-update.json] [access] 10.129.19.27: - GET /public/5dbcbf74c4c3d3fee882.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 2 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:08:10,907 INFO 58223 [-/10.129.19.27/-/3ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 2 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:08:12,350 INFO 58223 [-/10.129.19.27/-/6ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 3 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:08:31,600 INFO 58223 [-/10.129.19.27/-/31ms GET /public/c6ce2a1a7568ebdbc487.hot-update.json] [access] 10.129.19.27: - GET /public/c6ce2a1a7568ebdbc487.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:09:52,923 INFO 58223 [-/10.129.19.27/-/3ms GET /public/64449c3890e9a524384e.hot-update.json] [access] 10.129.19.27: - GET /public/64449c3890e9a524384e.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:11:53,434 INFO 60115 [-/10.129.19.27/-/19ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 13 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:13:43,498 INFO 60115 [-/10.129.19.27/-/9ms GET /public/06c2947cf6c2e31eb55c.hot-update.json] [access] 10.129.19.27: - GET /public/06c2947cf6c2e31eb55c.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 3 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:13:43,504 INFO 60115 [-/10.129.19.27/-/5ms GET /public/06c2947cf6c2e31eb55c.hot-update.json] [access] 10.129.19.27: - GET /public/06c2947cf6c2e31eb55c.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:13:50,138 INFO 60115 [-/10.129.19.27/-/3ms GET /public/06c2947cf6c2e31eb55c.hot-update.json] [access] 10.129.19.27: - GET /public/06c2947cf6c2e31eb55c.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:13:50,142 INFO 60115 [-/10.129.19.27/-/2ms GET /public/06c2947cf6c2e31eb55c.hot-update.json] [access] 10.129.19.27: - GET /public/06c2947cf6c2e31eb55c.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:13:52,819 INFO 60115 [-/10.129.19.27/-/4ms GET /public/06c2947cf6c2e31eb55c.hot-update.json] [access] 10.129.19.27: - GET /public/06c2947cf6c2e31eb55c.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:13:52,825 INFO 60115 [-/10.129.19.27/-/3ms GET /public/06c2947cf6c2e31eb55c.hot-update.json] [access] 10.129.19.27: - GET /public/06c2947cf6c2e31eb55c.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:13:59,179 INFO 60115 [-/10.129.19.27/-/3ms GET /public/5dbcbf74c4c3d3fee882.hot-update.json] [access] 10.129.19.27: - GET /public/5dbcbf74c4c3d3fee882.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:14:07,316 INFO 60115 [-/10.129.19.27/-/8ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 3 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:16:53,508 INFO 60115 [-/10.129.19.27/-/383ms GET /public/f0e5fcd3dcdcf006bc63.hot-update.json] [access] 10.129.19.27: - GET /public/f0e5fcd3dcdcf006bc63.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 11 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:16:53,531 INFO 60115 [-/10.129.19.27/-/20ms GET /public/f0e5fcd3dcdcf006bc63.hot-update.json] [access] 10.129.19.27: - GET /public/f0e5fcd3dcdcf006bc63.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 2 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:17:02,026 INFO 60115 [-/10.129.19.27/-/324ms GET /public/f0e5fcd3dcdcf006bc63.hot-update.json] [access] 10.129.19.27: - GET /public/f0e5fcd3dcdcf006bc63.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:17:02,037 INFO 60115 [-/10.129.19.27/-/9ms GET /public/f0e5fcd3dcdcf006bc63.hot-update.json] [access] 10.129.19.27: - GET /public/f0e5fcd3dcdcf006bc63.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:17:02,047 INFO 60115 [-/10.129.19.27/-/8ms GET /public/f0e5fcd3dcdcf006bc63.hot-update.json] [access] 10.129.19.27: - GET /public/f0e5fcd3dcdcf006bc63.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 4 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:17:02,056 INFO 60115 [-/10.129.19.27/-/5ms GET /public/f0e5fcd3dcdcf006bc63.hot-update.json] [access] 10.129.19.27: - GET /public/f0e5fcd3dcdcf006bc63.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:17:05,158 INFO 60115 [-/10.129.19.27/-/0ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:21:23,656 INFO 60115 [-/10.129.19.27/-/33ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 11 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 13:24:16,638 INFO 60115 [-/10.129.19.27/-/3ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 15:32:49,112 ERROR 28777 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16) {
-  name: 'MongoNetworkError'
-}]
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16) {
-  name: 'MongoNetworkError'
-}]
-    at Pool.<anonymous> (/Users/heqiang/codes/my-leetcode-helper/node_modules/mongodb/lib/core/topologies/server.js:441:11)
-    at Pool.emit (events.js:314:20)
-    at /Users/heqiang/codes/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:564:14
-    at /Users/heqiang/codes/my-leetcode-helper/node_modules/mongodb/lib/core/connection/pool.js:1000:11
-    at /Users/heqiang/codes/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:32:7
-    at callback (/Users/heqiang/codes/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:300:5)
-    at Socket.<anonymous> (/Users/heqiang/codes/my-leetcode-helper/node_modules/mongodb/lib/core/connection/connect.js:330:7)
-    at Object.onceWrapper (events.js:421:26)
-    at Socket.emit (events.js:314:20)
-    at emitErrorNT (internal/streams/destroy.js:92:8)
-    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
-    at processTicksAndRejections (internal/process/task_queues.js:84:21)
-name: "MongoNetworkError"
-pid: 28777
-hostname: heqiangdeMacBook-Pro.local
-
-2022-01-06 15:34:19,284 INFO 29070 [-/10.129.22.40/-/24ms GET /] [access] 10.129.22.40: - GET / HTTP/200 783 - 12 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
-2022-01-06 15:34:46,543 INFO 29070 [-/10.129.22.40/-/16ms GET /public/67874c105770fa72ba04.hot-update.json] [access] 10.129.22.40: - GET /public/67874c105770fa72ba04.hot-update.json HTTP/200 783 http://10.129.22.40:7001/ 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
-2022-01-06 15:35:09,227 INFO 29070 [-/10.129.22.40/-/1ms GET /] [access] 10.129.22.40: - GET / HTTP/200 783 - 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
-2022-01-06 15:36:30,742 INFO 29070 [-/10.129.22.40/-/3ms GET /public/f1180c793dac739b1752.hot-update.json] [access] 10.129.22.40: - GET /public/f1180c793dac739b1752.hot-update.json HTTP/200 783 http://10.129.22.40:7001/ 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
-2022-01-06 15:36:48,015 INFO 29070 [-/10.129.22.40/-/1ms GET /] [access] 10.129.22.40: - GET / HTTP/200 783 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
-2022-01-06 15:38:15,827 INFO 29070 [-/10.129.22.40/-/2ms GET /] [access] 10.129.22.40: - GET / HTTP/200 783 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
-2022-01-06 15:43:15,443 INFO 29070 [-/10.129.22.40/-/36ms GET /public/215148a9ebb1257e91d1.hot-update.json] [access] 10.129.22.40: - GET /public/215148a9ebb1257e91d1.hot-update.json HTTP/200 783 http://10.129.22.40:7001/ 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
-2022-01-06 15:43:19,953 INFO 29070 [-/10.129.22.40/-/1ms GET /] [access] 10.129.22.40: - GET / HTTP/200 783 - 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
-2022-01-06 15:45:23,732 INFO 29070 [-/10.129.22.40/-/22ms GET /public/3f904d95711b1515835c.hot-update.json] [access] 10.129.22.40: - GET /public/3f904d95711b1515835c.hot-update.json HTTP/200 783 http://10.129.22.40:7001/ 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
-2022-01-06 15:53:53,507 INFO 29070 [-/10.129.22.40/-/1ms GET /] [access] 10.129.22.40: - GET / HTTP/200 783 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
-2022-01-06 15:54:58,905 INFO 29070 [-/10.129.22.40/-/45ms GET /public/cf227150d1d5a42222b2.hot-update.json] [access] 10.129.22.40: - GET /public/cf227150d1d5a42222b2.hot-update.json HTTP/200 783 http://10.129.22.40:7001/ 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36
-2022-01-06 19:53:20,996 INFO 65536 [-/10.129.19.27/-/21ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 14 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 19:53:39,638 ERROR 65536 [-/10.129.19.27/-/9ms GET /api/user/goal] nodejs.ReferenceError: findOneByUserName is not defined
-    at UserController.getUserGoalInfo (/Users/heqiang/days/my-leetcode-helper/app/controller/user.js:5:18)
-    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:45:18)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:186:18
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:36:12
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:191:33)
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
-    at createGenerator (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:24:16)
-    at createGenerator.next (<anonymous>)
-    at Object.<anonymous> (/Users/heqiang/days/my-leetcode-helper/app/middleware/access.js:9:5)
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:65:19)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at Object.co (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:50:10)
-    at converted (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:17:15)
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
-
-pid: 65536
-hostname: MacBook-Pro.local
-
-2022-01-06 19:54:32,581 ERROR 65661 [-/undefined/-/10028ms GET /api/user/goal] nodejs.MongooseError: Operation `user.find()` buffering timed out after 10000ms
-    at Timeout.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-headerSent: true
-pid: 65661
-hostname: MacBook-Pro.local
-
-2022-01-06 19:54:33,018 ERROR 65661 [-/undefined/-/10006ms GET /api/user/goal] nodejs.MongooseError: Operation `user.find()` buffering timed out after 10000ms
-    at Timeout.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-headerSent: true
-pid: 65661
-hostname: MacBook-Pro.local
-
-2022-01-06 19:54:42,622 ERROR 65661 [-/10.129.19.27/-/10007ms GET /api/user/goal] nodejs.MongooseError: Operation `user.find()` buffering timed out after 10000ms
-    at Timeout.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-
-pid: 65661
-hostname: MacBook-Pro.local
-
-2022-01-06 19:55:18,643 ERROR 65661 [-/10.129.19.27/-/10010ms GET /api/user/goal?username=CheeryQ] nodejs.MongooseError: Operation `user.find()` buffering timed out after 10000ms
-    at Timeout.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-
-pid: 65661
-hostname: MacBook-Pro.local
-
-2022-01-06 19:55:53,140 ERROR 65823 [-/undefined/-/10017ms GET /api/user/goal?username=CheeryQ] nodejs.MongooseError: Operation `user.find()` buffering timed out after 10000ms
-    at Timeout.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-headerSent: true
-pid: 65823
-hostname: MacBook-Pro.local
-
-2022-01-06 19:55:57,870 ERROR 65823 [-/undefined/-/10009ms GET /api/user/goal?userName=CheeryQ] nodejs.MongooseError: Operation `user.find()` buffering timed out after 10000ms
-    at Timeout.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-headerSent: true
-pid: 65823
-hostname: MacBook-Pro.local
-
-2022-01-06 19:56:01,369 ERROR 65823 [-/10.129.19.27/-/10007ms GET /api/user/goal?userName=CheeryQ] nodejs.MongooseError: Operation `user.find()` buffering timed out after 10000ms
-    at Timeout.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-
-pid: 65823
-hostname: MacBook-Pro.local
-
-2022-01-06 19:57:31,398 ERROR 65959 [-/10.129.19.27/-/10030ms GET /api/user/goal?userName=CheeryQ] nodejs.MongooseError: Operation `user.findOne()` buffering timed out after 10000ms
-    at Timeout.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-
-pid: 65959
-hostname: MacBook-Pro.local
-
-2022-01-06 19:58:31,633 INFO 66100 [-/10.129.19.27/-/31ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 21 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 19:58:39,983 INFO 66188 [-/10.129.19.27/-/14ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 9 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 19:59:04,062 INFO 66188 [-/10.129.19.27/-/29ms GET /api/user/goal] [access] 10.129.19.27: - GET /api/user/goal HTTP/404 - - 25 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 19:59:16,832 INFO 66188 [-/10.129.19.27/-/9ms GET /api/user/goal?userName=cheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=cheeryQ HTTP/404 - - 7 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 19:59:22,040 INFO 66188 [-/10.129.19.27/-/11ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/404 - - 9 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:00:12,721 INFO 66188 [-/10.129.19.27/-/7ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/404 - - 7 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:02:30,266 INFO 66188 [-/10.129.19.27/-/4ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 2 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:02:38,754 INFO 66188 [-/10.129.19.27/-/4ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/404 - http://10.129.19.27:7001/ 3 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:03:26,738 INFO 66188 [-/10.129.19.27/-/8ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/404 - - 5 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:03:36,677 ERROR 66188 [-/10.129.19.27/-/45ms GET /api/problems/byMonth] nodejs.ReferenceError: getSliceTimestamp is not defined
-    at /Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:10:29
-    at Array.reduce (<anonymous>)
-    at ProblemController.getAllProblemByMonth (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:8:39)
-    at runMicrotasks (<anonymous>)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-
-pid: 66188
-hostname: MacBook-Pro.local
-
-2022-01-06 20:03:45,087 ERROR 66188 [-/10.129.19.27/-/7ms GET /api/problem/group] nodejs.TypeError: this.getAllProblemByTimeRange is not a function
-    at ProblemController.getGroupedProblems (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:34:33)
-    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:45:18)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:186:18
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:36:12
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:191:33)
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
-    at createGenerator (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:24:16)
-    at createGenerator.next (<anonymous>)
-    at Object.<anonymous> (/Users/heqiang/days/my-leetcode-helper/app/middleware/access.js:9:5)
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:65:19)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at Object.co (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:50:10)
-    at converted (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:17:15)
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
-
-pid: 66188
-hostname: MacBook-Pro.local
-
-2022-01-06 20:03:56,223 ERROR 66188 [-/10.129.19.27/-/7ms GET /api/commit/today] nodejs.ReferenceError: ctx is not defined
-    at CommitController.getCommitsByDate (/Users/heqiang/days/my-leetcode-helper/app/controller/commit.js:6:21)
-    at CommitController.getTodyLogs (/Users/heqiang/days/my-leetcode-helper/app/controller/commit.js:13:29)
-    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:45:18)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:186:18
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:36:12
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:191:33)
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
-    at createGenerator (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:24:16)
-    at createGenerator.next (<anonymous>)
-    at Object.<anonymous> (/Users/heqiang/days/my-leetcode-helper/app/middleware/access.js:9:5)
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:65:19)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at Object.co (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:50:10)
-    at converted (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:17:15)
-
-pid: 66188
-hostname: MacBook-Pro.local
-
-2022-01-06 20:04:50,308 INFO 66705 [-/10.129.19.27/-/29ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 163 - 18 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:14:44,542 INFO 67672 [-/10.129.19.27/-/13ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 6 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:15:07,098 INFO 67672 [-/10.129.19.27/-/3731ms GET /public/70caeac4db78bff3a281.hot-update.json] [access] 10.129.19.27: - GET /public/70caeac4db78bff3a281.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 9 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:15:07,425 INFO 67672 [-/10.129.19.27/-/319ms GET /public/70caeac4db78bff3a281.hot-update.json] [access] 10.129.19.27: - GET /public/70caeac4db78bff3a281.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:15:07,431 INFO 67672 [-/10.129.19.27/-/5ms GET /public/70caeac4db78bff3a281.hot-update.json] [access] 10.129.19.27: - GET /public/70caeac4db78bff3a281.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:15:10,159 INFO 67672 [-/10.129.19.27/-/2ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:15:28,262 INFO 67672 [-/10.129.19.27/-/2406ms GET /api/sync?userName=undefined] [access] 10.129.19.27: - GET /api/sync?userName=undefined HTTP/200 2 http://10.129.19.27:7001/ 2400 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:15:30,589 INFO 67672 [-/10.129.19.27/-/3ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 2 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:15:33,897 INFO 67672 [-/10.129.19.27/-/3104ms GET /api/sync?userName=undefined] [access] 10.129.19.27: - GET /api/sync?userName=undefined HTTP/200 2 http://10.129.19.27:7001/ 3102 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:15:39,403 INFO 67672 [-/10.129.19.27/-/10ms GET /public/6f7ada8c826637779c22.hot-update.json] [access] 10.129.19.27: - GET /public/6f7ada8c826637779c22.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 4 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:16:01,935 INFO 67672 [-/10.129.19.27/-/10ms GET /public/42a70c819c30f2f41c0d.hot-update.json] [access] 10.129.19.27: - GET /public/42a70c819c30f2f41c0d.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 3 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:16:03,658 INFO 67672 [-/10.129.19.27/-/2814ms GET /api/sync?userName=undefined] [access] 10.129.19.27: - GET /api/sync?userName=undefined HTTP/200 2 http://10.129.19.27:7001/ 2810 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:16:15,216 INFO 67672 [-/10.129.19.27/-/2ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:16:17,898 INFO 67672 [-/10.129.19.27/-/2475ms GET /api/sync?userName=undefined] [access] 10.129.19.27: - GET /api/sync?userName=undefined HTTP/200 2 http://10.129.19.27:7001/ 2475 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:16:49,103 INFO 67672 [-/10.129.19.27/-/12ms GET /api/user/goal?userName=undefined] [access] 10.129.19.27: - GET /api/user/goal?userName=undefined HTTP/204 - http://10.129.19.27:7001/ 5 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:17:25,875 INFO 67672 [-/10.129.19.27/-/10ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 8 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:17:48,042 INFO 67672 [-/10.129.19.27/-/5ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:17:48,310 INFO 67672 [-/10.129.19.27/-/9ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 8 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:18:01,792 INFO 67672 [-/10.129.19.27/-/4ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:18:02,024 INFO 67672 [-/10.129.19.27/-/12ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 9 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:18:18,874 INFO 67672 [-/10.129.19.27/-/13ms GET /api/user/goal?userName=undefined] [access] 10.129.19.27: - GET /api/user/goal?userName=undefined HTTP/204 - http://10.129.19.27:7001/ 11 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:18:44,452 INFO 67672 [-/10.129.19.27/-/12ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 9 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:18:54,190 INFO 67672 [-/10.129.19.27/-/6ms GET /public/7b1ebc26b33373c9c268.hot-update.json] [access] 10.129.19.27: - GET /public/7b1ebc26b33373c9c268.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:19:03,696 INFO 67672 [-/10.129.19.27/-/7ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 5 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:19:21,385 INFO 67672 [-/10.129.19.27/-/2ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:19:23,824 INFO 67672 [-/10.129.19.27/-/7ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 5 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:19:25,961 INFO 67672 [-/10.129.19.27/-/4ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:19:26,317 INFO 67672 [-/10.129.19.27/-/3ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 2 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:19:54,208 INFO 67672 [-/10.129.19.27/-/41ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 5 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:19:59,589 INFO 67672 [-/10.129.19.27/-/6ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:19:59,820 INFO 67672 [-/10.129.19.27/-/8ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 6 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:20:11,903 INFO 67672 [-/10.129.19.27/-/17ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 13 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:20:15,258 INFO 67672 [-/10.129.19.27/-/3ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:20:15,486 INFO 67672 [-/10.129.19.27/-/7ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 4 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:20:18,708 INFO 67672 [-/10.129.19.27/-/11ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 - 7 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:21:02,689 INFO 67672 [-/10.129.19.27/-/32ms GET /public/f9ca6bf72c15f26295e3.hot-update.json] [access] 10.129.19.27: - GET /public/f9ca6bf72c15f26295e3.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 19 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:21:04,448 INFO 67672 [-/10.129.19.27/-/10ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 - 6 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:21:19,932 INFO 67672 [-/10.129.19.27/-/1231ms GET /public/f9ca6bf72c15f26295e3.hot-update.json] [access] 10.129.19.27: - GET /public/f9ca6bf72c15f26295e3.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:21:19,996 INFO 67672 [-/10.129.19.27/-/6ms GET /public/f9ca6bf72c15f26295e3.hot-update.json] [access] 10.129.19.27: - GET /public/f9ca6bf72c15f26295e3.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:23:25,337 INFO 67672 [-/10.129.19.27/-/14ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 9 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:23:28,376 INFO 67672 [-/10.129.19.27/-/3ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 2 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:23:28,629 INFO 67672 [-/10.129.19.27/-/3ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 3 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:23:42,332 INFO 67672 [-/10.129.19.27/-/24ms GET /public/3ede8aa6c42aebca57a3.hot-update.json] [access] 10.129.19.27: - GET /public/3ede8aa6c42aebca57a3.hot-update.json HTTP/200 783 http://10.129.19.27:7001/ 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:25:42,675 INFO 67672 [-/10.129.19.27/-/6ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 3 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:25:57,760 ERROR 67672 [-/10.129.19.27/-/55ms GET /api/problems/byMonth] nodejs.ReferenceError: getSliceTimestamp is not defined
-    at /Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:10:29
-    at Array.reduce (<anonymous>)
-    at ProblemController.getAllProblemByMonth (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:8:39)
-    at runMicrotasks (<anonymous>)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-
-pid: 67672
-hostname: MacBook-Pro.local
-
-2022-01-06 20:26:24,570 ERROR 68756 [-/10.129.19.27/-/42ms GET /api/problems/byMonth] nodejs.TypeError: Cannot read property 'push' of undefined
-    at /Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:13:32
-    at Array.reduce (<anonymous>)
-    at ProblemController.getAllProblemByMonth (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:9:39)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-
-pid: 68756
-hostname: MacBook-Pro.local
-
-2022-01-06 20:26:48,658 ERROR 68796 [-/10.129.19.27/-/55ms GET /api/problems/byMonth] nodejs.TypeError: Cannot read property 'push' of undefined
-    at /Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:13:32
-    at Array.reduce (<anonymous>)
-    at ProblemController.getAllProblemByMonth (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:9:39)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-
-pid: 68796
-hostname: MacBook-Pro.local
-
-2022-01-06 20:27:20,701 ERROR 68840 [-/10.129.19.27/-/39ms GET /api/problems/byMonth] nodejs.TypeError: Cannot read property 'push' of undefined
-    at /Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:13:32
-    at Array.reduce (<anonymous>)
-    at ProblemController.getAllProblemByMonth (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:9:39)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-
-pid: 68840
-hostname: MacBook-Pro.local
-
-2022-01-06 20:27:51,571 ERROR 68963 [-/10.129.19.27/-/49ms GET /api/problems/byMonth] nodejs.TypeError: Cannot read property '[object Object]' of undefined
-    at /Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:12:19
-    at Array.reduce (<anonymous>)
-    at ProblemController.getAllProblemByMonth (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:9:39)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-
-pid: 68963
-hostname: MacBook-Pro.local
-
-2022-01-06 20:28:24,420 ERROR 69029 [-/10.129.19.27/-/59ms GET /api/problems/byMonth] nodejs.TypeError: Cannot read property '[object Object]' of undefined
-    at /Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:13:19
-    at Array.reduce (<anonymous>)
-    at ProblemController.getAllProblemByMonth (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:9:39)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-
-pid: 69029
-hostname: MacBook-Pro.local
-
-2022-01-06 20:29:03,886 ERROR 69116 [-/10.129.19.27/-/54ms GET /api/problems/byMonth] nodejs.TypeError: Cannot read property '1641052800' of undefined
-    at /Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:12:19
-    at Array.reduce (<anonymous>)
-    at ProblemController.getAllProblemByMonth (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:9:39)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-
-pid: 69116
-hostname: MacBook-Pro.local
-
-2022-01-06 20:29:56,130 ERROR 69214 [-/10.129.19.27/-/56ms GET /api/problems/byMonth] nodejs.TypeError: Cannot read property '1641052800' of undefined
-    at /Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:12:19
-    at Array.reduce (<anonymous>)
-    at ProblemController.getAllProblemByMonth (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:9:39)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-
-pid: 69214
-hostname: MacBook-Pro.local
-
-2022-01-06 20:30:37,649 ERROR 69291 [-/10.129.19.27/-/55ms GET /api/problems/byMonth] nodejs.TypeError: Cannot read property '1641052800' of undefined
-    at /Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:12:19
-    at Array.reduce (<anonymous>)
-    at ProblemController.getAllProblemByMonth (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:9:39)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-
-pid: 69291
-hostname: MacBook-Pro.local
-
-2022-01-06 20:31:15,888 ERROR 69339 [-/10.129.19.27/-/40ms GET /api/problems/byMonth] nodejs.ReferenceError: Cannot access 'cate' before initialization
-    at /Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:20:46
-    at Array.reduce (<anonymous>)
-    at ProblemController.getAllProblemByMonth (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:9:39)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-
-pid: 69339
-hostname: MacBook-Pro.local
-
-2022-01-06 20:31:33,462 ERROR 69392 [-/10.129.19.27/-/55ms GET /api/problems/byMonth] nodejs.TypeError: Cannot read property '1641052800' of undefined
-    at /Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:12:19
-    at Array.reduce (<anonymous>)
-    at ProblemController.getAllProblemByMonth (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:9:39)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-
-pid: 69392
-hostname: MacBook-Pro.local
-
-2022-01-06 20:31:54,708 INFO 69470 [-/10.129.19.27/-/46ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 157 - 38 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:32:06,261 INFO 69492 [-/10.129.19.27/-/25ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 13 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:32:09,925 INFO 69492 [-/10.129.19.27/-/4ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 3 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:32:28,532 INFO 69492 [-/10.129.19.27/-/37ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 35 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:32:28,615 INFO 69492 [-/10.129.19.27/-/103ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 157 http://10.129.19.27:7001/ 102 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:36:14,943 INFO 69492 [-/10.129.19.27/-/16ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 8 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:36:15,383 INFO 69492 [-/10.129.19.27/-/20ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 14 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:36:15,429 INFO 69492 [-/10.129.19.27/-/58ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 157 http://10.129.19.27:7001/ 56 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:37:33,948 INFO 69845 [-/10.129.19.27/-/8ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 6 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:37:34,527 INFO 69845 [-/10.129.19.27/-/22ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 17 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:37:34,554 INFO 69845 [-/10.129.19.27/-/36ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 151 http://10.129.19.27:7001/ 36 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:37:40,078 INFO 69845 [-/10.129.19.27/-/4ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 2 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:37:40,252 INFO 69845 [-/10.129.19.27/-/6ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 4 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:37:40,288 INFO 69845 [-/10.129.19.27/-/20ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 151 http://10.129.19.27:7001/ 20 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:37:45,281 INFO 69845 [-/10.129.19.27/-/3ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:37:45,569 INFO 69845 [-/10.129.19.27/-/21ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 16 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:37:45,583 INFO 69845 [-/10.129.19.27/-/24ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 151 http://10.129.19.27:7001/ 22 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:37:53,092 INFO 69845 [-/10.129.19.27/-/4ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 2 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:37:53,356 INFO 69845 [-/10.129.19.27/-/12ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 8 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:37:53,409 INFO 69845 [-/10.129.19.27/-/39ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 151 http://10.129.19.27:7001/ 39 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:39:02,668 INFO 69845 [-/10.129.19.27/-/18ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 6 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:39:03,027 INFO 69845 [-/10.129.19.27/-/16ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 15 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:39:03,055 INFO 69845 [-/10.129.19.27/-/34ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 151 http://10.129.19.27:7001/ 34 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:40:02,735 INFO 70009 [-/10.129.19.27/-/33ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 29 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:40:03,190 INFO 70009 [-/10.129.19.27/-/20ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 12 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:40:03,253 INFO 70009 [-/10.129.19.27/-/49ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 160 http://10.129.19.27:7001/ 48 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:41:47,434 ERROR 70046 [-/10.129.19.27/-/20ms GET /api/commit/today] nodejs.ReferenceError: ctx is not defined
-    at CommitController.getCommitsByDate (/Users/heqiang/days/my-leetcode-helper/app/controller/commit.js:6:21)
-    at CommitController.getTodyLogs (/Users/heqiang/days/my-leetcode-helper/app/controller/commit.js:13:29)
-    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:45:18)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:186:18
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:36:12
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:191:33)
-    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
-    at createGenerator (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:24:16)
-    at createGenerator.next (<anonymous>)
-    at Object.<anonymous> (/Users/heqiang/days/my-leetcode-helper/app/middleware/access.js:9:5)
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:65:19)
-    at /Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at Object.co (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:50:10)
-    at converted (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:17:15)
-
-pid: 70046
-hostname: MacBook-Pro.local
-
-2022-01-06 20:42:25,540 INFO 70174 [-/10.129.19.27/-/40ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - - 28 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:42:29,727 INFO 70174 [-/10.129.19.27/-/11ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - - 10 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:43:01,959 INFO 70174 [-/10.129.19.27/-/16ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - - 13 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:43:03,053 INFO 70174 [-/10.129.19.27/-/11ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - - 9 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:43:09,780 INFO 70174 [-/10.129.19.27/-/10ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - - 10 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:43:32,761 INFO 70174 [-/10.129.19.27/-/15ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - - 13 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:43:34,198 INFO 70174 [-/10.129.19.27/-/18ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - - 17 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:43:52,316 INFO 70290 [-/10.129.19.27/-/15ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 7 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:43:52,541 INFO 70290 [-/10.129.19.27/-/21ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 17 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:43:52,571 INFO 70290 [-/10.129.19.27/-/39ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 160 http://10.129.19.27:7001/ 38 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:43:57,157 INFO 70290 [-/10.129.19.27/-/21ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - - 17 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:44:02,749 INFO 70290 [-/10.129.19.27/-/12ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - - 10 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:44:17,466 INFO 70290 [-/10.129.19.27/-/21ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - - 17 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:44:19,417 INFO 70290 [-/10.129.19.27/-/9ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - - 9 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:44:20,412 INFO 70290 [-/10.129.19.27/-/16ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - - 15 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:45:09,808 INFO 70534 [-/10.129.19.27/-/17ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 10 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:45:10,004 INFO 70534 [-/10.129.19.27/-/21ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 18 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:45:10,033 INFO 70534 [-/10.129.19.27/-/40ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 160 http://10.129.19.27:7001/ 39 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:45:24,614 INFO 70534 [-/10.129.19.27/-/5ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 3 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:45:24,822 INFO 70534 [-/10.129.19.27/-/10ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 10 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:45:24,845 INFO 70534 [-/10.129.19.27/-/29ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 160 http://10.129.19.27:7001/ 28 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:45:30,251 INFO 70534 [-/10.129.19.27/-/28ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 160 - 27 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:45:38,545 INFO 70534 [-/10.129.19.27/-/28ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - - 15 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:45:44,042 INFO 70534 [-/10.129.19.27/-/15ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - - 12 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:46:58,687 INFO 70691 [-/10.129.19.27/-/31ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - - 21 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:47:00,534 INFO 70691 [-/10.129.19.27/-/34ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 160 - 32 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:47:13,534 INFO 70691 [-/10.129.19.27/-/15ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - - 13 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:47:15,137 INFO 70691 [-/10.129.19.27/-/12ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - - 10 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:47:19,914 INFO 70691 [-/10.129.19.27/-/11ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - - 9 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:47:47,908 INFO 70691 [-/10.129.19.27/-/14ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - - 13 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:50:21,280 INFO 70691 [-/10.129.19.27/-/32ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - http://10.129.19.27:7001/ 26 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:51:39,473 INFO 70691 [-/10.129.19.27/-/145ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 121 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:51:39,490 INFO 70691 [-/10.129.19.27/-/10ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - http://10.129.19.27:7001/ 8 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:51:39,521 INFO 70691 [-/10.129.19.27/-/151ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 160 http://10.129.19.27:7001/ 150 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:51:42,393 INFO 70691 [-/10.129.19.27/-/28ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 27 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:51:42,625 INFO 70691 [-/10.129.19.27/-/11ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 10 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:51:42,642 INFO 70691 [-/10.129.19.27/-/25ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 160 http://10.129.19.27:7001/ 23 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:51:42,644 INFO 70691 [-/10.129.19.27/-/25ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - http://10.129.19.27:7001/ 25 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:53:01,939 INFO 71335 [-/10.129.19.27/-/13ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 9 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:53:02,202 INFO 71335 [-/10.129.19.27/-/29ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 28 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:53:02,214 INFO 71335 [-/10.129.19.27/-/23ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - http://10.129.19.27:7001/ 22 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:53:02,231 INFO 71335 [-/10.129.19.27/-/45ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 160 http://10.129.19.27:7001/ 44 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:53:17,662 INFO 71392 [-/10.129.19.27/-/22ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 17 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:53:18,032 INFO 71392 [-/10.129.19.27/-/6ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/200 2 http://10.129.19.27:7001/ 6 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:53:18,040 INFO 71392 [-/10.129.19.27/-/37ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 35 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:53:18,064 INFO 71392 [-/10.129.19.27/-/43ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 160 http://10.129.19.27:7001/ 41 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:54:04,957 INFO 71466 [-/10.129.19.27/-/24ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 18 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:54:05,217 INFO 71466 [-/10.129.19.27/-/3ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/200 2 http://10.129.19.27:7001/ 3 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:54:05,223 INFO 71466 [-/10.129.19.27/-/34ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 31 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:54:05,242 INFO 71466 [-/10.129.19.27/-/31ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 160 http://10.129.19.27:7001/ 30 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:55:00,569 INFO 71598 [-/10.129.19.27/-/25ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 21 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:55:00,880 INFO 71598 [-/10.129.19.27/-/2ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/200 2 http://10.129.19.27:7001/ 2 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:55:00,886 INFO 71598 [-/10.129.19.27/-/34ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 32 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:55:00,905 INFO 71598 [-/10.129.19.27/-/29ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 160 http://10.129.19.27:7001/ 29 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:55:11,232 INFO 71638 [-/10.129.19.27/-/15ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 12 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:55:11,473 INFO 71638 [-/10.129.19.27/-/29ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 26 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:55:11,480 INFO 71638 [-/10.129.19.27/-/14ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/200 2 http://10.129.19.27:7001/ 13 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 20:55:11,494 INFO 71638 [-/10.129.19.27/-/29ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 160 http://10.129.19.27:7001/ 29 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 21:04:08,499 INFO 72201 [-/10.129.19.27/-/18ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 9 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 21:04:08,759 INFO 72201 [-/10.129.19.27/-/21ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 19 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 21:04:08,773 INFO 72201 [-/10.129.19.27/-/21ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - http://10.129.19.27:7001/ 20 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 21:04:08,793 INFO 72201 [-/10.129.19.27/-/44ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 160 http://10.129.19.27:7001/ 43 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 21:04:13,054 INFO 72201 [-/10.129.19.27/-/4ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 3 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 21:04:13,272 INFO 72201 [-/10.129.19.27/-/25ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 24 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 21:04:13,287 INFO 72201 [-/10.129.19.27/-/35ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 160 http://10.129.19.27:7001/ 27 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 21:04:13,291 INFO 72201 [-/10.129.19.27/-/30ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - http://10.129.19.27:7001/ 29 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 21:04:42,834 INFO 72250 [-/10.129.19.27/-/28ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 24 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 21:04:43,093 INFO 72250 [-/10.129.19.27/-/22ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 20 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 21:04:43,105 ERROR 72250 [-/10.129.19.27/-/20ms GET /api/commit/today] nodejs.ReferenceError: log is not defined
-    at CommitController.getTodayLogs (/Users/heqiang/days/my-leetcode-helper/app/controller/commit.js:16:30)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-
-pid: 72250
-hostname: MacBook-Pro.local
-
-2022-01-06 21:04:43,119 INFO 72250 [-/10.129.19.27/-/37ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 160 http://10.129.19.27:7001/ 36 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 21:05:10,429 INFO 72310 [-/10.129.19.27/-/22ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 19 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 21:05:10,878 INFO 72310 [-/10.129.19.27/-/54ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 52 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 21:05:10,892 INFO 72310 [-/10.129.19.27/-/25ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/204 - http://10.129.19.27:7001/ 24 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 21:05:10,921 INFO 72310 [-/10.129.19.27/-/66ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 160 http://10.129.19.27:7001/ 63 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 21:05:38,686 INFO 72372 [-/10.129.19.27/-/17ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 13 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 21:05:38,942 INFO 72372 [-/10.129.19.27/-/26ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 24 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 21:05:38,973 INFO 72372 [-/10.129.19.27/-/30ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 160 http://10.129.19.27:7001/ 29 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 21:05:39,019 INFO 72372 [-/10.129.19.27/-/74ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/200 34665 http://10.129.19.27:7001/ 73 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 21:06:33,511 INFO 72428 [-/10.129.19.27/-/15ms GET /] [access] 10.129.19.27: - GET / HTTP/200 783 - 11 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 21:06:33,786 INFO 72428 [-/10.129.19.27/-/26ms GET /api/user/goal?userName=CheeryQ] [access] 10.129.19.27: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://10.129.19.27:7001/ 23 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 21:06:33,798 INFO 72428 [-/10.129.19.27/-/22ms GET /api/commit/today] [access] 10.129.19.27: - GET /api/commit/today HTTP/200 34665 http://10.129.19.27:7001/ 20 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-2022-01-06 21:06:33,814 INFO 72428 [-/10.129.19.27/-/42ms GET /api/problems/byMonth] [access] 10.129.19.27: - GET /api/problems/byMonth HTTP/200 160 http://10.129.19.27:7001/ 42 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-07 00:03:21,304 INFO 76865 [-/192.168.0.102/-/12ms GET /] [access] 192.168.0.102: - GET / HTTP/200 783 - 9 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-07 00:03:21,688 INFO 76865 [-/192.168.0.102/-/34ms GET /api/user/goal?userName=CheeryQ] [access] 192.168.0.102: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://192.168.0.102:7001/ 31 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-07 00:03:21,696 INFO 76865 [-/192.168.0.102/-/17ms GET /api/commit/today] [access] 192.168.0.102: - GET /api/commit/today HTTP/200 2 http://192.168.0.102:7001/ 17 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-07 00:03:21,698 INFO 76865 [-/192.168.0.102/-/17ms GET /api/problem/today] [access] 192.168.0.102: - GET /api/problem/today HTTP/200 2 http://192.168.0.102:7001/ 16 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-07 00:03:21,728 INFO 76865 [-/192.168.0.102/-/60ms GET /api/problems/byMonth] [access] 192.168.0.102: - GET /api/problems/byMonth HTTP/200 160 http://192.168.0.102:7001/ 57 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-07 00:03:39,251 INFO 76865 [-/192.168.0.102/-/5ms GET /] [access] 192.168.0.102: - GET / HTTP/200 783 - 3 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-07 00:03:39,436 INFO 76865 [-/192.168.0.102/-/8ms GET /api/commit/today] [access] 192.168.0.102: - GET /api/commit/today HTTP/200 2 http://192.168.0.102:7001/ 8 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-07 00:03:39,437 INFO 76865 [-/192.168.0.102/-/17ms GET /api/user/goal?userName=CheeryQ] [access] 192.168.0.102: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://192.168.0.102:7001/ 16 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-07 00:03:39,450 INFO 76865 [-/192.168.0.102/-/25ms GET /api/problems/byMonth] [access] 192.168.0.102: - GET /api/problems/byMonth HTTP/200 160 http://192.168.0.102:7001/ 23 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-07 00:03:39,451 INFO 76865 [-/192.168.0.102/-/22ms GET /api/problem/today] [access] 192.168.0.102: - GET /api/problem/today HTTP/200 2 http://192.168.0.102:7001/ 21 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-07 00:03:42,277 INFO 76865 [-/192.168.0.102/-/1ms GET /] [access] 192.168.0.102: - GET / HTTP/200 783 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-07 00:03:42,452 INFO 76865 [-/192.168.0.102/-/18ms GET /api/commit/today] [access] 192.168.0.102: - GET /api/commit/today HTTP/200 2 http://192.168.0.102:7001/ 17 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-07 00:03:42,453 INFO 76865 [-/192.168.0.102/-/24ms GET /api/user/goal?userName=CheeryQ] [access] 192.168.0.102: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://192.168.0.102:7001/ 20 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-07 00:03:42,466 INFO 76865 [-/192.168.0.102/-/33ms GET /api/problems/byMonth] [access] 192.168.0.102: - GET /api/problems/byMonth HTTP/200 160 http://192.168.0.102:7001/ 31 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-07 00:03:42,467 INFO 76865 [-/192.168.0.102/-/27ms GET /api/problem/today] [access] 192.168.0.102: - GET /api/problem/today HTTP/200 2 http://192.168.0.102:7001/ 23 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:30:17,648 INFO 76865 [-/192.168.0.102/-/10ms GET /] [access] 192.168.0.102: - GET / HTTP/200 783 - 5 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:30:17,872 INFO 76865 [-/192.168.0.102/-/13ms GET /api/user/goal?userName=CheeryQ] [access] 192.168.0.102: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://192.168.0.102:7001/ 10 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:30:17,891 INFO 76865 [-/192.168.0.102/-/27ms GET /api/problems/byMonth] [access] 192.168.0.102: - GET /api/problems/byMonth HTTP/200 160 http://192.168.0.102:7001/ 27 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:30:17,897 INFO 76865 [-/192.168.0.102/-/32ms GET /api/commit/today] [access] 192.168.0.102: - GET /api/commit/today HTTP/200 34665 http://192.168.0.102:7001/ 29 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:30:17,900 INFO 76865 [-/192.168.0.102/-/33ms GET /api/problem/today] [access] 192.168.0.102: - GET /api/problem/today HTTP/200 3271 http://192.168.0.102:7001/ 33 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:31:09,870 INFO 76997 [-/192.168.0.102/-/15ms GET /] [access] 192.168.0.102: - GET / HTTP/200 783 - 13 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:31:10,108 INFO 76997 [-/192.168.0.102/-/27ms GET /api/user/goal?userName=CheeryQ] [access] 192.168.0.102: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://192.168.0.102:7001/ 23 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:31:10,132 INFO 76997 [-/192.168.0.102/-/33ms GET /api/commit/today] [access] 192.168.0.102: - GET /api/commit/today HTTP/200 34665 http://192.168.0.102:7001/ 28 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:31:10,140 INFO 76997 [-/192.168.0.102/-/39ms GET /api/problem/today] [access] 192.168.0.102: - GET /api/problem/today HTTP/200 3271 http://192.168.0.102:7001/ 38 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:31:10,160 INFO 76997 [-/192.168.0.102/-/65ms GET /api/problems/byMonth] [access] 192.168.0.102: - GET /api/problems/byMonth HTTP/200 160 http://192.168.0.102:7001/ 63 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:31:22,320 INFO 76997 [-/192.168.0.102/-/19ms GET /api/commit/today] [access] 192.168.0.102: - GET /api/commit/today HTTP/200 34665 - 13 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:32:12,356 INFO 77094 [-/192.168.0.102/-/33ms GET /api/commit/today] [access] 192.168.0.102: - GET /api/commit/today HTTP/200 34665 - 20 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:50:16,826 INFO 77391 [-/192.168.0.102/-/79ms GET /api/commit/today] [access] 192.168.0.102: - GET /api/commit/today HTTP/200 6909 http://192.168.0.102:7001/ 55 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:50:17,733 INFO 77391 [-/192.168.0.102/-/61ms GET /] [access] 192.168.0.102: - GET / HTTP/200 783 - 60 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:50:18,135 INFO 77391 [-/192.168.0.102/-/25ms GET /api/user/goal?userName=CheeryQ] [access] 192.168.0.102: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://192.168.0.102:7001/ 21 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:50:18,138 INFO 77391 [-/192.168.0.102/-/7ms GET /api/commit/today] [access] 192.168.0.102: - GET /api/commit/today HTTP/200 6909 http://192.168.0.102:7001/ 6 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:50:18,162 INFO 77391 [-/192.168.0.102/-/37ms GET /api/problems/byMonth] [access] 192.168.0.102: - GET /api/problems/byMonth HTTP/200 160 http://192.168.0.102:7001/ 35 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:50:18,164 INFO 77391 [-/192.168.0.102/-/32ms GET /api/problem/today] [access] 192.168.0.102: - GET /api/problem/today HTTP/200 3271 http://192.168.0.102:7001/ 32 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:52:07,665 INFO 77391 [-/192.168.0.102/-/4ms GET /] [access] 192.168.0.102: - GET / HTTP/200 783 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:52:07,937 INFO 77391 [-/192.168.0.102/-/44ms GET /api/problems/byMonth] [access] 192.168.0.102: - GET /api/problems/byMonth HTTP/200 160 http://192.168.0.102:7001/ 44 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:52:07,946 INFO 77391 [-/192.168.0.102/-/60ms GET /api/user/goal?userName=CheeryQ] [access] 192.168.0.102: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://192.168.0.102:7001/ 57 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:52:07,955 INFO 77391 [-/192.168.0.102/-/61ms GET /api/commit/today] [access] 192.168.0.102: - GET /api/commit/today HTTP/200 6909 http://192.168.0.102:7001/ 60 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:52:07,958 INFO 77391 [-/192.168.0.102/-/61ms GET /api/problem/today] [access] 192.168.0.102: - GET /api/problem/today HTTP/200 1621 http://192.168.0.102:7001/ 60 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:53:51,246 INFO 77391 [-/192.168.0.102/-/11ms GET /] [access] 192.168.0.102: - GET / HTTP/200 783 - 4 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:53:51,599 INFO 77391 [-/192.168.0.102/-/53ms GET /api/user/goal?userName=CheeryQ] [access] 192.168.0.102: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://192.168.0.102:7001/ 46 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:53:51,620 INFO 77391 [-/192.168.0.102/-/44ms GET /api/problems/byMonth] [access] 192.168.0.102: - GET /api/problems/byMonth HTTP/200 160 http://192.168.0.102:7001/ 44 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:53:51,623 INFO 77391 [-/192.168.0.102/-/45ms GET /api/commit/today] [access] 192.168.0.102: - GET /api/commit/today HTTP/200 6909 http://192.168.0.102:7001/ 43 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:53:51,624 INFO 77391 [-/192.168.0.102/-/41ms GET /api/problem/today] [access] 192.168.0.102: - GET /api/problem/today HTTP/200 655 http://192.168.0.102:7001/ 38 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:05,601 INFO 77791 [-/192.168.0.102/-/369ms GET /public/11e204120f352ffaf5e1.hot-update.json] [access] 192.168.0.102: - GET /public/11e204120f352ffaf5e1.hot-update.json HTTP/200 783 http://192.168.0.102:7001/ 9 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:05,614 INFO 77791 [-/192.168.0.102/-/9ms GET /public/11e204120f352ffaf5e1.hot-update.json] [access] 192.168.0.102: - GET /public/11e204120f352ffaf5e1.hot-update.json HTTP/200 783 http://192.168.0.102:7001/ 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:09,929 INFO 77791 [-/192.168.0.102/-/1ms GET /] [access] 192.168.0.102: - GET / HTTP/200 783 - 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:10,228 INFO 77791 [-/192.168.0.102/-/37ms GET /api/user/goal?userName=CheeryQ] [access] 192.168.0.102: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://192.168.0.102:7001/ 29 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:10,247 INFO 77791 [-/192.168.0.102/-/30ms GET /api/problems/byMonth] [access] 192.168.0.102: - GET /api/problems/byMonth HTTP/200 160 http://192.168.0.102:7001/ 28 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:10,250 INFO 77791 [-/192.168.0.102/-/29ms GET /api/commit/today] [access] 192.168.0.102: - GET /api/commit/today HTTP/200 6909 http://192.168.0.102:7001/ 29 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:10,252 INFO 77791 [-/192.168.0.102/-/29ms GET /api/problem/today] [access] 192.168.0.102: - GET /api/problem/today HTTP/200 655 http://192.168.0.102:7001/ 28 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:21,396 INFO 77791 [-/192.168.0.102/-/25ms GET /public/11e204120f352ffaf5e1.hot-update.json] [access] 192.168.0.102: - GET /public/11e204120f352ffaf5e1.hot-update.json HTTP/200 783 http://192.168.0.102:7001/ 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:22,732 INFO 77791 [-/192.168.0.102/-/7ms GET /public/11e204120f352ffaf5e1.hot-update.json] [access] 192.168.0.102: - GET /public/11e204120f352ffaf5e1.hot-update.json HTTP/200 783 http://192.168.0.102:7001/ 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:28,644 INFO 77791 [-/192.168.0.102/-/3ms GET /] [access] 192.168.0.102: - GET / HTTP/200 783 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:28,939 INFO 77791 [-/192.168.0.102/-/38ms GET /api/problems/byMonth] [access] 192.168.0.102: - GET /api/problems/byMonth HTTP/200 160 http://192.168.0.102:7001/ 37 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:28,942 INFO 77791 [-/192.168.0.102/-/38ms GET /api/commit/today] [access] 192.168.0.102: - GET /api/commit/today HTTP/200 6909 http://192.168.0.102:7001/ 36 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:28,943 INFO 77791 [-/192.168.0.102/-/50ms GET /api/user/goal?userName=CheeryQ] [access] 192.168.0.102: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://192.168.0.102:7001/ 49 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:28,946 INFO 77791 [-/192.168.0.102/-/38ms GET /api/problem/today] [access] 192.168.0.102: - GET /api/problem/today HTTP/200 655 http://192.168.0.102:7001/ 37 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:40,561 INFO 77791 [-/192.168.0.102/-/12ms GET /public/11e204120f352ffaf5e1.hot-update.json] [access] 192.168.0.102: - GET /public/11e204120f352ffaf5e1.hot-update.json HTTP/200 783 http://192.168.0.102:7001/ 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:44,441 INFO 77791 [-/192.168.0.102/-/2ms GET /] [access] 192.168.0.102: - GET / HTTP/200 783 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:44,680 INFO 77791 [-/192.168.0.102/-/34ms GET /api/problems/byMonth] [access] 192.168.0.102: - GET /api/problems/byMonth HTTP/200 160 http://192.168.0.102:7001/ 34 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:44,688 INFO 77791 [-/192.168.0.102/-/40ms GET /api/commit/today] [access] 192.168.0.102: - GET /api/commit/today HTTP/200 6909 http://192.168.0.102:7001/ 38 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:44,689 INFO 77791 [-/192.168.0.102/-/48ms GET /api/user/goal?userName=CheeryQ] [access] 192.168.0.102: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://192.168.0.102:7001/ 45 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:44,690 INFO 77791 [-/192.168.0.102/-/39ms GET /api/problem/today] [access] 192.168.0.102: - GET /api/problem/today HTTP/200 655 http://192.168.0.102:7001/ 38 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:55,683 INFO 77986 [-/192.168.0.102/-/29ms GET /] [access] 192.168.0.102: - GET / HTTP/200 783 - 18 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:55,984 INFO 77986 [-/192.168.0.102/-/40ms GET /api/user/goal?userName=CheeryQ] [access] 192.168.0.102: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://192.168.0.102:7002/ 38 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:56,002 INFO 77986 [-/192.168.0.102/-/33ms GET /api/problems/byMonth] [access] 192.168.0.102: - GET /api/problems/byMonth HTTP/200 160 http://192.168.0.102:7002/ 30 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:56,008 INFO 77986 [-/192.168.0.102/-/30ms GET /api/commit/today] [access] 192.168.0.102: - GET /api/commit/today HTTP/200 6909 http://192.168.0.102:7002/ 29 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:55:56,010 INFO 77986 [-/192.168.0.102/-/26ms GET /api/problem/today] [access] 192.168.0.102: - GET /api/problem/today HTTP/200 655 http://192.168.0.102:7002/ 25 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:56:12,696 INFO 77986 [-/192.168.0.102/-/14ms GET /public/6b934de7162fe33bf249.hot-update.json] [access] 192.168.0.102: - GET /public/6b934de7162fe33bf249.hot-update.json HTTP/200 783 http://192.168.0.102:7002/ 2 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:56:14,253 INFO 77986 [-/192.168.0.102/-/2ms GET /] [access] 192.168.0.102: - GET / HTTP/200 783 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:56:14,484 INFO 77986 [-/192.168.0.102/-/22ms GET /api/user/goal?userName=CheeryQ] [access] 192.168.0.102: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://192.168.0.102:7002/ 17 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:56:14,513 INFO 77986 [-/192.168.0.102/-/39ms GET /api/problems/byMonth] [access] 192.168.0.102: - GET /api/problems/byMonth HTTP/200 160 http://192.168.0.102:7002/ 38 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:56:14,519 INFO 77986 [-/192.168.0.102/-/42ms GET /api/commit/today] [access] 192.168.0.102: - GET /api/commit/today HTTP/200 6909 http://192.168.0.102:7002/ 39 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-06 23:56:14,524 INFO 77986 [-/192.168.0.102/-/44ms GET /api/problem/today] [access] 192.168.0.102: - GET /api/problem/today HTTP/200 655 http://192.168.0.102:7002/ 43 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-07 00:32:14,553 INFO 77986 [-/192.168.0.102/-/2ms GET /] [access] 192.168.0.102: - GET / HTTP/200 783 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-07 00:32:14,873 INFO 77986 [-/192.168.0.102/-/29ms GET /api/user/goal?userName=CheeryQ] [access] 192.168.0.102: - GET /api/user/goal?userName=CheeryQ HTTP/200 164 http://192.168.0.102:7002/ 25 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-07 00:32:14,922 INFO 77986 [-/192.168.0.102/-/70ms GET /api/problems/byMonth] [access] 192.168.0.102: - GET /api/problems/byMonth HTTP/200 160 http://192.168.0.102:7002/ 69 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-07 00:32:14,924 INFO 77986 [-/192.168.0.102/-/68ms GET /api/commit/today] [access] 192.168.0.102: - GET /api/commit/today HTTP/200 2 http://192.168.0.102:7002/ 68 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2022-01-07 00:32:14,926 INFO 77986 [-/192.168.0.102/-/67ms GET /api/problem/today] [access] 192.168.0.102: - GET /api/problem/today HTTP/200 2 http://192.168.0.102:7002/ 66 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
