@@ -13,7 +13,7 @@ class CommitController extends Controller {
     const { ctx } = this
     const [start, end] = [formatTime(1), formatTime(23)].map(t => new Date(getTimestamp(t) * 1000))
     const logs = await this.getCommitsByDate(start, end)
-    console.log('emmmmm', start, end)
+
     ctx.body = logs
   }
 }

@@ -1,13 +1,8 @@
 
 module.exports = app => {
   // api
-  // app.get('/api/problem/byMonths', app.controller.problem.byMonths)
-  // app.get('/api/problem/byDate', controller.problem.byMonths)
-  // app.get('/api/user/info', app.controller.user.info)
-  // app.get('/api/commit/byDate', app.controller.commit.byDate)
   // 同步数据
   app.get('/api/sync', app.controller.sync.syncData)
-
   // 获取当前目标
   app.get('/api/user/goal', app.controller.user.getUserGoalInfo)
   // 获取所有题目

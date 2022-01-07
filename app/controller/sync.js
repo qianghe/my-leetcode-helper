@@ -15,6 +15,8 @@ class SyncController extends Controller {
 
 		const { userName } = ctx.query
 		const { startTime, endTime } = await this.getSyncTimeRange(userName)
+		
+		let increasePbs = 0
 		while(!requestDone) {
 			const commits = await ctx.service.leetcode.getCommitLogs(offset)
 			// 同步数据
@@ -59,6 +61,8 @@ class SyncController extends Controller {
 					...restProps,
 				}
 			})
+			
+			increasePbs += problems.length
 			// problems 同步数据库
 			ctx.service.problem.add(problems)
 			
@@ -66,7 +70,12 @@ class SyncController extends Controller {
 			console.log('requestDone!!!!!', requestDone, offset)
 			offset += 20
 		}
-				
+
+		// 同步更新当前进度
+		if (increasePbs) {
+			await ctx.service.user.updateCur(userName, increasePbs)
+		}
+			
 		ctx.body = []
   }
 
@@ -74,8 +83,8 @@ class SyncController extends Controller {
 		const endTime = getTimestamp(formatTime(24))
 		let startTime = getTimestamp(formatTime(0))
 		const { ctx } = this
-		
-		const commit = ctx.service.commit.findLatestCommit()
+		const commit = await ctx.service.commit.findLatestCommit()
+
 		if (commit && commit['commit_time']) {
 			const time = commit['commit_time']
 			startTime = getTimestamp(nextTime(time))

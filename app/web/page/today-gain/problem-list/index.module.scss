@@ -50,6 +50,11 @@
 	align-items: flex-end;
 
 	>a {
+		max-width: 200px;
+    min-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 		padding-left: 16px;
 		padding-right: 18px;
 		font-size: 16px;

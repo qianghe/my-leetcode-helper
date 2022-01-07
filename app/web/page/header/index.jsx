@@ -1,4 +1,5 @@
 import React from 'react'
+import { syncDBRequest } from 'web/page/api'
 import LogoutIcon from './icons/logout.svg'
 import SyncIcon from './icons/sync.svg'
 import styles from './index.module.scss'
@@ -6,9 +7,7 @@ import styles from './index.module.scss'
 function Header() {
   async function handleSyncData() {
 		try {
-      await axios.get('/api/sync?userName=CheeryQ', {
-        timeout: 0
-      })
+      await syncDBRequest('CheeryQ')
     } catch(e) {
       console.log('同步数据失败', e)
     }

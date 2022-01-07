@@ -19,3 +19,6 @@ export const getTodayCommitRequest = () => axios.get('/api/commit/today')
 
 // 获取当日的题目
 export const getTodayProblemRequest = () => axios.get('/api/problem/today')
+
+// 获取题目分类
+export const getGroupedSet = () => axios.get('/api/problem/group')

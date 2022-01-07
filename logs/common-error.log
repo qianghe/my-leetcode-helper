@@ -6,3 +6,252 @@ name: "ClusterClientNoResponseError"
 pid: 77977
 hostname: localhost
 
+2022-01-07 13:05:41,118 ERROR 82506 [-/10.129.19.27/-/15ms GET /api/sync?userName=CheeryQ] nodejs.ReferenceError: cookieVal is not defined
+    at LeetcodeService.getCommitLogs (/Users/heqiang/days/my-leetcode-helper/app/service/leetcode.js:13:15)
+    at SyncController.syncData (/Users/heqiang/days/my-leetcode-helper/app/controller/sync.js:20:47)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 82506
+hostname: MacBook-Pro.local
+
+2022-01-07 13:12:23,009 ERROR 83170 [-/10.129.19.27/-/10018ms GET /api/user/goal?userName=CheeryQ] nodejs.MongooseError: Operation `user.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+
+pid: 83170
+hostname: MacBook-Pro.local
+
+2022-01-07 13:12:23,016 ERROR 83170 [-/10.129.19.27/-/10013ms GET /api/problems/byMonth] nodejs.MongooseError: Operation `problem.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+
+pid: 83170
+hostname: MacBook-Pro.local
+
+2022-01-07 13:12:23,018 ERROR 83170 [-/10.129.19.27/-/10004ms GET /api/commit/today] nodejs.MongooseError: Operation `commit.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+
+pid: 83170
+hostname: MacBook-Pro.local
+
+2022-01-07 13:12:23,023 ERROR 83170 [-/10.129.19.27/-/10004ms GET /api/problem/today] nodejs.MongooseError: Operation `problem.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+
+pid: 83170
+hostname: MacBook-Pro.local
+
+2022-01-07 13:12:33,301 ERROR 83170 [-/10.129.19.27/-/10008ms GET /api/sync?userName=CheeryQ] nodejs.MongooseError: Operation `commit.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+
+pid: 83170
+hostname: MacBook-Pro.local
+
+2022-01-07 13:12:43,309 ERROR 83170 [-/10.129.19.27/-/10007ms GET /api/sync?userName=CheeryQ] nodejs.MongooseError: Operation `commit.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/heqiang/days/my-leetcode-helper/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+
+pid: 83170
+hostname: MacBook-Pro.local
+
+2022-01-07 13:30:56,656 ERROR 83303 nodejs.ClusterClientNoResponseError: client no response in 126440ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 83303
+hostname: MacBook-Pro.local
+
+2022-01-07 13:34:05,896 ERROR 83303 nodejs.ClusterClientNoResponseError: client no response in 149143ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 83303
+hostname: MacBook-Pro.local
+
+2022-01-07 13:36:56,602 ERROR 83303 nodejs.ClusterClientNoResponseError: client no response in 150672ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 83303
+hostname: MacBook-Pro.local
+
+2022-01-07 13:39:47,397 ERROR 83303 nodejs.ClusterClientNoResponseError: client no response in 150770ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 83303
+hostname: MacBook-Pro.local
+
+2022-01-07 13:42:30,522 ERROR 83303 nodejs.ClusterClientNoResponseError: client no response in 143104ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 83303
+hostname: MacBook-Pro.local
+
+2022-01-07 13:53:19,181 ERROR 83303 nodejs.ClusterClientNoResponseError: client no response in 168466ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 83303
+hostname: MacBook-Pro.local
+
+2022-01-07 13:56:20,560 ERROR 83303 nodejs.ClusterClientNoResponseError: client no response in 161335ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 83303
+hostname: MacBook-Pro.local
+
+2022-01-07 13:59:26,471 ERROR 83303 nodejs.ClusterClientNoResponseError: client no response in 165895ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 83303
+hostname: MacBook-Pro.local
+
+2022-01-07 14:02:28,366 ERROR 83303 nodejs.ClusterClientNoResponseError: client no response in 141883ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 83303
+hostname: MacBook-Pro.local
+
+2022-01-07 14:08:41,793 ERROR 83303 nodejs.ClusterClientNoResponseError: client no response in 147765ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 83303
+hostname: MacBook-Pro.local
+
+2022-01-07 14:12:02,467 ERROR 83303 nodejs.ClusterClientNoResponseError: client no response in 160652ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 83303
+hostname: MacBook-Pro.local
+
+2022-01-07 14:15:15,360 ERROR 83303 nodejs.ClusterClientNoResponseError: client no response in 152855ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 83303
+hostname: MacBook-Pro.local
+
+2022-01-07 14:18:27,010 ERROR 83303 nodejs.ClusterClientNoResponseError: client no response in 171644ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 83303
+hostname: MacBook-Pro.local
+
+2022-01-07 14:21:46,168 ERROR 83303 nodejs.ClusterClientNoResponseError: client no response in 159087ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 83303
+hostname: MacBook-Pro.local
+
+2022-01-07 14:41:37,498 ERROR 85755 [-/10.129.19.27/-/5ms GET /api/problem/group] nodejs.TypeError: this.getAllProblemByTimeRange is not a function
+    at ProblemController.getGroupedProblems (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:38:33)
+    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:45:18)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at Object.<anonymous> (/Users/heqiang/days/my-leetcode-helper/app/middleware/access.js:9:5)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:65:19)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:50:10)
+    at converted (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:17:15)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 85755
+hostname: MacBook-Pro.local
+
+2022-01-07 14:42:20,323 ERROR 85950 [-/10.129.19.27/-/5ms GET /api/problem/group] nodejs.ReferenceError: ctx is not defined
+    at ProblemController.getGroupedProblems (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:38:22)
+    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:45:18)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at Object.<anonymous> (/Users/heqiang/days/my-leetcode-helper/app/middleware/access.js:9:5)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:65:19)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:50:10)
+    at converted (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:17:15)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 85950
+hostname: MacBook-Pro.local
+
+2022-01-07 14:42:26,205 ERROR 85950 [-/10.129.19.27/-/2ms GET /api/problem/group] nodejs.ReferenceError: ctx is not defined
+    at ProblemController.getGroupedProblems (/Users/heqiang/days/my-leetcode-helper/app/controller/problem.js:38:22)
+    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:45:18)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at Object.<anonymous> (/Users/heqiang/days/my-leetcode-helper/app/middleware/access.js:9:5)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:65:19)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:50:10)
+    at converted (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:17:15)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 85950
+hostname: MacBook-Pro.local
+
