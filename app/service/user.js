@@ -22,7 +22,7 @@ class UserService extends Service {
       const { cur } = user
       const nextCur = inc + cur
 
-      await this.ctx.mode.User.update({
+      await this.ctx.model.User.update({
         'user_name': userName
       }, {
         $set: {

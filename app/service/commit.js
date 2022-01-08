@@ -13,7 +13,10 @@ class CommitService extends Service {
       }
     }
 
-    const res = await this.ctx.model.Commit.find(search)
+    const res = await this.ctx.model.Commit
+      .find(search)
+      .sort({ "commit_time": 1 })
+
     return res
   }
 

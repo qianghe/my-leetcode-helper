@@ -255,3 +255,134 @@ hostname: MacBook-Pro.local
 pid: 85950
 hostname: MacBook-Pro.local
 
+2022-01-07 22:02:11,451 ERROR 92523 nodejs.ClusterClientNoResponseError: client no response in 162168ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 92523
+hostname: MacBook-Pro.local
+
+2022-01-07 22:07:28,594 ERROR 92523 nodejs.ClusterClientNoResponseError: client no response in 317117ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 92523
+hostname: MacBook-Pro.local
+
+2022-01-07 22:12:38,848 ERROR 92523 nodejs.ClusterClientNoResponseError: client no response in 310248ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 92523
+hostname: MacBook-Pro.local
+
+2022-01-07 22:19:46,507 ERROR 92523 nodejs.ClusterClientNoResponseError: client no response in 427655ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 92523
+hostname: MacBook-Pro.local
+
+2022-01-07 22:26:36,201 ERROR 92523 nodejs.ClusterClientNoResponseError: client no response in 409691ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 92523
+hostname: MacBook-Pro.local
+
+2022-01-07 22:31:05,138 ERROR 92523 nodejs.ClusterClientNoResponseError: client no response in 268933ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 92523
+hostname: MacBook-Pro.local
+
+2022-01-07 22:38:14,951 ERROR 92523 nodejs.ClusterClientNoResponseError: client no response in 429809ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 92523
+hostname: MacBook-Pro.local
+
+2022-01-08 04:10:57,854 ERROR 92523 nodejs.ClusterClientNoResponseError: client no response in 12109049ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 92523
+hostname: MacBook-Pro.local
+
+2022-01-08 09:34:58,041 ERROR 92523 nodejs.ClusterClientNoResponseError: client no response in 19440181ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 92523
+hostname: MacBook-Pro.local
+
+2022-01-08 10:44:28,876 ERROR 92523 nodejs.ClusterClientNoResponseError: client no response in 4170779ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/heqiang/days/my-leetcode-helper/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 92523
+hostname: MacBook-Pro.local
+
+2022-01-08 13:50:55,551 ERROR 2725 [-/192.168.0.100/-/7059ms GET /api/sync?userName=CheeryQ] nodejs.TypeError: Cannot read property 'User' of undefined
+    at UserService.updateCur (/Users/heqiang/days/my-leetcode-helper/app/service/user.js:25:27)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async SyncController.syncData (/Users/heqiang/days/my-leetcode-helper/app/controller/sync.js:76:4)
+
+pid: 2725
+hostname: localhost
+
+2022-01-08 13:54:47,430 ERROR 3253 [-/192.168.0.100/-/8ms GET /api/sync?userName=CheeryQ] nodejs.ReferenceError: userName is not defined
+    at SyncController.syncData (/Users/heqiang/days/my-leetcode-helper/app/controller/sync.js:76:37)
+    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/heqiang/days/my-leetcode-helper/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:45:18)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:44:32)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at Object.<anonymous> (/Users/heqiang/days/my-leetcode-helper/app/middleware/access.js:9:5)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:65:19)
+    at /Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/heqiang/days/my-leetcode-helper/node_modules/co/index.js:50:10)
+    at converted (/Users/heqiang/days/my-leetcode-helper/node_modules/koa-convert/index.js:17:15)
+    at dispatch (/Users/heqiang/days/my-leetcode-helper/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 3253
+hostname: localhost
+
+2022-01-08 13:55:36,476 ERROR 3307 [-/192.168.0.100/-/18ms GET /api/sync?userName=CheeryQ] nodejs.TypeError: Cannot read property 'User' of undefined
+    at UserService.updateCur (/Users/heqiang/days/my-leetcode-helper/app/service/user.js:25:27)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async SyncController.syncData (/Users/heqiang/days/my-leetcode-helper/app/controller/sync.js:76:4)
+
+pid: 3307
+hostname: localhost
+
+2022-01-08 13:55:56,467 ERROR 3307 [-/192.168.0.100/-/21ms GET /api/sync?userName=CheeryQ] nodejs.TypeError: Cannot read property 'User' of undefined
+    at UserService.updateCur (/Users/heqiang/days/my-leetcode-helper/app/service/user.js:25:27)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async SyncController.syncData (/Users/heqiang/days/my-leetcode-helper/app/controller/sync.js:76:4)
+
+pid: 3307
+hostname: localhost
+

@@ -26,11 +26,15 @@ function CateGraph() {
 		
 		return Object.keys(data).reduce((g, cate, index) => {
 			const items = data[cate]
+			const size = getSize(items.length)
 			g.nodes.push({
 				name: cate,
 				value: items.length,
 				category: index,
-				symbolSize: getSize(items.length)
+				symbolSize: size,
+				label: {
+					show: size >= 20
+				}
 			})
 	
 			g.categories.push({
@@ -64,12 +68,8 @@ function CateGraph() {
 						hideOverlap: true
 					},
 					scaleLimit: {
-						min: 0.4,
+						min: 1,
 						max: 2
-					},
-					lineStyle: {
-						color: 'source',
-						curveness: 0.3
 					}
 				}
 			]

@@ -45,7 +45,10 @@ class ProblemService extends Service {
       }
     }
 
-    const res = await this.ctx.model.Problem.find(search)
+    const res = await this.ctx.model.Problem
+      .find(search)
+      .sort({ "update_time": 1 })
+    
     return res
   }
 }

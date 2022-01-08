@@ -12,11 +12,11 @@ class SyncController extends Controller {
     const { ctx } = this
 		let offset = 0
 		let requestDone = false
+		let increasePbs = 0
 
 		const { userName } = ctx.query
 		const { startTime, endTime } = await this.getSyncTimeRange(userName)
 		
-		let increasePbs = 0
 		while(!requestDone) {
 			const commits = await ctx.service.leetcode.getCommitLogs(offset)
 			// 同步数据
@@ -67,7 +67,6 @@ class SyncController extends Controller {
 			ctx.service.problem.add(problems)
 			
 			requestDone = logs.length === 0
-			console.log('requestDone!!!!!', requestDone, offset)
 			offset += 20
 		}
 

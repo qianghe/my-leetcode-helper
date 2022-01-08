@@ -56,7 +56,7 @@ class ProblemController extends Controller {
     const { ctx } = this
     const [start, end] = [formatTime(0), formatTime(24)].map(t => new Date(getTimestamp(t) * 1000))
     const problems = await ctx.service.problem.findByTimeRange(start, end)
-  
+    
     ctx.body = problems
   }
 }

@@ -4,12 +4,16 @@ import LogoutIcon from './icons/logout.svg'
 import SyncIcon from './icons/sync.svg'
 import styles from './index.module.scss'
 
-function Header() {
+function Header(props) {
   async function handleSyncData() {
-		try {
+    props.notifySyncStatus(true)
+		
+    try {
       await syncDBRequest('CheeryQ')
     } catch(e) {
       console.log('同步数据失败', e)
+    } finally {
+      props.notifySyncStatus(false)
     }
 	}
 

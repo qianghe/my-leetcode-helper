@@ -90,7 +90,7 @@ function TodayGain() {
         isEmpty(logs) ? (
           <div className={styles.empty}>
             <p>今天还没有提交记录哦～</p>
-            <img src={EmptyImg} style={{ width: 400 }}/>
+            <img src={EmptyImg} style={{ width: 300 }}/>
           </div>
         ) : (
           <React.Fragment>

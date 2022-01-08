@@ -31,7 +31,6 @@
 	position: absolute;
 	color: #fff;
 	top: 5px;
-	// transform: translateY(-50%);
 	right: -10px;
 	font-size: 20px;
 	font-weight: bold;
@@ -41,7 +40,7 @@
 .list {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: repeat(4, 40px);
+	grid-template-rows: repeat(3, 40px);
 	grid-auto-flow: column;
 }
 
