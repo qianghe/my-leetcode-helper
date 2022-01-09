@@ -70,6 +70,7 @@ function App() {
               {/* 已完成题目分类 */}
               <Card
                 title="完成题目分类"
+                bg="transparent"
                 level={2}
                 corner={60}
                 request={API.getGroupedSetRequest}

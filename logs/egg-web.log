@@ -1893,3 +1893,39 @@
 2022-01-09 12:13:37,645 INFO 18228 [egg:core] dump config after ready, 4ms
 2022-01-09 12:40:40,059 WARN 18228 [ClusterClient:Watcher] follower closed, and try to init it again
 2022-01-09 12:46:03,049 WARN 18228 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-01-09 22:13:56,422 INFO 24096 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-09 22:13:56,437 INFO 24096 [egg-multipart] stream mode enable
+2022-01-09 22:13:56,696 INFO 24096 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
+2022-01-09 22:13:56,781 INFO 24096 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
+2022-01-09 22:13:56,787 INFO 24096 [egg-security] use csrf middleware
+2022-01-09 22:13:56,788 INFO 24096 [egg-security] use methodnoallow middleware
+2022-01-09 22:13:56,788 INFO 24096 [egg-security] use noopen middleware
+2022-01-09 22:13:56,789 INFO 24096 [egg-security] use nosniff middleware
+2022-01-09 22:13:56,789 INFO 24096 [egg-security] use xssProtection middleware
+2022-01-09 22:13:56,789 INFO 24096 [egg-security] use xframe middleware
+2022-01-09 22:13:56,790 INFO 24096 [egg-security] use dta middleware
+2022-01-09 22:13:56,790 INFO 24096 [egg-security] compose 7 middlewares into one security middleware
+2022-01-09 22:13:56,801 INFO 24096 [egg:core] dump config after load, 5ms
+2022-01-09 22:13:56,804 INFO 24096 [egg-mongoose] starting...
+2022-01-09 22:13:56,826 INFO 24096 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
+2022-01-09 22:13:56,827 INFO 24096 [egg-mongoose] instance[0] start successfully
+2022-01-09 22:13:56,829 INFO 24096 [egg-watcher:application] watcher start success
+2022-01-09 22:13:56,834 INFO 24096 [egg:core] dump config after ready, 4ms
+2022-01-09 22:56:32,431 INFO 25979 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-09 22:56:32,448 INFO 25979 [egg-multipart] stream mode enable
+2022-01-09 22:56:32,660 INFO 25979 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
+2022-01-09 22:56:32,767 INFO 25979 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
+2022-01-09 22:56:32,772 INFO 25979 [egg-security] use csrf middleware
+2022-01-09 22:56:32,772 INFO 25979 [egg-security] use methodnoallow middleware
+2022-01-09 22:56:32,773 INFO 25979 [egg-security] use noopen middleware
+2022-01-09 22:56:32,773 INFO 25979 [egg-security] use nosniff middleware
+2022-01-09 22:56:32,773 INFO 25979 [egg-security] use xssProtection middleware
+2022-01-09 22:56:32,774 INFO 25979 [egg-security] use xframe middleware
+2022-01-09 22:56:32,774 INFO 25979 [egg-security] use dta middleware
+2022-01-09 22:56:32,774 INFO 25979 [egg-security] compose 7 middlewares into one security middleware
+2022-01-09 22:56:32,785 INFO 25979 [egg:core] dump config after load, 5ms
+2022-01-09 22:56:32,788 INFO 25979 [egg-mongoose] starting...
+2022-01-09 22:56:32,818 INFO 25979 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
+2022-01-09 22:56:32,819 INFO 25979 [egg-mongoose] instance[0] start successfully
+2022-01-09 22:56:32,820 INFO 25979 [egg-watcher:application] watcher start success
+2022-01-09 22:56:32,826 INFO 25979 [egg:core] dump config after ready, 4ms

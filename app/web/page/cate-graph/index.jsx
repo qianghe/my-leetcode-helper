@@ -1,5 +1,6 @@
 import React, { useMemo } from 'react'
 import EChart from './e-chart'
+import BubbleChart from './d3-chart'
 import styles from './index.module.scss'
 
 function CateGraph({ data }) {
@@ -8,7 +9,7 @@ function CateGraph({ data }) {
 
 		const cateCounts = Object.values(data).map(i => i.length)
 		const [min, max] = [Math.min(...cateCounts), Math.max(...cateCounts)]
-		const [minSize, maxSize] = [10, 40]
+		const [minSize, maxSize] = [10, 50]
 		
 		return len => {
 			const size = (maxSize - minSize) * (len - min) / (max - min) + minSize
@@ -28,7 +29,7 @@ function CateGraph({ data }) {
 				category: index,
 				symbolSize: size,
 				label: {
-					show: size >= 15
+					show: size >= 16
 				}
 			})
 	
@@ -73,9 +74,13 @@ function CateGraph({ data }) {
 	return (
     <div className={styles.cate}>
       {
-        !data ? '' : (
-         <EChart options={options} />
-        )
+        !data ? '' : <EChart options={options} />
+				// (
+        //  <div className={styles.row}>
+				// 	 <EChart options={options} />
+				// 	 <BubbleChart data={data} />
+				//  </div>
+        // )
       }
     </div>
   );
