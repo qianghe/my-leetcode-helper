@@ -6,15 +6,3 @@
 	display: flex;
 	justify-content: flex-end;
 }
-
-
-.empty {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-flow: column;
-
-	p {
-		font-size: 16px;
-	}
-}

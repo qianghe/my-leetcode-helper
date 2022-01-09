@@ -1,18 +1,13 @@
 import React, { useMemo } from 'react'
 import moment from 'moment'
-import { useRequest } from '@umijs/hooks'
+import { isEmpty } from 'lodash'
 import Progress from 'web/component/progress'
-import Loading from 'web/component/loading'
-import { getUserGoalRequest } from 'app/web/page/api'
 import styles from './index.module.scss'
 
 const TargetModule = ({
   format = 'YYYY.MM.DD',
+  data = null
 }) => {
-  const { data, loading } = useRequest(() => getUserGoalRequest('CheeryQ'), {
-    formatResult: res => res.data
-  })
-  
   const info = useMemo(() => {
     if (!data) return {}
     const { start_time: startTime, end_time: endTime } = data
@@ -31,7 +26,7 @@ const TargetModule = ({
   return (
     <div className={styles.target}>
       {
-        loading ? <Loading /> : (
+        isEmpty(data) ? '' : (
          <React.Fragment>
             <p className={styles.desc}>
               <span className={styles.time}>「{info.start}」</span>到

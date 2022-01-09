@@ -1,26 +1,13 @@
 import React, { useMemo, useRef } from 'react'
 import moment from 'moment'
 import { isEmpty } from 'lodash'
-import { useRequest } from '@umijs/hooks'
-import { getTodayCommitRequest, getTodayProblemRequest } from 'app/web/page/api'
-import EmptyImg from 'web/asset/images/empty.png'
-import Loading from 'web/component/loading'
 import ProblemStarsCount from './problem-stars'
 import ProblemCommitLog from './problem-commit-log'
 import ProblemList from './problem-list'
 import styles from './index.module.scss'
 
-function TodayGain() {
+function TodayGain({ data }) {
   const todayProblemMapRef = useRef({})
-  const { data, loading } = useRequest(() => {
-    return Promise.all([
-      getTodayCommitRequest(),
-      getTodayProblemRequest()
-    ])
-  }, {
-    formatResult: res => [res[0].data, res[1].data]
-  })
-
   const todayProblems = useMemo(() => {
     if(!data) return
     const [commits, problems] = data
@@ -86,21 +73,14 @@ function TodayGain() {
 
   return (
     <div className={styles.todayGain}>
-      { loading ? <Loading /> : (
-        isEmpty(logs) ? (
-          <div className={styles.empty}>
-            <p>今天还没有提交记录哦～</p>
-            <img src={EmptyImg} style={{ width: 300 }}/>
+      { !data ? '' : (
+        <React.Fragment>
+          <div className={styles.starContainer}>
+          <ProblemStarsCount countMap={starCountData} />
           </div>
-        ) : (
-          <React.Fragment>
-            <div className={styles.starContainer}>
-            <ProblemStarsCount countMap={starCountData} />
-            </div>
-            <ProblemCommitLog logs={logs}/>
-            <ProblemList items={todayProblems} />
-          </React.Fragment>
-        )
+          <ProblemCommitLog logs={logs}/>
+          <ProblemList items={todayProblems} />
+        </React.Fragment>
       )}
     </div>
   )

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import 'web/asset/css/global.css'
+import * as API from './api'
 import Loading from 'web/component/loading'
 import Card from 'web/component/card'
 import FavoriteFillIcon from 'app/web/asset/icons/favorite_fill.svg'
@@ -12,7 +13,7 @@ import styles from './index.module.scss'
 
 function App() {
   const [loading, setLoading] = useState(false)
-  
+
   function notifySyncStatus(isLoading) {
     setLoading(isLoading)
   }
@@ -36,19 +37,43 @@ function App() {
                 }
                 level={1}
                 corner={30}
+                request={() => API.getUserGoalRequest('CheeryQ')}
               >
                 <TargetModule />
               </Card>
               {/* 日历 */}
-              <CalendarModule />
+              <div className={styles.calendar}>
+                <Card
+                  corner={30}
+                  request={API.getGroupedQuesByMonthRequest}
+                >
+                  <CalendarModule />
+                </Card>
+              </div>
             </div>
             <div className={styles.right}>
               {/* 今日成果 */}
-              <Card title="今日成果" bg="transparent">
+              <Card
+                title="今日成果"
+                bg="transparent"
+                emptyType="img"
+                request={() => {
+                  return Promise.all([
+                    API.getTodayCommitRequest(),
+                    API.getTodayProblemRequest()
+                  ])
+                }}
+                format={res => [res[0].data, res[1].data]}
+              >
                 <TodayGainModule />
               </Card>
               {/* 已完成题目分类 */}
-              <Card title="完成题目分类" level={2} corner={60}>
+              <Card
+                title="完成题目分类"
+                level={2}
+                corner={60}
+                request={API.getGroupedSetRequest}
+              >
                 <CateGraphModule />
               </Card>
             </div>

@@ -2,7 +2,6 @@
   position: relative;
   background-color: var(--bg, #1b1b1b);
   padding: 20px;
-
   color: #fff;
 }
 
@@ -26,4 +25,15 @@
   font-size: $fontSize;
   color: #fff;
   font-weight: bolder;
+}
+
+.empty {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+
+	p {
+		font-size: 16px;
+	}
 }

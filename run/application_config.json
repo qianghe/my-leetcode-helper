@@ -251,7 +251,7 @@
         "entry": {
           "app": [
             "react-hot-loader/patch",
-            "/Users/heqiang/days/my-leetcode-helper/node_modules/webpack-hot-middleware/client?path=http://192.168.0.100:9001/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+            "/Users/heqiang/days/my-leetcode-helper/node_modules/webpack-hot-middleware/client?path=http://192.168.0.100:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
             "/Users/heqiang/days/my-leetcode-helper/node_modules/easywebpack/utils/hot.js",
             "babel-loader?{\"cacheDirectory\":\"/var/folders/tl/6c_78kr55ds_9fys4np464sr0000gn/T/easywebpack/my-leetcode-helper/dev/cache/client/babel-loader\",\"presets\":[\"react\",[\"env\",{\"modules\":false}]],\"plugins\":[\"transform-object-assign\",\"syntax-dynamic-import\",\"transform-object-rest-spread\",\"transform-runtime\"],\"env\":{\"development\":{\"plugins\":[\"react-hot-loader/babel\"]}},\"comments\":false,\"babelrc\":\"/Users/heqiang/days/my-leetcode-helper/node_modules/easywebpack-react/config/.babelrc\"}!react-entry-template-loader?templateFile=,renderMode=csr!/Users/heqiang/days/my-leetcode-helper/app/web/page/index.jsx"
           ]
@@ -511,7 +511,7 @@
               "EASY_ENV_IS_NODE": false,
               "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
               "EASY_ENV_PUBLIC_PATH": "\"/public/\"",
-              "EASY_ENV_HOST_URL": "\"http://192.168.0.100:9001\""
+              "EASY_ENV_HOST_URL": "\"http://192.168.0.100:9000\""
             },
             "__plugin__": "DefinePlugin",
             "__lable__": "define"
@@ -536,7 +536,7 @@
               "generate": null,
               "sort": null,
               "baseDir": "/Users/heqiang/days/my-leetcode-helper",
-              "host": "http://192.168.0.100:9001",
+              "host": "http://192.168.0.100:9000",
               "proxy": true,
               "publicPath": "/public/",
               "localPublicPath": "/public/",

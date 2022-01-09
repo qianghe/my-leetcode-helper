@@ -1,21 +1,13 @@
 import React, { useMemo } from 'react'
 import moment from 'moment'
-import { useRequest } from '@umijs/hooks'
 import { pick, toPairs } from 'lodash'
 import { cateColorMap } from 'app/web/utils/color'
-import Card from 'web/component/card'
-import Loading from 'web/component/loading'
-import { getGroupedQuesByMonthRequest } from 'app/web/page/api'
 import TimeLabel from './time-label'
 import DotSeparator from './dot-separator'
 import BarScatter from './bar-scatter'
 import styles from './index.module.scss'
 
-const Calendar = () => {
-  const { data, loading } = useRequest(getGroupedQuesByMonthRequest, {
-    formatResult: res => res.data
-  })
-  
+const Calendar = ({ data }) => {
   // 基于problems进行计算
   const cateByMonth = useMemo(() =>{
     if (!data) return []
@@ -53,36 +45,32 @@ const Calendar = () => {
   const maxScatterTotal = cateByMonth.reduce((max, cur) => Math.max(max, cur.total), 0)
 
   return (
-    <div className={styles.calendar}>
-      <Card corner={30}>
-        <div className={styles.header}>
-          <p>日历</p>
-          {
-            loading ? <Loading /> : (
-              <div className={styles.content}>
-                {
-                  cateByMonth.map((item, index) => {
-                    const { times, total, scatters } = item
-                    const per = parseFloat((total / maxScatterTotal).toFixed(2))
-                    return (
-                      <div key={index} className={styles.unit}>
-                        <TimeLabel times={times} />
-                        <DotSeparator size={16} color="#696464" />
-                        <BarScatter
-                          items={scatters}
-                          per={per}
-                          total={total}
-                          colorMap={cateColorMap}
-                        />
-                      </div>
-                    )
-                  })
-                }
-              </div>
-            )
-          }
-        </div>
-      </Card>
+    <div className={styles.header}>
+      <p>日历</p>
+      {
+        !data ? '' : (
+          <div className={styles.content}>
+            {
+              cateByMonth.map((item, index) => {
+                const { times, total, scatters } = item
+                const per = parseFloat((total / maxScatterTotal).toFixed(2))
+                return (
+                  <div key={index} className={styles.unit}>
+                    <TimeLabel times={times} />
+                    <DotSeparator size={16} color="#696464" />
+                    <BarScatter
+                      items={scatters}
+                      per={per}
+                      total={total}
+                      colorMap={cateColorMap}
+                    />
+                  </div>
+                )
+              })
+            }
+          </div>
+        )
+      }
     </div>
   )
 }

@@ -1,23 +1,18 @@
 import React, { useMemo } from 'react'
-import { useRequest } from '@umijs/hooks'
-import Loading from 'web/component/loading'
-import { getGroupedSet } from 'app/web/page/api'
 import EChart from './e-chart'
 import styles from './index.module.scss'
 
-function CateGraph() {
-	const { data, loading } = useRequest(getGroupedSet, {
-    formatResult: res => res.data
-  })
+function CateGraph({ data }) {
 	const getSize = useMemo(() => {
 		if (!data) return () => void 0
 
 		const cateCounts = Object.values(data).map(i => i.length)
 		const [min, max] = [Math.min(...cateCounts), Math.max(...cateCounts)]
-		const [minSize, maxSize] = [20, 80]
+		const [minSize, maxSize] = [10, 40]
 		
 		return len => {
-			return Math.floor(len * (maxSize - minSize) / (max - min))
+			const size = (maxSize - minSize) * (len - min) / (max - min) + minSize
+			return Math.floor(size)
 		}
 	}, [data])
 
@@ -33,7 +28,7 @@ function CateGraph() {
 				category: index,
 				symbolSize: size,
 				label: {
-					show: size >= 20
+					show: size >= 15
 				}
 			})
 	
@@ -49,9 +44,7 @@ function CateGraph() {
 		if (!graph) return {}
 	
 		return {
-			// darkMode: true,
 			tooltip: {},
-			// backgroundColor: 'rgba(0, 0, 0, 0.2)',
 			series: [
 				{
 					type: 'graph',
@@ -62,7 +55,8 @@ function CateGraph() {
 					label: {
 						show: true,
 						position: 'right',
-						formatter: '{b}'
+						formatter: '{b}',
+						color: '#fff'
 					},
 					labelLayout: {
 						hideOverlap: true
@@ -79,7 +73,7 @@ function CateGraph() {
 	return (
     <div className={styles.cate}>
       {
-        loading ? <Loading /> : (
+        !data ? '' : (
          <EChart options={options} />
         )
       }

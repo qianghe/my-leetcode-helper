@@ -1855,3 +1855,41 @@
 2022-01-08 14:08:38,140 INFO 4456 [egg-mongoose] instance[0] start successfully
 2022-01-08 14:08:38,151 INFO 4456 [egg-watcher:application] watcher start success
 2022-01-08 14:08:38,161 INFO 4456 [egg:core] dump config after ready, 8ms
+2022-01-09 12:11:32,009 INFO 18065 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-09 12:11:32,038 INFO 18065 [egg-multipart] stream mode enable
+2022-01-09 12:11:32,288 INFO 18065 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
+2022-01-09 12:11:32,390 INFO 18065 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
+2022-01-09 12:11:32,396 INFO 18065 [egg-security] use csrf middleware
+2022-01-09 12:11:32,396 INFO 18065 [egg-security] use methodnoallow middleware
+2022-01-09 12:11:32,397 INFO 18065 [egg-security] use noopen middleware
+2022-01-09 12:11:32,397 INFO 18065 [egg-security] use nosniff middleware
+2022-01-09 12:11:32,397 INFO 18065 [egg-security] use xssProtection middleware
+2022-01-09 12:11:32,398 INFO 18065 [egg-security] use xframe middleware
+2022-01-09 12:11:32,398 INFO 18065 [egg-security] use dta middleware
+2022-01-09 12:11:32,398 INFO 18065 [egg-security] compose 7 middlewares into one security middleware
+2022-01-09 12:11:32,411 INFO 18065 [egg:core] dump config after load, 6ms
+2022-01-09 12:11:32,422 INFO 18065 [egg-mongoose] starting...
+2022-01-09 12:11:32,462 INFO 18065 [egg-watcher:application] watcher start success
+2022-01-09 12:11:32,467 INFO 18065 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
+2022-01-09 12:11:32,468 INFO 18065 [egg-mongoose] instance[0] start successfully
+2022-01-09 12:11:32,487 INFO 18065 [egg:core] dump config after ready, 16ms
+2022-01-09 12:13:37,000 INFO 18228 [egg:logger] init all loggers with options: {"dir":"/Users/heqiang/days/my-leetcode-helper/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-leetcode-helper-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-09 12:13:37,018 INFO 18228 [egg-multipart] stream mode enable
+2022-01-09 12:13:37,298 INFO 18228 [egg-mongoose] connecting mongodb://127.0.0.1/leetcode
+2022-01-09 12:13:37,572 INFO 18228 [egg-static] starting static serve /public/ -> /Users/heqiang/days/my-leetcode-helper/public
+2022-01-09 12:13:37,583 INFO 18228 [egg-security] use csrf middleware
+2022-01-09 12:13:37,584 INFO 18228 [egg-security] use methodnoallow middleware
+2022-01-09 12:13:37,587 INFO 18228 [egg-security] use noopen middleware
+2022-01-09 12:13:37,588 INFO 18228 [egg-security] use nosniff middleware
+2022-01-09 12:13:37,588 INFO 18228 [egg-security] use xssProtection middleware
+2022-01-09 12:13:37,589 INFO 18228 [egg-security] use xframe middleware
+2022-01-09 12:13:37,590 INFO 18228 [egg-security] use dta middleware
+2022-01-09 12:13:37,591 INFO 18228 [egg-security] compose 7 middlewares into one security middleware
+2022-01-09 12:13:37,602 INFO 18228 [egg:core] dump config after load, 5ms
+2022-01-09 12:13:37,605 INFO 18228 [egg-mongoose] starting...
+2022-01-09 12:13:37,634 INFO 18228 [egg-mongoose] mongodb://127.0.0.1/leetcode connected successfully
+2022-01-09 12:13:37,637 INFO 18228 [egg-mongoose] instance[0] start successfully
+2022-01-09 12:13:37,639 INFO 18228 [egg-watcher:application] watcher start success
+2022-01-09 12:13:37,645 INFO 18228 [egg:core] dump config after ready, 4ms
+2022-01-09 12:40:40,059 WARN 18228 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-01-09 12:46:03,049 WARN 18228 [ClusterClient:Watcher] follower closed, and try to init it again
